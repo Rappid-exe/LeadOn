@@ -27,6 +27,7 @@ import { CreateWorkspace } from '~/pages/onboarding/CreateWorkspace';
 import { InviteTeam } from '~/pages/onboarding/InviteTeam';
 import { PaymentSuccess } from '~/pages/onboarding/PaymentSuccess';
 import { SyncEmails } from '~/pages/onboarding/SyncEmails';
+import { HackathonCrmDashboard } from '~/pages/hackathon/HackathonCrmDashboard';
 
 export const useCreateAppRouter = (
   isFunctionSettingsEnabled?: boolean,
@@ -61,6 +62,7 @@ export const useCreateAppRouter = (
           />
           <Route path={AppPath.BookCall} element={<BookCall />} />
           <Route path={indexAppPath.getIndexAppPath()} element={<></>} />
+          <Route path={AppPath.HackathonCrm} element={<HackathonCrmDashboard />} />
           <Route path={AppPath.RecordIndexPage} element={<RecordIndexPage />} />
           <Route path={AppPath.RecordShowPage} element={<RecordShowPage />} />
           <Route
