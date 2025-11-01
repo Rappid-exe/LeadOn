@@ -1,0 +1,47 @@
+version: "3.9"
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: pass
+      POSTGRES_DB: sales_crm
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U user -d sales_crm"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    ports:
+      - "5432:5432"
+
+  backend:
+    build:
+      context: hackathon
+      dockerfile: Dockerfile
+    environment:
+      DATABASE_URL: postgresql+psycopg://user:pass@db:5432/sales_crm
+      JWT_SECRET: change-me
+      JWT_ALG: HS256
+      DISABLE_AUTH: "false"
+      CORS_ORIGINS: http://localhost:5173
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build:
+      context: packages/twenty-front
+      dockerfile: Dockerfile
+      args:
+        VITE_HACKATHON_CRM_API_URL: http://localhost:8000/api
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+
+volumes:
+  db_data:

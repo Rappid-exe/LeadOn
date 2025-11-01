@@ -1,0 +1,53 @@
+name: CI
+
+on:
+  push:
+    branches: [ "**" ]
+  pull_request:
+
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: hackathon
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt pip-audit bandit
+      - run: python -m compileall .
+      - name: Lint/Secure
+        run: |
+          pip-audit -r requirements.txt || true
+          bandit -q -r . || true
+      - name: Alembic check (dry-run)
+        env:
+          DATABASE_URL: sqlite:///./sales_crm_ci.db
+        run: |
+          alembic upgrade head
+      - name: Build backend image
+        run: |
+          docker build -f Dockerfile . -t backend-test:ci
+
+  frontend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: packages/twenty-front
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "yarn"
+      - run: cd .. && yarn install --frozen-lockfile
+      - run: yarn tsc --noEmit || true
+      - run: yarn eslint . || true
+      - name: Build FE image
+        run: docker build -f Dockerfile . -t frontend-test:ci
