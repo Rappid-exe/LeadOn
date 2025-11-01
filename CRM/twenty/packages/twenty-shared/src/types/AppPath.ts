@@ -23,6 +23,7 @@ export enum AppPath {
 
   RecordIndexPage = '/objects/:objectNamePlural',
   RecordShowPage = '/object/:objectNameSingular/:objectRecordId',
+  HackathonCrm = '/hackathon/crm',
 
   Settings = `settings`,
   SettingsCatchAll = `/${Settings}/*`,
