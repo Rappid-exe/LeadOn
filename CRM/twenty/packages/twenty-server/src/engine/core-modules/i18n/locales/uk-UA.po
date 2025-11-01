@@ -1,0 +1,4271 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2025-01-29 18:14+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: uk\n"
+"Project-Id-Version: cf448e737e0d6d7b78742f963d761c61\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2025-01-01 00:00\n"
+"Last-Translator: \n"
+"Language-Team: Ukrainian\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: cf448e737e0d6d7b78742f963d761c61\n"
+"X-Crowdin-Project-ID: 1\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /packages/twenty-server/src/engine/core-modules/i18n/locales/en.po\n"
+"X-Crowdin-File-ID: 31\n"
+
+#. js-lingui-id: Q0ISF1
+#: src/engine/twenty-orm/utils/compute-relation-connect-query-configs.util.ts
+msgid "{fieldName} and {fieldName}Id cannot be both provided."
+msgstr "{fieldName} і {fieldName}Id не можуть бути обидва надані."
+
+#. js-lingui-id: ZkHTHm
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+#: src/engine/metadata-modules/index-metadata/utils/validate-can-create-unique-index.util.ts
+msgid "{fieldType} fields cannot be unique."
+msgstr "Поля {fieldType} не можуть бути унікальними."
+
+#. js-lingui-id: LeIJhm
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "{fieldType} fields cannot have a default value."
+msgstr "Поля {fieldType} не можуть мати значення за замовчуванням."
+
+#. js-lingui-id: iEZavm
+#: src/engine/core-modules/dns-manager/services/dns-manager.service.ts
+msgid "{hostnameCount} hostnames found for domain '{domainName}'. Expect 1"
+msgstr "Знайдено {hostnameCount} імен хостів для домену '{domainName}'. Очікується 1"
+
+#. js-lingui-id: 8haj+G
+#: src/engine/metadata-modules/utils/validate-metadata-name-is-camel-case.utils.ts
+msgid "{name} should be in camelCase"
+msgstr "{name} має бути у camelCase"
+
+#. js-lingui-id: kZR6+h
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "A company"
+msgstr "Компанія"
+
+#. js-lingui-id: +aeifv
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "A connected account"
+msgstr "Підключений аккаунт"
+
+#. js-lingui-id: cOSBjW
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+msgid "A dashboard"
+msgstr "Панель керування"
+
+#. js-lingui-id: HCoswz
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "A favorite that can be accessed from the left menu"
+msgstr "Обране, яке можна відкрити з лівого меню"
+
+#. js-lingui-id: 6w8bHl
+#: src/modules/favorite-folder/standard-objects/favorite-folder.workspace-entity.ts
+msgid "A Folder of favorites"
+msgstr "Папка обраних"
+
+#. js-lingui-id: sSGYmf
+#: src/modules/messaging/common/standard-objects/message-thread.workspace-entity.ts
+msgid "A group of related messages (e.g. email thread, chat thread)"
+msgstr "Група пов'язаних повідомлень (наприклад, ланцюжок електронних листів, ланцюжок чатів)"
+
+#. js-lingui-id: vZj1Xc
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+msgid "A message sent or received through a messaging channel (email, chat, etc.)"
+msgstr "Повідомлення, надіслане або отримане через канал обміну повідомленнями (електронна пошта, чат тощо)"
+
+#. js-lingui-id: bufuBA
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+msgid "A note"
+msgstr "Примітка"
+
+#. js-lingui-id: 6kUkZW
+#: src/modules/note/standard-objects/note-target.workspace-entity.ts
+msgid "A note target"
+msgstr "Ціль примітки"
+
+#. js-lingui-id: Io42ej
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "A person"
+msgstr "Особа"
+
+#. js-lingui-id: Q2De+v
+#: src/engine/metadata-modules/role/role.service.ts
+msgid "A role with this label already exists."
+msgstr "Роль з цим ярликом уже існує."
+
+#. js-lingui-id: mkFXEH
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+msgid "A task"
+msgstr "Завдання"
+
+#. js-lingui-id: hk2NzW
+#: src/modules/task/standard-objects/task-target.workspace-entity.ts
+msgid "A task target"
+msgstr "Ціль завдання"
+
+#. js-lingui-id: ZIN9Ga
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "A workflow"
+msgstr "Workflows"
+
+#. js-lingui-id: YwBCp8
+#: src/modules/workflow/common/standard-objects/workflow-automated-trigger.workspace-entity.ts
+msgid "A workflow automated trigger"
+msgstr "Автоматичний тригер робочого процесу"
+
+#. js-lingui-id: 1+xDbI
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "A workflow run"
+msgstr "Виконання Workflows"
+
+#. js-lingui-id: N0g7rp
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "A workflow version"
+msgstr "Версія Workflows"
+
+#. js-lingui-id: HpZ/I5
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "A workspace member"
+msgstr "Член робочого простору"
+
+#. js-lingui-id: GDKKxT
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "Access Token"
+msgstr "Токен доступу"
+
+#. js-lingui-id: pd81Qb
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Account Owner"
+msgstr "Власник аккаунта"
+
+#. js-lingui-id: loqL/f
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Account owner for companies"
+msgstr "Власник аккаунта компанії"
+
+#. js-lingui-id: HZosRi
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Account Owner For Companies"
+msgstr "Власник аккаунта для компаній"
+
+#. js-lingui-id: 48AxkT
+#: src/engine/workspace-manager/workspace-cleaner/services/cleaner.workspace-service.ts
+msgid "Action needed to prevent workspace deletion"
+msgstr "Потрібна дія, щоб запобігти видаленню робочої області"
+
+#. js-lingui-id: j0DfGR
+#: src/engine/core-modules/auth/services/reset-password.service.ts
+msgid "Action Needed to Reset Password"
+msgstr "Потрібна дія для скидання паролю"
+
+#. js-lingui-id: 52fA3U
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-field-metadata-validator.service.ts
+msgid "Active fields cannot be deleted"
+msgstr "Активні поля не можуть бути видалені"
+
+#. js-lingui-id: 0N5kF6
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-object-metadata-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-object-metadata-validator.service.ts
+msgid "Active objects cannot be deleted"
+msgstr "Активні об'єкти не можуть бути видалені"
+
+#. js-lingui-id: Du6bPw
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Address"
+msgstr "Адреса"
+
+#. js-lingui-id: JiOJxf
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Address (deprecated) "
+msgstr "Адреса (застаріла) "
+
+#. js-lingui-id: Knl3c9
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Address of the company"
+msgstr "Адреса компанії"
+
+#. js-lingui-id: zJhwjv
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Address of the company - deprecated in favor of new address field"
+msgstr "Адреса компанії - застаріла на користь нового поля адреси"
+
+#. js-lingui-id: W58PBh
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Aggregated / filtered event to be displayed on the timeline"
+msgstr "Агрегована / відфільтрована подія для відображення на часовій шкалі"
+
+#. js-lingui-id: pdOYzu
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/workflows-all.view.ts
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/workflow-versions-all.view.ts
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/workflow-runs-all.view.ts
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/tasks-all.view.ts
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/people-all.view.ts
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/opportunities-all.view.ts
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/notes-all.view.ts
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/dashboards-all.view.ts
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/custom-all.view.ts
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/companies-all.view.ts
+msgid "All {objectLabelPlural}"
+msgstr "Всі ({objectLabelPlural})"
+
+#. js-lingui-id: hehnjM
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Amount"
+msgstr "Сума"
+
+#. js-lingui-id: MjyFvC
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "An attachment"
+msgstr "Вкладення"
+
+#. js-lingui-id: eW83iC
+#: src/modules/messaging/message-import-manager/drivers/microsoft/exceptions/microsoft-import-driver.exception.ts
+msgid "An error occurred during messages import"
+msgstr "Під час імпорту повідомлень сталася помилка"
+
+#. js-lingui-id: XyOToQ
+#: src/engine/core-modules/graphql/utils/generate-graphql-error-from-error.util.ts
+#: src/engine/core-modules/graphql/hooks/use-graphql-error-handler.hook.ts
+msgid "An error occurred."
+msgstr "Сталася помилка."
+
+#. js-lingui-id: +MvnxO
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "An index must contain at least one field"
+msgstr "Індекс повинен містити принаймні одне поле"
+
+#. js-lingui-id: bZq8rL
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "An opportunity"
+msgstr "Можливість"
+
+#. js-lingui-id: JKWicb
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Annual Recurring Revenue: The actual or estimated annual revenue of the company"
+msgstr "Щорічний повторюваний дохід: фактичний або оцінений річний дохід компанії"
+
+#. js-lingui-id: mU5fvk
+#: src/engine/core-modules/approved-access-domain/services/approved-access-domain.service.ts
+msgid "Approved access domain already registered."
+msgstr "Затверджений домен доступу вже зареєстровано."
+
+#. js-lingui-id: DGW5iN
+#: src/engine/core-modules/approved-access-domain/services/approved-access-domain.service.ts
+msgid "Approved access domain does not match email domain"
+msgstr "Затверджений домен доступу не відповідає домену електронної пошти"
+
+#. js-lingui-id: BKvuAq
+#: src/engine/core-modules/approved-access-domain/services/approved-access-domain.service.ts
+#: src/engine/core-modules/approved-access-domain/services/approved-access-domain.service.ts
+msgid "Approved access domain has already been validated"
+msgstr "Затверджений домен доступу вже перевірений"
+
+#. js-lingui-id: naCW6Z
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "April"
+msgstr "Квітень"
+
+#. js-lingui-id: 3EiOLz
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "ARR"
+msgstr "АРР"
+
+#. js-lingui-id: Ek7xGj
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Assigned tasks"
+msgstr "Призначені завдання"
+
+#. js-lingui-id: kZ7PLo
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/tasks-assigned-to-me.ts
+msgid "Assigned to Me"
+msgstr "Призначено мені"
+
+#. js-lingui-id: ojKCLU
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+msgid "Assignee"
+msgstr "Виконавець"
+
+#. js-lingui-id: Max2GU
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Associated User Id"
+msgstr "Пов’язаний ідентифікатор користувача"
+
+#. js-lingui-id: K9efby
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-morph-relation-creation-payload.util.ts
+msgid "At least one relation is require"
+msgstr "Потрібно щонайменше одне відношення"
+
+#. js-lingui-id: UY1vmE
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Attachment"
+msgstr "Вкладення"
+
+#. js-lingui-id: dda+ze
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Attachment author (deprecated - use createdBy)"
+msgstr "Автор вкладення (застаріло - використовуйте createdBy)"
+
+#. js-lingui-id: bIaesZ
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Attachment company"
+msgstr "Компанія вкладення"
+
+#. js-lingui-id: wtcL/T
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Attachment dashboard"
+msgstr "Панель керування вкладеннями"
+
+#. js-lingui-id: u3pBxa
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Attachment file category"
+msgstr "Категорія файлу вкладення"
+
+#. js-lingui-id: gfGYcl
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Attachment full path"
+msgstr "Повний шлях вкладення"
+
+#. js-lingui-id: wjocwa
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Attachment name"
+msgstr "Назва вкладення"
+
+#. js-lingui-id: FWlOXr
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Attachment note"
+msgstr "Примітка до вкладення"
+
+#. js-lingui-id: YASWpH
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Attachment opportunity"
+msgstr "Можливість вкладення"
+
+#. js-lingui-id: P38yED
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Attachment person"
+msgstr "Особа вкладення"
+
+#. js-lingui-id: Tx1DxS
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Attachment task"
+msgstr "Завдання вкладення"
+
+#. js-lingui-id: ZXjjRz
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Attachment type (deprecated - use fileCategory)"
+msgstr "Тип вкладення (застаріло - використовуйте fileCategory)"
+
+#. js-lingui-id: tH6L3e
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Attachment workflow"
+msgstr "Вкладення робочий процес"
+
+#. js-lingui-id: w/Sphq
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+msgid "Attachments"
+msgstr "Вкладення"
+
+#. js-lingui-id: 2tQOVc
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Attachments created by the workspace member"
+msgstr "Вкладення, створені учасником робочого простору"
+
+#. js-lingui-id: iVnA89
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Attachments linked to the company"
+msgstr "Вкладення, пов'язані з компанією"
+
+#. js-lingui-id: MuTXtT
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Attachments linked to the contact."
+msgstr "Вкладення, пов'язані з контактом."
+
+#. js-lingui-id: 2AEUIb
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+msgid "Attachments linked to the dashboard"
+msgstr "Вкладення, пов'язані з інформаційною панеллю"
+
+#. js-lingui-id: kw0mLu
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Attachments linked to the opportunity"
+msgstr "Вкладення, пов'язані з можливістю"
+
+#. js-lingui-id: 83l3Yd
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "Attachments linked to the workflow"
+msgstr "Вкладення, пов'язані з робочим процесом"
+
+#. js-lingui-id: fCbqr7
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+msgid "Attachments tied to the {label}"
+msgstr "Вкладення, прив'язані до {label}"
+
+#. js-lingui-id: DBHTm/
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "August"
+msgstr "Серпень"
+
+#. js-lingui-id: cNBqH+
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "Auth failed at"
+msgstr "Помилка авторизації о"
+
+#. js-lingui-id: LB4qX/
+#: src/engine/core-modules/auth/utils/auth-graphql-api-exception-handler.util.ts
+msgid "Authentication is not enabled with this provider."
+msgstr "Аутентифікація не ввімкнена з цим постачальником."
+
+#. js-lingui-id: Tsx+z2
+#: src/engine/metadata-modules/permissions/permissions.service.ts
+msgid "Authentication is required to access this feature. Please sign in and try again."
+msgstr "Для доступу до цієї функції потрібна автентифікація. Будь ласка, увійдіть і спробуйте знову."
+
+#. js-lingui-id: VbeIOx
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Author"
+msgstr "Автор"
+
+#. js-lingui-id: XJONK6
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Authored attachments"
+msgstr "Вкладення автора"
+
+#. js-lingui-id: cvSznK
+#: src/modules/workflow/common/standard-objects/workflow-automated-trigger.workspace-entity.ts
+msgid "Automated Trigger Type"
+msgstr "Тип автоматичного тригера"
+
+#. js-lingui-id: 2mtBXs
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "Automated Triggers"
+msgstr "Автоматичні тригери"
+
+#. js-lingui-id: RpExX0
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+msgid "Automatically create People records when receiving or sending emails"
+msgstr "Автоматично створювати записи Людей при отриманні або відправленні електронної пошти"
+
+#. js-lingui-id: lXxdId
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+msgid "Automatically create records for people you participated with in an event."
+msgstr "Автоматично створювати записи про людей, з якими ви брали участь в події."
+
+#. js-lingui-id: kfcRb0
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Avatar"
+msgstr "Аватар"
+
+#. js-lingui-id: S/mJUR
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Avatar Url"
+msgstr "URL аватара"
+
+#. js-lingui-id: K1172m
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+#: src/modules/blocklist/standard-objects/blocklist.workspace-entity.ts
+#: src/modules/blocklist/standard-objects/blocklist.workspace-entity.ts
+msgid "Blocklist"
+msgstr "Блок-список"
+
+#. js-lingui-id: Tv2hxv
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Blocklisted handles"
+msgstr "Облікові записи у блок-списку"
+
+#. js-lingui-id: L5JhJe
+#: src/modules/blocklist/standard-objects/blocklist.workspace-entity.ts
+msgid "Blocklists"
+msgstr "Блок-списки"
+
+#. js-lingui-id: bGQplw
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+msgid "Body"
+msgstr "Текст"
+
+#. js-lingui-id: 6+byWT
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/opportunity-table-by-stage.view.ts
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/opportunity-by-stage.view.ts
+msgid "By Stage"
+msgstr "По етапам"
+
+#. js-lingui-id: jQX8V+
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/tasks-by-status.view.ts
+msgid "By Status"
+msgstr "По статусу"
+
+#. js-lingui-id: 8mVqF7
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Cached record name"
+msgstr "Кешоване ім'я запису"
+
+#. js-lingui-id: Nh6GTX
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+msgid "Calendar Channel"
+msgstr "Канал календаря"
+
+#. js-lingui-id: jfNQ0m
+#: src/modules/calendar/common/standard-objects/calendar-channel-event-association.workspace-entity.ts
+msgid "Calendar Channel Event Association"
+msgstr "Асоціація подій каналу календаря"
+
+#. js-lingui-id: kYNT3F
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel-event-association.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel-event-association.workspace-entity.ts
+msgid "Calendar Channel Event Associations"
+msgstr "Асоціації подій каналу календаря"
+
+#. js-lingui-id: Znix/S
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+msgid "Calendar Channels"
+msgstr "Календарні канали"
+
+#. js-lingui-id: bRk+FR
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+msgid "Calendar event"
+msgstr "Подія календаря"
+
+#. js-lingui-id: N2kMfO
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+msgid "Calendar event participant"
+msgstr "Учасник події календаря"
+
+#. js-lingui-id: AWDqkQ
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+msgid "Calendar event participants"
+msgstr "Учасники події календаря"
+
+#. js-lingui-id: ZI2UyM
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Calendar Event Participants"
+msgstr "Учасники подій календаря"
+
+#. js-lingui-id: X9A2xC
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+msgid "Calendar events"
+msgstr "Події календаря"
+
+#. js-lingui-id: eSaCR/
+#: src/engine/twenty-orm/relation-nested-queries/utils/formatConnectRecordNotFoundErrorMessage.util.ts
+msgid "Can't connect to {connectFieldName}. No unique record found with condition: {formattedConnectCondition}"
+msgstr "Не вдається підключитися до {connectFieldName}. Не знайдено унікального запису з умовою: {formattedConnectCondition}"
+
+#. js-lingui-id: 2oVE+z
+#: src/engine/guards/impersonate-permission.guard.ts
+msgid "Can't impersonate user via api key"
+msgstr "Не можу імперсонувати користувача через ключ API."
+
+#. js-lingui-id: vxbVwc
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+msgid "Cannot activate non-draft or non-last-published version"
+msgstr "Неможливо активувати нечернеткову або не останню опубліковану версію"
+
+#. js-lingui-id: LIPsWu
+#: src/modules/workflow/common/workspace-services/workflow-version-validation.workspace-service.ts
+msgid "Cannot create multiple draft versions for the same workflow"
+msgstr "Не можна створити кілька чернеткових версій для одного й того ж робочого процесу"
+
+#. js-lingui-id: RggZr4
+#: src/modules/workflow/common/workspace-services/workflow-version-validation.workspace-service.ts
+msgid "Cannot create workflow version with status other than draft"
+msgstr "Неможливо створити версію робочого процесу зі статусом, відмінним від чернетки"
+
+#. js-lingui-id: VPXcr5
+#: src/engine/core-modules/user/services/user.service.ts
+msgid "Cannot delete account: you are the only admin. Assign another admin or delete the workspace(s) first."
+msgstr "Не можна видалити обліковий запис: ви єдиний адміністратор. Призначте іншого адміністратора або спочатку видаліть робоче місце."
+
+#. js-lingui-id: AQyr9X
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-field-metadata-validator.service.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata.service.ts
+msgid "Cannot delete, please update the label identifier field first"
+msgstr "Неможливо видалити, спочатку оновіть поле ідентифікатора мітки"
+
+#. js-lingui-id: FrNWt0
+#: src/modules/workflow/workflow-trigger/workspace-services/workflow-trigger.workspace-service.ts
+msgid "Cannot disable non-active workflow version"
+msgstr "Неможливо вимкнути не активну версію робочого процесу"
+
+#. js-lingui-id: otFZos
+#: src/engine/workspace-manager/workspace-migration-runner/workspace-migration-runner.service.ts
+msgid "Cannot enable uniqueness due to existing duplicate values. Please review and fix your data first (including soft deleted records)."
+msgstr "Неможливо увімкнути унікальність через наявність дублікатів. Будь ласка, перевірте та виправте ваші дані спочатку (включаючи м'яко видалені записи)."
+
+#. js-lingui-id: IDMgr/
+#: src/modules/workflow/workflow-trigger/workspace-services/workflow-trigger.workspace-service.ts
+msgid "Cannot have more than one active workflow version"
+msgstr "Не може бути більше однієї активної версії робочого процесу"
+
+#. js-lingui-id: PjZIyI
+#: src/modules/messaging/message-channel-manager/query-hooks/message-channel-update-one.pre-query.hook.ts
+msgid "Cannot update message channel while sync is ongoing. Please wait for the sync to complete."
+msgstr ""
+
+#. js-lingui-id: 4DKo3U
+#: src/modules/workflow/common/workspace-services/workflow-version-validation.workspace-service.ts
+msgid "Cannot update workflow version status manually"
+msgstr "Неможливо вручну оновлювати статус версії робочого процесу"
+
+#. js-lingui-id: 4IVK41
+#: src/modules/calendar/common/standard-objects/calendar-channel-event-association.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel-event-association.workspace-entity.ts
+msgid "Channel ID"
+msgstr "ID каналу"
+
+#. js-lingui-id: Ubg/B+
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+msgid "Channel Type"
+msgstr "Тип каналу"
+
+#. js-lingui-id: 3wV73y
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "City"
+msgstr "Місто"
+
+#. js-lingui-id: NRF7pg
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Close date"
+msgstr "Дата закриття"
+
+#. js-lingui-id: 96YB1a
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Color Scheme"
+msgstr "Кольорова схема"
+
+#. js-lingui-id: s2QZS6
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Companies"
+msgstr "Компанії"
+
+#. js-lingui-id: 7i8j3G
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+#: src/modules/task/standard-objects/task-target.workspace-entity.ts
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+#: src/modules/note/standard-objects/note-target.workspace-entity.ts
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Company"
+msgstr "Компанія"
+
+#. js-lingui-id: yA1de7
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Company record position"
+msgstr "Позиція запису компанії"
+
+#. js-lingui-id: AgktVC
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+msgid "Conference Solution"
+msgstr "Рішення для проведення конференцій"
+
+#. js-lingui-id: 1fFL4B
+#: src/engine/twenty-orm/utils/compute-relation-connect-query-configs.util.ts
+msgid "Connect is not allowed for {connectFieldName} on {objectMetadataNameSingular}"
+msgstr "Підключення не дозволено для {connectFieldName} в {objectMetadataNameSingular}"
+
+#. js-lingui-id: PQ1Dw2
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+msgid "Connected Account"
+msgstr "Приєднаний рахунок"
+
+#. js-lingui-id: 9TzudL
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Connected accounts"
+msgstr "Приєднані рахунки"
+
+#. js-lingui-id: AMDUqA
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "Connected Accounts"
+msgstr "Приєднані рахунки"
+
+#. js-lingui-id: bA6O5B
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+msgid "Contact auto creation policy"
+msgstr "Політика автоматичного створення контакту"
+
+#. js-lingui-id: RnsmQs
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Contact’s avatar"
+msgstr "Аватар контакту"
+
+#. js-lingui-id: pL+pqi
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Contact’s city"
+msgstr "Місто контакту"
+
+#. js-lingui-id: VnWMlz
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Contact’s company"
+msgstr "Компанія контакту"
+
+#. js-lingui-id: ITlFIB
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Contact’s Emails"
+msgstr "Електронні адреси контакту"
+
+#. js-lingui-id: GuRtLY
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Contact’s job title"
+msgstr "Посада контакту"
+
+#. js-lingui-id: QrCvRQ
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Contact’s Linkedin account"
+msgstr "Акаунт LinkedIn контакту"
+
+#. js-lingui-id: 6xPSVt
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Contact’s name"
+msgstr "Ім'я контакту"
+
+#. js-lingui-id: Y37CZ4
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Contact’s phone number"
+msgstr "Номер телефону контакту"
+
+#. js-lingui-id: zsW3gg
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Contact’s phone numbers"
+msgstr "Номери телефонів контакту"
+
+#. js-lingui-id: uuZ00G
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Contact’s X/Twitter account"
+msgstr "Обліковий запис X/Twitter контакту"
+
+#. js-lingui-id: gdbojg
+#: src/engine/metadata-modules/object-permission/field-permission/field-permission.service.ts
+msgid "Contradicting field permissions have been detected on a relation field ({fieldName})."
+msgstr "На полі зв'язку ({fieldName}) виявлені суперечливі дозволи полів."
+
+#. js-lingui-id: LZf/L8
+#: src/engine/metadata-modules/flat-entity/utils/find-flat-entity-by-id-in-flat-entity-maps-or-throw.util.ts
+msgid "Could not find flat entity in maps"
+msgstr "Не вдалося знайти плоску сутність на картах"
+
+#. js-lingui-id: jBrX/g
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "Could not find index field related field metadata"
+msgstr "Не вдалося знайти метадані поля, пов'язаного з індексом"
+
+#. js-lingui-id: HVajHk
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "Could not find index related object metadata"
+msgstr "Не вдалося знайти метадані об'єкта, пов'язаного з індексом"
+
+#. js-lingui-id: NCIYDF
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+msgid "Created by"
+msgstr "Створено"
+
+#. js-lingui-id: 2ZhYYy
+#: src/engine/metadata-modules/flat-field-metadata/utils/from-create-field-input-to-flat-field-metadatas-to-create.util.ts
+msgid "Created field metadata, parent object metadata not found"
+msgstr "Створені метадані поля, метадані батьківського об'єкта не знайдено"
+
+#. js-lingui-id: wPvFAD
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+#: src/engine/twenty-orm/base.workspace-entity.ts
+#: src/engine/twenty-orm/base.workspace-entity.ts
+msgid "Creation date"
+msgstr "Дата створення"
+
+#. js-lingui-id: CJXWmO
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+msgid "Creation DateTime"
+msgstr "Час і дата створення"
+
+#. js-lingui-id: umhXiy
+#: src/modules/workflow/workflow-trigger/utils/compute-cron-pattern-from-schedule.ts
+msgid "Cron pattern '{pattern}' is invalid"
+msgstr "Шаблон Cron '{pattern}' є недійсним"
+
+#. js-lingui-id: GuyjcQ
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-cron-trigger-validator.service.ts
+msgid "Cron trigger already exists"
+msgstr "Крон тригер вже існує"
+
+#. js-lingui-id: Ej90Yp
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-cron-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-cron-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-cron-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-cron-trigger-validator.service.ts
+msgid "Cron trigger not found"
+msgstr "Крон тригер не знайдено"
+
+#. js-lingui-id: vz7B0E
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-cron-trigger-validator.service.ts
+msgid "Cron trigger with same id already exists"
+msgstr "Крон тригер з таким самим ідентифікатором вже існує"
+
+#. js-lingui-id: Mikszu
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "Custom Connection Parameters"
+msgstr "Параметри спеціального підключення"
+
+#. js-lingui-id: 7p5kLi
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Dashboard"
+msgstr "Панель керування"
+
+#. js-lingui-id: Lddz0a
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+msgid "Dashboard page layout"
+msgstr "Макет сторінки панелі керування"
+
+#. js-lingui-id: FrOkwR
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+msgid "Dashboard record Position"
+msgstr "Позиція запису інформаційної панелі"
+
+#. js-lingui-id: xGgnPh
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+msgid "Dashboard title"
+msgstr "Назва панелі керування"
+
+#. js-lingui-id: w6iIMm
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+msgid "Dashboards"
+msgstr "Панелі керування"
+
+#. js-lingui-id: K2CQHf
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-database-event-trigger-validator.service.ts
+msgid "Database event trigger already exists"
+msgstr "Тригер події бази даних вже існує"
+
+#. js-lingui-id: iS6kjG
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-database-event-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-database-event-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-database-event-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-database-event-trigger-validator.service.ts
+msgid "Database event trigger not found"
+msgstr "Тригер події бази даних не знайдено"
+
+#. js-lingui-id: 0vtv+s
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-database-event-trigger-validator.service.ts
+msgid "Database event trigger with same id already exists"
+msgstr "Тригер події бази даних з таким самим ідентифікатором вже існує"
+
+#. js-lingui-id: Lhd0oQ
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Date format"
+msgstr "Формат дати"
+
+#. js-lingui-id: 1lL5Iu
+#: src/engine/twenty-orm/base.workspace-entity.ts
+msgid "Date when the record was deleted"
+msgstr "Дата, коли запис було видалено"
+
+#. js-lingui-id: r6zgGo
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "December"
+msgstr "Грудень"
+
+#. js-lingui-id: GGNmm+
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "Default value \"{defaultValue}\" must be one of the option values"
+msgstr "Значення за замовчуванням \"{defaultValue}\" має бути одним із значень параметрів"
+
+#. js-lingui-id: FdUbPo
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+msgid "Default value must be a string"
+msgstr "Значення за замовчуванням повинно бути рядком"
+
+#. js-lingui-id: sv9P4Q
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "Default value should be as quoted string"
+msgstr "Значення за замовчуванням має бути рядковим у лапках"
+
+#. js-lingui-id: 6pJV03
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "Default values must be unique"
+msgstr "Значення за замовчуванням повинні бути унікальними"
+
+#. js-lingui-id: QN9ahV
+#: src/engine/twenty-orm/base.workspace-entity.ts
+msgid "Deleted at"
+msgstr "Видалено о"
+
+#. js-lingui-id: Nu4oKW
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+msgid "Description"
+msgstr "Опис"
+
+#. js-lingui-id: MRB7nI
+#: src/modules/messaging/common/standard-objects/message-channel-message-association.workspace-entity.ts
+msgid "Direction"
+msgstr "Напрямок"
+
+#. js-lingui-id: 0gS7M5
+#: src/modules/messaging/common/standard-objects/message-participant.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-participant.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+msgid "Display Name"
+msgstr "Назва для відображення"
+
+#. js-lingui-id: IymH4t
+#: src/engine/core-modules/public-domain/public-domain.service.ts
+msgid "Domain already used for workspace custom domain"
+msgstr "Домен вже використовувався як користувацький домен робочого простору"
+
+#. js-lingui-id: 2sIVDj
+#: src/engine/core-modules/dns-manager/services/dns-manager.service.ts
+msgid "Domain is already registered"
+msgstr "Домен вже зареєстрований."
+
+#. js-lingui-id: PfJswy
+#: src/engine/core-modules/domain/custom-domain-manager/services/custom-domain-manager.service.ts
+msgid "Domain is already registered as public domain"
+msgstr "Домен вже зареєстровано як публічний домен"
+
+#. js-lingui-id: wMncXq
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Domain Name"
+msgstr "Назва домену"
+
+#. js-lingui-id: YOowcq
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+msgid "Due Date"
+msgstr "Термін виконання"
+
+#. js-lingui-id: BXtAxc
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "Duplicated option {field}"
+msgstr "Опція {field} вже існує"
+
+#. js-lingui-id: BBXuRb
+#: src/engine/core-modules/email-verification/email-verification-exception-filter.util.ts
+msgid "Email already verified."
+msgstr "Ел. пошта вже підтверджена."
+
+#. js-lingui-id: xw6iqb
+#: src/engine/core-modules/auth/utils/auth-graphql-api-exception-handler.util.ts
+msgid "Email is not verified."
+msgstr "Ел. пошта не підтверджена."
+
+#. js-lingui-id: ZsZeV2
+#: src/engine/core-modules/auth/services/sign-in-up.service.ts
+#: src/engine/core-modules/auth/services/sign-in-up.service.ts
+#: src/engine/core-modules/auth/services/sign-in-up.service.ts
+msgid "Email is required"
+msgstr "Ел. пошта обов'язкова"
+
+#. js-lingui-id: y8LSMh
+#: src/engine/core-modules/email-verification/email-verification-exception-filter.util.ts
+msgid "Email verification not required."
+msgstr "Підтвердження електронної пошти не потрібне."
+
+#. js-lingui-id: BXEcos
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Emails"
+msgstr "Електронні адреси"
+
+#. js-lingui-id: gqv5ZL
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Employees"
+msgstr "Співробітники"
+
+#. js-lingui-id: VFv2ZC
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+msgid "End Date"
+msgstr "Дата закінчення"
+
+#. js-lingui-id: EzGlkq
+#: src/engine/core-modules/dns-manager/validator/dns-manager.validate.ts
+msgid "Environment variable CLOUDFLARE_API_KEY must be defined to use this feature."
+msgstr "Змінна середовища CLOUDFLARE_API_KEY має бути визначена для використання цієї функції."
+
+#. js-lingui-id: k//6Xs
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Event company"
+msgstr "Компанія-організатор подій"
+
+#. js-lingui-id: CPhvC+
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Event dashboard"
+msgstr "Інформаційна панель подій"
+
+#. js-lingui-id: kJDmsI
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Event details"
+msgstr "Деталі події"
+
+#. js-lingui-id: 0JhmlM
+#: src/modules/calendar/common/standard-objects/calendar-channel-event-association.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel-event-association.workspace-entity.ts
+msgid "Event external ID"
+msgstr "Зовнішній ID події"
+
+#. js-lingui-id: aZJLAR
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel-event-association.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel-event-association.workspace-entity.ts
+msgid "Event ID"
+msgstr "ID події"
+
+#. js-lingui-id: PYs3rP
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Event name"
+msgstr "Назва події"
+
+#. js-lingui-id: vv99Wu
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Event note"
+msgstr "Примітка до події"
+
+#. js-lingui-id: eSt759
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Event opportunity"
+msgstr "Можливості події"
+
+#. js-lingui-id: aicVfT
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+msgid "Event Participants"
+msgstr "Учасники події"
+
+#. js-lingui-id: 0mp45a
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Event person"
+msgstr "Особа на події"
+
+#. js-lingui-id: mMq0Wy
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Event task"
+msgstr "Завдання події"
+
+#. js-lingui-id: dCV1dS
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Event workflow"
+msgstr "Робочий процес події"
+
+#. js-lingui-id: W84pl6
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Event workflow run"
+msgstr "Виконання робочого процесу події"
+
+#. js-lingui-id: vUpps9
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Event workflow version"
+msgstr "Версія робочого процесу події"
+
+#. js-lingui-id: LxOGsB
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Event workspace member"
+msgstr "Член робочого простору події"
+
+#. js-lingui-id: tst44n
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Events"
+msgstr "Події"
+
+#. js-lingui-id: fHL+iH
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Events linked to the person"
+msgstr "Події пов'язані з особою"
+
+#. js-lingui-id: 3/O8MM
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Events linked to the workspace member"
+msgstr "Події пов'язані з членом робочого простору"
+
+#. js-lingui-id: QQlMid
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+msgid "Exclude group emails"
+msgstr "Не враховувати групові електронні адреси"
+
+#. js-lingui-id: kenYGr
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+msgid "Exclude non professional emails"
+msgstr "Не враховувати не професійні електронні адреси"
+
+#. js-lingui-id: Lo5U0b
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "Executed by"
+msgstr "Виконав"
+
+#. js-lingui-id: AiFXmG
+#: src/engine/twenty-orm/utils/compute-relation-connect-query-configs.util.ts
+msgid "Expected the same constraint fields to be used consistently across all operations for {connectFieldName}."
+msgstr "Очікується, що ті самі поля обмежень будуть використовуватись послідовно в усіх операціях для {connectFieldName}."
+
+#. js-lingui-id: 5KfWxA
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+msgid "External ID"
+msgstr "Зовнішній ID"
+
+#. js-lingui-id: pUligB
+#: src/engine/core-modules/admin-panel/admin-panel-queue.service.ts
+msgid "Failed to delete jobs. Please try again later."
+msgstr "Не вдалося видалити завдання. Спробуйте ще раз пізніше."
+
+#. js-lingui-id: HfhmrS
+#: src/engine/core-modules/admin-panel/admin-panel-queue.service.ts
+msgid "Failed to load queue jobs. Please try again later."
+msgstr "Не вдалося завантажити завдання в черзі. Спробуйте ще раз пізніше."
+
+#. js-lingui-id: SJEIIJ
+#: src/engine/core-modules/admin-panel/admin-panel-queue.service.ts
+msgid "Failed to retry jobs. Please try again later."
+msgstr "Не вдалося повторити завдання. Спробуйте ще раз пізніше."
+
+#. js-lingui-id: 6Ki4Pv
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "Favorite"
+msgstr "Улюблене"
+
+#. js-lingui-id: aKUOPp
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "Favorite company"
+msgstr "Улюблена компанія"
+
+#. js-lingui-id: Aj026i
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "Favorite dashboard"
+msgstr "Улюблена інформаційна панель"
+
+#. js-lingui-id: TDlZ/o
+#: src/modules/favorite-folder/standard-objects/favorite-folder.workspace-entity.ts
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "Favorite Folder"
+msgstr "Улюблена папка"
+
+#. js-lingui-id: WDVfUH
+#: src/modules/favorite-folder/standard-objects/favorite-folder.workspace-entity.ts
+msgid "Favorite folder position"
+msgstr "Позиція улюбленої папки"
+
+#. js-lingui-id: SStz54
+#: src/modules/favorite-folder/standard-objects/favorite-folder.workspace-entity.ts
+msgid "Favorite Folders"
+msgstr "Обрані теки"
+
+#. js-lingui-id: dz/fFp
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "Favorite note"
+msgstr "Обрана нотатка"
+
+#. js-lingui-id: RRr9Bp
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "Favorite opportunity"
+msgstr "Обрана можливість"
+
+#. js-lingui-id: RM6B6V
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "Favorite person"
+msgstr "Обрана особа"
+
+#. js-lingui-id: oVA9vM
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "Favorite position"
+msgstr "Обрана позиція"
+
+#. js-lingui-id: OaQVQH
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "Favorite task"
+msgstr "Обране завдання"
+
+#. js-lingui-id: l+lx2f
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "Favorite workflow"
+msgstr "Обраний процес"
+
+#. js-lingui-id: BPBnux
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "Favorite workflow run"
+msgstr "Обраний запуск процесу"
+
+#. js-lingui-id: 5X6Vlz
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "Favorite workflow version"
+msgstr "Обрана версія процесу"
+
+#. js-lingui-id: FDpezg
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "Favorite workspace member"
+msgstr "Обраний учасник робочого простору"
+
+#. js-lingui-id: X9kySA
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+#: src/modules/favorite-folder/standard-objects/favorite-folder.workspace-entity.ts
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+msgid "Favorites"
+msgstr "Обрані"
+
+#. js-lingui-id: 0CzeFL
+#: src/modules/favorite-folder/standard-objects/favorite-folder.workspace-entity.ts
+msgid "Favorites in this folder"
+msgstr "Обрані у цій теці"
+
+#. js-lingui-id: zQponA
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Favorites linked to the company"
+msgstr "Обрані, пов'язані з компанією"
+
+#. js-lingui-id: VaKLrB
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Favorites linked to the contact"
+msgstr "Обрані, пов'язані з контактом"
+
+#. js-lingui-id: 5zuBdE
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+msgid "Favorites linked to the dashboard"
+msgstr "Улюблені, пов'язані з інформаційною панеллю"
+
+#. js-lingui-id: GOfcBt
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+msgid "Favorites linked to the note"
+msgstr "Обрані, пов'язані з нотаткою"
+
+#. js-lingui-id: 9zd8hg
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Favorites linked to the opportunity"
+msgstr "Обрані, пов'язані з можливістю"
+
+#. js-lingui-id: L5ccWD
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+msgid "Favorites linked to the task"
+msgstr "Обрані, пов'язані з завданням"
+
+#. js-lingui-id: ee0tmj
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "Favorites linked to the workflow"
+msgstr "Обрані, пов'язані з процесом"
+
+#. js-lingui-id: zar5jz
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "Favorites linked to the workflow run"
+msgstr "Обрані, пов'язані з запуском процесу"
+
+#. js-lingui-id: 499/sw
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "Favorites linked to the workflow version"
+msgstr "Обрані, пов'язані з версією процесу"
+
+#. js-lingui-id: rgmtb4
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Favorites linked to the workspace member"
+msgstr "Обрані, пов'язані з учасником робочого простору"
+
+#. js-lingui-id: GyXrE1
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+msgid "Favorites tied to the {label}"
+msgstr "Обрані, пов'язані з {label}"
+
+#. js-lingui-id: 4lgLew
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "February"
+msgstr "Лютий"
+
+#. js-lingui-id: vngnhF
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-field-metadata-validator.service.ts
+msgid "Field already exists"
+msgstr "Поле вже існує"
+
+#. js-lingui-id: ugu505
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "Field cannot be indexed as it belongs to a different object"
+msgstr "Поле не може бути індексоване, оскільки належить іншому об'єкту"
+
+#. js-lingui-id: Hg95ys
+#: src/engine/metadata-modules/flat-object-metadata/validators/utils/validate-flat-object-metadata-identifiers.util.ts
+msgid "Field cannot be used as label identifier"
+msgstr "Поле не може бути використано як ідентифікатор мітки"
+
+#. js-lingui-id: F6OLoA
+#: src/engine/metadata-modules/flat-object-metadata/validators/utils/validate-flat-object-metadata-identifiers.util.ts
+msgid "Field declared as image identifier not found"
+msgstr "Поле, визначене як ідентифікатор зображення, не знайдено"
+
+#. js-lingui-id: 75hHpn
+#: src/engine/metadata-modules/flat-object-metadata/validators/utils/validate-flat-object-metadata-identifiers.util.ts
+msgid "Field declared as label identifier not found"
+msgstr "Поле, оголошене як ідентифікатор мітки, не знайдено"
+
+#. js-lingui-id: qelyBB
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "Field does not belong to the indexed object"
+msgstr "Поле не належить до індексованого об'єкта"
+
+#. js-lingui-id: DXxcTd
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "Field ID is already used in another index"
+msgstr "Ідентифікатор поля вже використовується в іншому індексі"
+
+#. js-lingui-id: AgbRjM
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-object-metadata-validator.service.ts
+msgid "Field label identifier is required"
+msgstr "Необхідно вказати ідентифікатор мітки поля"
+
+#. js-lingui-id: MPt365
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-group-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-group-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-filter-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-filter-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-filter-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-filter-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+msgid "Field metadata not found"
+msgstr "Метадані поля не знайдено"
+
+#. js-lingui-id: uTPwH1
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-field-metadata-validator.service.ts
+msgid "Field metadata to delete not found"
+msgstr "Метадані поля для видалення не знайдені"
+
+#. js-lingui-id: Ljqo/T
+#: src/engine/metadata-modules/flat-field-metadata/utils/from-update-field-input-to-flat-field-metadata.util.ts
+msgid "Field metadata to update not found"
+msgstr "Метадані поля для оновлення не знайдені"
+
+#. js-lingui-id: prTOhK
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-field-metadata-validator.service.ts
+msgid "Field name is not synced with field label"
+msgstr "Назва поля не синхронізована з міткою поля"
+
+#. js-lingui-id: QXuG8C
+#: src/engine/metadata-modules/object-permission/field-permission/field-permission.service.ts
+msgid "Field permissions can only be used to restrict access, not to grant additional permissions."
+msgstr "Дозволи на поля можна використовувати лише для обмеження доступу, а не для надання додаткових дозволів."
+
+#. js-lingui-id: S+y2Wg
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "Field referenced in index does not exist"
+msgstr "Поле, на яке посилається індекс, не існує"
+
+#. js-lingui-id: cK8ILP
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-field-metadata-validator.service.ts
+msgid "Field to create related object not found"
+msgstr "Поле для створення пов'язаного об'єкта не знайдено"
+
+#. js-lingui-id: K6qzz4
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-field-metadata-validator.service.ts
+msgid "Field to update not found"
+msgstr "Поле для оновлення не знайдено"
+
+#. js-lingui-id: J4hC2m
+#: src/engine/metadata-modules/constants/search-vector-field.constants.ts
+msgid "Field used for full-text search"
+msgstr "Поле, що використовується для повнотекстового пошуку"
+
+#. js-lingui-id: s3HtdT
+#: src/engine/metadata-modules/view-sort/exceptions/view-sort.exception.ts
+msgid "FieldMetadataId is required"
+msgstr "FieldMetadataId є обов'язковим"
+
+#. js-lingui-id: Sof2+k
+#: src/engine/metadata-modules/view-field/exceptions/view-field.exception.ts
+msgid "FieldMetadataId is required to create a view field."
+msgstr "FieldMetadataId потрібний для створення поля перегляду."
+
+#. js-lingui-id: NTyTR5
+#: src/engine/metadata-modules/view-filter-group/exceptions/view-filter-group.exception.ts
+msgid "FieldMetadataId is required to create a view filter group."
+msgstr "FieldMetadataId потрібний для створення групи фільтрів перегляду."
+
+#. js-lingui-id: Ya6oU7
+#: src/engine/metadata-modules/view-filter/exceptions/view-filter.exception.ts
+msgid "FieldMetadataId is required to create a view filter."
+msgstr "FieldMetadataId потрібний для створення фільтру перегляду."
+
+#. js-lingui-id: DU4jcg
+#: src/engine/metadata-modules/view-group/exceptions/view-group.exception.ts
+msgid "FieldMetadataId is required to create a view group."
+msgstr "FieldMetadataId потрібний для створення групи перегляду."
+
+#. js-lingui-id: snEXuU
+#: src/engine/metadata-modules/view-sort/exceptions/view-sort.exception.ts
+msgid "FieldMetadataId is required to create a view sort."
+msgstr "FieldMetadataId потрібний для створення сортування перегляду."
+
+#. js-lingui-id: i+AQUz
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "File category"
+msgstr "Категорія файлу"
+
+#. js-lingui-id: lEpDue
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+msgid "Folder for Message Channel"
+msgstr "Папка для каналу повідомлень"
+
+#. js-lingui-id: cqQyPB
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+msgid "Folder name"
+msgstr "Назва теки"
+
+#. js-lingui-id: eWmJYU
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-field-metadata-validator.service.ts
+msgid "Forbidden updated properties for relation field metadata"
+msgstr "Недозволені властивості оновлення для метаданих пов'язаних полів"
+
+#. js-lingui-id: kuN9I4
+#: src/modules/workflow/workflow-trigger/utils/assert-form-step-is-valid.util.ts
+msgid "Form action fields must have a defined label and type"
+msgstr "Поля дій форми повинні мати визначену мітку та тип"
+
+#. js-lingui-id: QK3OvQ
+#: src/modules/workflow/workflow-trigger/utils/assert-form-step-is-valid.util.ts
+msgid "Form action fields must have unique names"
+msgstr "Поля дій форми повинні мати унікальні назви"
+
+#. js-lingui-id: KYP1t5
+#: src/modules/workflow/workflow-trigger/utils/assert-form-step-is-valid.util.ts
+msgid "Form action must have at least one field"
+msgstr "Дія форми повинна мати принаймні одне поле"
+
+#. js-lingui-id: 39y5bn
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "Friday"
+msgstr "П'ятниця"
+
+#. js-lingui-id: oQA+cA
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Full path"
+msgstr "Повний шлях"
+
+#. js-lingui-id: TkE8dW
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "handle"
+msgstr "важіль"
+
+#. js-lingui-id: Nf7oXL
+#: src/modules/messaging/common/standard-objects/message-participant.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-participant.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+#: src/modules/blocklist/standard-objects/blocklist.workspace-entity.ts
+#: src/modules/blocklist/standard-objects/blocklist.workspace-entity.ts
+msgid "Handle"
+msgstr "Важіль"
+
+#. js-lingui-id: GvgxWx
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "Handle Aliases"
+msgstr "Альтернативні важелі"
+
+#. js-lingui-id: VehAU2
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+msgid "Header message Id"
+msgstr "Ідентифікатор верхнього повідомлення"
+
+#. js-lingui-id: NNJnBi
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+msgid "iCal UID"
+msgstr "Ідентифікатор iCal"
+
+#. js-lingui-id: CiyiKN
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "ICP"
+msgstr "ІCP"
+
+#. js-lingui-id: dFb5Nt
+#: src/engine/twenty-orm/base.workspace-entity.ts
+#: src/engine/twenty-orm/base.workspace-entity.ts
+msgid "Id"
+msgstr "Ідентифікатор"
+
+#. js-lingui-id: Ebc83S
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Ideal Customer Profile:  Indicates whether the company is the most suitable and valuable customer for you"
+msgstr "Ідеальний портрет клієнта: Визначає чи є компанія найбільш підходящим і цінним клієнтом для вас"
+
+#. js-lingui-id: YcVn4w
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "If defined default value must contain at least one value"
+msgstr "Якщо задано значення за замовчуванням, воно повинно містити хоча б одне значення"
+
+#. js-lingui-id: Kfy/ML
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "Index already exists"
+msgstr "Індекс вже існує"
+
+#. js-lingui-id: EwXumf
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "Index field has an invalid reference"
+msgstr "Індексне поле має неприпустиме посилання"
+
+#. js-lingui-id: +hk7cY
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "Index field ID already exists in another index"
+msgstr "Ідентифікатор індексного поля вже існує в іншому індексі"
+
+#. js-lingui-id: ITue4V
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "Index field references incorrect index metadata"
+msgstr "Індексне поле посилається на неправильні метадані індексу"
+
+#. js-lingui-id: K1hWwv
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "Index must have at least one field"
+msgstr "Індекс повинен мати принаймні одне поле"
+
+#. js-lingui-id: Hl6cv2
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "Index related object not found"
+msgstr "Пов'язаний з індексом об'єкт не знайдено"
+
+#. js-lingui-id: fY2zUQ
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/builders/index/workspace-migration-v2-index-actions-builder.service.ts
+msgid "Index to delete not found"
+msgstr "Індекс для видалення не знайдено"
+
+#. js-lingui-id: qgBN4Y
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "Index with same id already exists"
+msgstr "Індекс з таким самим ідентифікатором вже існує"
+
+#. js-lingui-id: a+k+8J
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "Index with same name already exists"
+msgstr "Індекс з такою самою назвою вже існує"
+
+#. js-lingui-id: 71VJzG
+#: src/engine/metadata-modules/utils/validate-metadata-name-is-not-too-short.utils.ts
+msgid "Input is too short: \"{name}\""
+msgstr "Вхідний параметр надто короткий: \"{name}\""
+
+#. js-lingui-id: X7+bC6
+#: src/engine/core-modules/record-transformer/utils/transform-phones-value.util.ts
+msgid "Invalid calling code {callingCode}"
+msgstr "Недійсний код запиту {callingCode}"
+
+#. js-lingui-id: tG/2Q/
+#: src/engine/core-modules/captcha/captcha.guard.ts
+msgid "Invalid Captcha, please try another device"
+msgstr "Невірна капча, будь ласка, спробуйте інший пристрій"
+
+#. js-lingui-id: 1PtrY0
+#: src/engine/core-modules/record-transformer/utils/transform-phones-value.util.ts
+msgid "Invalid country code {countryCode}"
+msgstr "Недійсний код країни {countryCode}"
+
+#. js-lingui-id: AMeEDO
+#: src/engine/core-modules/imap-smtp-caldav-connection/services/imap-smtp-caldav-connection.service.ts
+msgid "Invalid credentials. Please check your username and password."
+msgstr "Недійсні облікові дані. Перевірте ваше ім'я користувача та пароль."
+
+#. js-lingui-id: 4EtFrA
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+msgid "Invalid day value. Should be integer greater than 1"
+msgstr "Недійсне значення дня. Повинен бути цілим числом більше 1"
+
+#. js-lingui-id: MBpeQ6
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+msgid "Invalid hour value. Should be integer between 0 and 23"
+msgstr "Недійсне значення години. Повинен бути цілим числом між 0 та 23"
+
+#. js-lingui-id: 9xsjn9
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+msgid "Invalid hour value. Should be integer greater than 1"
+msgstr "Недійсне значення години. Повинен бути цілим числом більше 1"
+
+#. js-lingui-id: FSunWx
+#: src/engine/metadata-modules/utils/compute-metadata-name-from-label.util.ts
+msgid "Invalid label: \"{label}\""
+msgstr "Недійсна мітка: \"{label}\""
+
+#. js-lingui-id: iBBCnf
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+msgid "Invalid minute value. Should be integer between 0 and 59"
+msgstr "Недійсне значення хвилин. Повинен бути цілим числом між 0 та 59"
+
+#. js-lingui-id: hYcFSd
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+msgid "Invalid minute value. Should be integer greater than 1"
+msgstr "Недійсне значення хвилин. Повинен бути цілим числом більше 1"
+
+#. js-lingui-id: sDfyvM
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-morph-relation-creation-payload.util.ts
+msgid "Invalid morph relation input"
+msgstr "Неправильне вхідне відношення морфу"
+
+#. js-lingui-id: VvhAS2
+#: src/engine/metadata-modules/object-metadata/utils/validate-object-metadata-input.util.ts
+msgid "Invalid object metadata input"
+msgstr "Недійсний вхідний об'єкт метаданих."
+
+#. js-lingui-id: AXZsy/
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-relation-creation-payload.util.ts
+msgid "Invalid relation creation payload"
+msgstr "Недійсний payload для створення зв'язку"
+
+#. js-lingui-id: ApP70c
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+msgid "Invalid setting type provided in cron trigger"
+msgstr "Надано недійсний тип налаштування у тригері cron"
+
+#. js-lingui-id: sHcAMD
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+msgid "Invalid trigger type for enabling workflow trigger"
+msgstr "Надано недійсний тип тригера для ввімкнення тригера робочого процесу"
+
+#. js-lingui-id: 1Iyic0
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-morph-or-relation-flat-field-metadata.util.ts
+msgid "Invalid uuid {id}"
+msgstr "Недійсний uuid {id}"
+
+#. js-lingui-id: VEKoJx
+#: src/engine/core-modules/two-factor-authentication/two-factor-authentication-exception.filter.ts
+msgid "Invalid verification code. Please try again."
+msgstr "Недійсний код підтвердження. Будь ласка, спробуйте ще раз."
+
+#. js-lingui-id: 8xkULN
+#: src/engine/metadata-modules/view-sort/exceptions/view-sort.exception.ts
+msgid "Invalid view sort data"
+msgstr "Неправильні дані для сортування виду"
+
+#. js-lingui-id: I0OzaR
+#: src/engine/metadata-modules/view-sort/exceptions/view-sort.exception.ts
+msgid "Invalid view sort data for view sort id: {id}"
+msgstr "Неправильні дані для сортування виду для id сортування: {id}"
+
+#. js-lingui-id: grHYXZ
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+msgid "Is canceled"
+msgstr "Скасовано"
+
+#. js-lingui-id: k+g9Uh
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+msgid "Is Contact Auto Creation Enabled"
+msgstr "Чи включено автоматичне створення контакту"
+
+#. js-lingui-id: uBx1xd
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+msgid "Is Full Day"
+msgstr "Чи цілий день"
+
+#. js-lingui-id: 3iAfL2
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+msgid "Is Organizer"
+msgstr "Чи є організатор"
+
+#. js-lingui-id: VrHWrH
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+msgid "Is Sent Folder"
+msgstr "Папка \"надіслані\""
+
+#. js-lingui-id: Mqzqb8
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+msgid "Is Sync Enabled"
+msgstr "Чи включено синхронізацію"
+
+#. js-lingui-id: BHCUSr
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+msgid "Is Synced"
+msgstr "Синхронізовано"
+
+#. js-lingui-id: rjyWPb
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "January"
+msgstr "Січень"
+
+#. js-lingui-id: 27z+FV
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Job Title"
+msgstr "Посада"
+
+#. js-lingui-id: PviVyk
+#: src/engine/core-modules/workspace-invitation/services/workspace-invitation.service.ts
+msgid "Join your team on Twenty"
+msgstr "Приєднуйтесь до своєї команди на Twenty"
+
+#. js-lingui-id: WNfJ8M
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "JSON object containing custom connection parameters"
+msgstr "JSON об'єкт, що містить спеціальні параметри підключення"
+
+#. js-lingui-id: AQuLwi
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "Json object to provide steps"
+msgstr "Json-об'єкт для надання кроків"
+
+#. js-lingui-id: fOjmZ1
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "Json object to provide trigger"
+msgstr "Json-об'єкт для надання тригера"
+
+#. js-lingui-id: TVc0/Q
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Json value for event details"
+msgstr "Json-значення для деталей події"
+
+#. js-lingui-id: u4ex5r
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "July"
+msgstr "Липень"
+
+#. js-lingui-id: zeEQd/
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "June"
+msgstr "Червень"
+
+#. js-lingui-id: ljUvzm
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-field-metadata-validator.service.ts
+msgid "Label identifier field cannot be deactivated"
+msgstr "Поле ідентифікатора мітки не можна деактивувати"
+
+#. js-lingui-id: ACUSmL
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/utils/validate-label-identifier-field-metadata-id-flat-view-field.util.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/utils/validate-label-identifier-field-metadata-id-flat-view-field.util.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+msgid "Label identifier view field cannot be deleted"
+msgstr "Поле перегляду ідентифікатора мітки не можна видалити"
+
+#. js-lingui-id: rI+dAx
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/utils/validate-label-identifier-field-metadata-id-flat-view-field.util.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/utils/validate-label-identifier-field-metadata-id-flat-view-field.util.ts
+msgid "Label identifier view field has to be in the lowest position"
+msgstr "Поле перегляду ідентифікатора мітки повинно бути на найнижчій позиції"
+
+#. js-lingui-id: PqTWJf
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/utils/validate-label-identifier-field-metadata-id-flat-view-field.util.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/utils/validate-label-identifier-field-metadata-id-flat-view-field.util.ts
+msgid "Label identifier view field has to be visible"
+msgstr "Поле перегляду ідентифікатора мітки повинно бути видимим"
+
+#. js-lingui-id: w8Rv8T
+#: src/engine/metadata-modules/utils/compute-metadata-name-from-label.util.ts
+msgid "Label is required"
+msgstr "Мітка обов'язкова"
+
+#. js-lingui-id: 4EGmy6
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "Label must not be empty"
+msgstr "Мітка не повинна бути порожньою"
+
+#. js-lingui-id: k731jp
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "Label must not contain a comma"
+msgstr "Мітка не повинна містити кому"
+
+#. js-lingui-id: vXIe7J
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Language"
+msgstr "Мова"
+
+#. js-lingui-id: WvYp6o
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "Last published Version Id"
+msgstr "Ідентифікатор останньої опублікованої версії"
+
+#. js-lingui-id: Y60/DC
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+msgid "Last sync cursor"
+msgstr "Останній курсор синхронізації"
+
+#. js-lingui-id: Zdx9Qq
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+msgid "Last sync date"
+msgstr "Дата останньої синхронізації"
+
+#. js-lingui-id: c7uqNg
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "Last sync history ID"
+msgstr "Ідентифікатор останньої історії синхронізації"
+
+#. js-lingui-id: tGwswq
+#: src/engine/twenty-orm/base.workspace-entity.ts
+msgid "Last time the record was changed"
+msgstr "Останній час зміни запису"
+
+#. js-lingui-id: o1zvNS
+#: src/engine/twenty-orm/base.workspace-entity.ts
+msgid "Last update"
+msgstr "Останнє оновлення"
+
+#. js-lingui-id: wR9USP
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Linked Object Metadata Id"
+msgstr "Ідентифікатор метаданих пов'язаного об'єкта"
+
+#. js-lingui-id: 6YiMr4
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Linked Record cached name"
+msgstr "Запам'ятоване ім'я пов'язаного запису"
+
+#. js-lingui-id: sgHAxx
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Linked Record id"
+msgstr "Ідентифікатор пов'язаного запису"
+
+#. js-lingui-id: uCA6be
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Linkedin"
+msgstr "LinkedIn"
+
+#. js-lingui-id: LeFv/R
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "List of opportunities for which that person is the point of contact"
+msgstr "Список можливостей, в яких ця особа є контактною особою"
+
+#. js-lingui-id: wJijgU
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+msgid "Location"
+msgstr "Місцезнаходження"
+
+#. js-lingui-id: hg6l4j
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "March"
+msgstr "Березень"
+
+#. js-lingui-id: hw7Mwk
+#: src/engine/api/common/common-query-runners/common-create-many-query-runner/common-create-many-query-runner.service.ts
+msgid "Maximum number of records to upsert is {QUERY_MAX_RECORDS}."
+msgstr ""
+
+#. js-lingui-id: 3JzsDb
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "May"
+msgstr "Травень"
+
+#. js-lingui-id: EnfPm2
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+msgid "Meet Link"
+msgstr "Посилання на зустріч"
+
+#. js-lingui-id: xDAtGP
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-participant.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-participant.workspace-entity.ts
+msgid "Message"
+msgstr "Повідомлення"
+
+#. js-lingui-id: g+QGD6
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+msgid "Message Channel"
+msgstr "Канал повідомлень"
+
+#. js-lingui-id: DzU4a3
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+msgid "Message Channel Association"
+msgstr "Зв’язок каналу повідомлень"
+
+#. js-lingui-id: wd/R++
+#: src/modules/messaging/common/standard-objects/message-channel-message-association.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel-message-association.workspace-entity.ts
+msgid "Message Channel Id"
+msgstr "Ідентифікатор каналу повідомлень"
+
+#. js-lingui-id: disipM
+#: src/modules/messaging/common/standard-objects/message-channel-message-association.workspace-entity.ts
+msgid "Message Channel Message Association"
+msgstr "Асоціація повідомлень каналу"
+
+#. js-lingui-id: ijQY3P
+#: src/modules/messaging/common/standard-objects/message-channel-message-association.workspace-entity.ts
+msgid "Message Channel Message Associations"
+msgstr "Асоціації повідомлень каналу"
+
+#. js-lingui-id: LOU3x5
+#: src/modules/messaging/message-channel-manager/query-hooks/message-channel-update-one.pre-query.hook.ts
+msgid "Message channel not found"
+msgstr ""
+
+#. js-lingui-id: k7LXPQ
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "Message Channels"
+msgstr "Канали повідомлень"
+
+#. js-lingui-id: /4uGJc
+#: src/modules/messaging/common/standard-objects/message-channel-message-association.workspace-entity.ts
+msgid "Message Direction"
+msgstr "Напрямок повідомлення"
+
+#. js-lingui-id: fBw8fQ
+#: src/modules/messaging/common/standard-objects/message-channel-message-association.workspace-entity.ts
+msgid "Message External Id"
+msgstr "Зовнішній ID Повідомлення"
+
+#. js-lingui-id: CStLnc
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+msgid "Message Folder"
+msgstr "Папка повідомлень"
+
+#. js-lingui-id: XCJIdB
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+msgid "Message folder import policy"
+msgstr "Політика імпорту папки повідомлень"
+
+#. js-lingui-id: p4ANpY
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+msgid "Message Folders"
+msgstr "Папки повідомлень"
+
+#. js-lingui-id: 6icznk
+#: src/modules/messaging/common/standard-objects/message-channel-message-association.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel-message-association.workspace-entity.ts
+msgid "Message Id"
+msgstr "Ідентифікатор повідомлення"
+
+#. js-lingui-id: 9FJSpK
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+msgid "Message id from the message header"
+msgstr "ID Повідомлення з Заголовка Повідомлення"
+
+#. js-lingui-id: yaC1Aq
+#: src/modules/messaging/common/standard-objects/message-channel-message-association.workspace-entity.ts
+msgid "Message id from the messaging provider"
+msgstr "ID Повідомлення від Провайдера Послуг Месенджингу"
+
+#. js-lingui-id: IUmVwu
+#: src/modules/messaging/common/standard-objects/message-participant.workspace-entity.ts
+msgid "Message Participant"
+msgstr "Учасник повідомлень"
+
+#. js-lingui-id: FhIFx7
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-participant.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-participant.workspace-entity.ts
+msgid "Message Participants"
+msgstr "Учасники повідомлень"
+
+#. js-lingui-id: IC5A8V
+#: src/modules/messaging/common/standard-objects/message-channel-message-association.workspace-entity.ts
+msgid "Message Synced with a Message Channel"
+msgstr "Повідомлення синхронізовано з каналом повідомлень"
+
+#. js-lingui-id: de2nM/
+#: src/modules/messaging/common/standard-objects/message-thread.workspace-entity.ts
+msgid "Message Thread"
+msgstr "Ланцюжок повідомлень"
+
+#. js-lingui-id: km1jgD
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+msgid "Message Thread Id"
+msgstr "Ідентифікатор ланцюжка повідомлень"
+
+#. js-lingui-id: RD0ecC
+#: src/modules/messaging/common/standard-objects/message-thread.workspace-entity.ts
+msgid "Message Threads"
+msgstr "Ланцюжки повідомлень"
+
+#. js-lingui-id: t7TeQU
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-thread.workspace-entity.ts
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. js-lingui-id: WoWdku
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+msgid "Messages from the channel."
+msgstr "Повідомлення з каналу."
+
+#. js-lingui-id: rYPBO7
+#: src/modules/messaging/common/standard-objects/message-thread.workspace-entity.ts
+msgid "Messages from the thread."
+msgstr "Повідомлення з ланцюжка."
+
+#. js-lingui-id: XcKQrV
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "Messaging provider access token"
+msgstr "Токен доступу провайдера послуг повідомлень"
+
+#. js-lingui-id: 80EvIk
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "Messaging provider refresh token"
+msgstr "Токен оновлення провайдера послуг повідомлень"
+
+#. js-lingui-id: SzCMUQ
+#: src/engine/twenty-orm/utils/compute-relation-connect-query-configs.util.ts
+msgid "Missing required fields: at least one unique constraint have to be fully populated for '{connectFieldName}'."
+msgstr "Не всі заповнено обов'язкові поля: принаймні одне унікальне обмеження має бути повністю заповнене для '{connectFieldName}'."
+
+#. js-lingui-id: hty0d5
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "Monday"
+msgstr "Понеділок"
+
+#. js-lingui-id: FqzlX4
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-morph-relation-creation-payload.util.ts
+msgid "Morph relation creation payloads must have the same relation type"
+msgstr "Під час створення відношення морфу всі відношення мають бути одного типу"
+
+#. js-lingui-id: nU54nm
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-morph-relation-creation-payload.util.ts
+msgid "Morph relation creation payloads must only contain relation to other object metadata"
+msgstr "Під час створення відношення морфу навантаження повинні містити відношення тільки до іншого об'єкта метаданих"
+
+#. js-lingui-id: Z/Awgf
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-morph-relation-creation-payload.util.ts
+msgid "Morph relation creation payloads must only contain relation to the same object metadata"
+msgstr "Під час створення відношення морфу всі відношення мають стосуватися одного об'єкта метаданих"
+
+#. js-lingui-id: DsdcRG
+#: src/engine/metadata-modules/flat-field-metadata/services/flat-field-metadata-type-validator.service.ts
+msgid "Morph relation fields are disabled for your workspace"
+msgstr "Морфополі зв'язку вимкнені для вашого робочого простору"
+
+#. js-lingui-id: Wu/pkS
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+msgid "Multi-select field default value must be an array"
+msgstr "Значення за замовчуванням для багатослівного поля має бути масивом"
+
+#. js-lingui-id: 6rLmLu
+#: src/engine/api/common/common-query-runners/common-create-many-query-runner/utils/get-matching-record-id.util.ts
+msgid "Multiple records found with the same unique field values for {conflictingFieldsValues}. Cannot determine which record to update."
+msgstr "Знайдено кілька записів із однаковими значеннями унікальних полів для {conflictingFieldsValues}. Неможливо визначити, який запис оновити."
+
+#. js-lingui-id: 6YtxFj
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+#: src/modules/favorite-folder/standard-objects/favorite-folder.workspace-entity.ts
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+msgid "Name"
+msgstr "Назва"
+
+#. js-lingui-id: aD053i
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-relation.service.ts
+msgid "Name \"{computedMetadataNameFromLabel}\" cannot be the same on both side of the relation"
+msgstr "Ім'я \"{computedMetadataNameFromLabel}\" не може бути однаковим з обох сторін відношення"
+
+#. js-lingui-id: Ge9TXE
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-flat-field-metadata-name-availability.util.ts
+msgid "Name \"{flatFieldMetadataName}\" is not available"
+msgstr "Ім'я \"{flatFieldMetadataName}\" недоступне"
+
+#. js-lingui-id: h8ic2G
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-flat-field-metadata-name-availability.util.ts
+msgid "Name \"{flatFieldMetadataName}\" is not available as it is already used by another field"
+msgstr "Ім'я \"{flatFieldMetadataName}\" недоступне, оскільки вже використовується іншим полем"
+
+#. js-lingui-id: Q2loDF
+#: src/engine/metadata-modules/object-metadata/services/object-metadata-field-relation.service.ts
+msgid "Name \"{name}\" is not available."
+msgstr "Ім'я \"{name}\" недоступне."
+
+#. js-lingui-id: RGz1nY
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-validation.service.ts
+msgid "Name is not available, it may be duplicating another field's name."
+msgstr "Назва недоступна, може дублювати назву іншого поля."
+
+#. js-lingui-id: Ny5wFU
+#: src/engine/metadata-modules/utils/constants/metadata-name-flat-metadata-validators.constants.ts
+msgid "Name is not valid: it must start with lowercase letter and contain only alphanumeric letters"
+msgstr "Ім'я недійсне: воно повинно починатися з маленької літери і містити тільки алфавітні та цифрові символи"
+
+#. js-lingui-id: zjh2SJ
+#: src/engine/metadata-modules/utils/constants/metadata-name-flat-metadata-validators.constants.ts
+msgid "Name is too long"
+msgstr "Ім'я надто довге"
+
+#. js-lingui-id: 0MobB1
+#: src/engine/metadata-modules/utils/validate-metadata-name-is-not-too-long.utils.ts
+msgid "Name is too long: it exceeds the 63 characters limit."
+msgstr "Назва занадто довга: перевищує обмеження у 63 символи."
+
+#. js-lingui-id: go/Vg1
+#: src/engine/metadata-modules/utils/constants/metadata-name-flat-metadata-validators.constants.ts
+msgid "Name is too short"
+msgstr "Ім'я надто коротке"
+
+#. js-lingui-id: EEVPOx
+#: src/modules/favorite-folder/standard-objects/favorite-folder.workspace-entity.ts
+msgid "Name of the favorite folder"
+msgstr "Назва улюбленої папки"
+
+#. js-lingui-id: csMjko
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "Name of the workflow run"
+msgstr "Назва запуску робочого процесу"
+
+#. js-lingui-id: P+jdmX
+#: src/engine/metadata-modules/utils/constants/metadata-name-flat-metadata-validators.constants.ts
+msgid "Name should be in camelCase"
+msgstr "Ім'я повинно бути у camelCase"
+
+#. js-lingui-id: Dr0xtb
+#: src/engine/metadata-modules/flat-object-metadata/validators/utils/validate-flat-object-metadata-name-and-labels.util.ts
+#: src/engine/metadata-modules/flat-object-metadata/validators/utils/validate-flat-object-metadata-name-and-labels.util.ts
+msgid "Names are not synced with labels"
+msgstr "Імена не синхронізовані з мітками"
+
+#. js-lingui-id: hQQZse
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+msgid "No event name provided in database event trigger"
+msgstr "Не вказано назву заходу в тригері події бази даних"
+
+#. js-lingui-id: 9bu19u
+#: src/modules/workflow/workflow-trigger/utils/assert-form-step-is-valid.util.ts
+msgid "No input provided in form step"
+msgstr "Не вказано введення у кроці форми"
+
+#. js-lingui-id: MWAUHo
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+msgid "No pattern provided in CUSTOM cron trigger"
+msgstr "Не вказано шаблон у кастомному тригері cron"
+
+#. js-lingui-id: 2iURlq
+#: src/engine/metadata-modules/object-permission/field-permission/field-permission.service.ts
+msgid "No permissions are set for this role on the selected object. Please set object permissions first."
+msgstr "Для цієї ролі на вибраному об'єкті не налаштовані дозволи. Спочатку налаштуйте дозволи об'єкта."
+
+#. js-lingui-id: pOu4u/
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+msgid "No schedule provided in cron trigger"
+msgstr "Не вказано розклад у тригері cron"
+
+#. js-lingui-id: cLUBlS
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+msgid "No setting type provided in cron trigger"
+msgstr "Не вказано тип налаштувань у тригері cron"
+
+#. js-lingui-id: QwbSxD
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+msgid "No steps provided in workflow version"
+msgstr "У версії робочого процесу не вказано кроки"
+
+#. js-lingui-id: 6dP8sB
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+msgid "No trigger type provided"
+msgstr "Тип тригера не надано"
+
+#. js-lingui-id: /BipSk
+#: src/engine/metadata-modules/permissions/utils/permission-graphql-api-exception-handler.util.ts
+msgid "No valid authentication context found."
+msgstr "Не знайдено дійсного контексту автентифікації."
+
+#. js-lingui-id: KiJn9B
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+#: src/modules/note/standard-objects/note-target.workspace-entity.ts
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Note"
+msgstr "Примітка"
+
+#. js-lingui-id: GGlkb7
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+msgid "Note attachments"
+msgstr "Вкладення примітки"
+
+#. js-lingui-id: Q1Rz+6
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+msgid "Note body"
+msgstr "Текст нотатки"
+
+#. js-lingui-id: Yp057F
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+msgid "Note record position"
+msgstr "Позиція запису нотатки"
+
+#. js-lingui-id: spaO7l
+#: src/modules/note/standard-objects/note-target.workspace-entity.ts
+msgid "Note Target"
+msgstr "Ціль нотатки"
+
+#. js-lingui-id: mkchvJ
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+msgid "Note targets"
+msgstr "Цілі нотаток"
+
+#. js-lingui-id: tD4BxK
+#: src/modules/note/standard-objects/note-target.workspace-entity.ts
+msgid "Note Targets"
+msgstr "Цілі нотаток"
+
+#. js-lingui-id: jDThel
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+msgid "Note title"
+msgstr "Заголовок нотатки"
+
+#. js-lingui-id: 1DBGsz
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+msgid "Notes"
+msgstr "Нотатки"
+
+#. js-lingui-id: Ne73P/
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+msgid "Notes tied to the {label}"
+msgstr "Нотатки пов'язані з {label}"
+
+#. js-lingui-id: fXBE74
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Notes tied to the company"
+msgstr "Нотатки пов'язані з компанією"
+
+#. js-lingui-id: iQ5AH6
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Notes tied to the contact"
+msgstr "Нотатки, пов'язані з контактом"
+
+#. js-lingui-id: 0bi/Eh
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Notes tied to the opportunity"
+msgstr "Нотатки пов'язані з можливістю"
+
+#. js-lingui-id: B2Y6QU
+#: src/modules/note/standard-objects/note-target.workspace-entity.ts
+msgid "NoteTarget company"
+msgstr "NoteTarget компанія"
+
+#. js-lingui-id: /mH0jo
+#: src/modules/note/standard-objects/note-target.workspace-entity.ts
+msgid "NoteTarget note"
+msgstr "NoteTarget нотатка"
+
+#. js-lingui-id: DTs4tO
+#: src/modules/note/standard-objects/note-target.workspace-entity.ts
+msgid "NoteTarget opportunity"
+msgstr "NoteTarget можливість"
+
+#. js-lingui-id: gBwbnk
+#: src/modules/note/standard-objects/note-target.workspace-entity.ts
+msgid "NoteTarget person"
+msgstr "NoteTarget особа"
+
+#. js-lingui-id: t9QlBd
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "November"
+msgstr "Листопад"
+
+#. js-lingui-id: bR2sEm
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Number format"
+msgstr "Формат числа"
+
+#. js-lingui-id: ioJFzx
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Number of employees in the company"
+msgstr "Кількість працівників у компанії"
+
+#. js-lingui-id: ECRKYR
+#: src/engine/metadata-modules/utils/validate-no-other-object-with-same-name-exists-or-throw.util.ts
+#: src/engine/metadata-modules/flat-object-metadata/validators/utils/validate-flat-object-metadata-name-and-labels.util.ts
+msgid "Object already exists"
+msgstr "Об'єкт вже існує"
+
+#. js-lingui-id: wLX74t
+#: src/engine/metadata-modules/flat-object-metadata/validators/utils/validate-flat-object-metadata-label.util.ts
+msgid "Object label is too long"
+msgstr "Позначка об'єкта надто довга"
+
+#. js-lingui-id: nmhjwk
+#: src/engine/metadata-modules/flat-object-metadata/validators/utils/validate-flat-object-metadata-label.util.ts
+msgid "Object label is too short"
+msgstr "Позначка об'єкта надто коротка"
+
+#. js-lingui-id: xrblgA
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-validator.service.ts
+msgid "Object metadata not found"
+msgstr "Метадані об'єкта не знайдено"
+
+#. js-lingui-id: E8vJ0A
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-field-metadata-validator.service.ts
+msgid "Object related to field to update not found"
+msgstr "Об'єкт, пов'язаний з полем для оновлення, не знайдено"
+
+#. js-lingui-id: MnOwTp
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-field-metadata-validator.service.ts
+msgid "Object related to updated field does not have a label identifier"
+msgstr "Об'єкт, пов'язаний з оновленим полем, не має мітки ідентифікатора"
+
+#. js-lingui-id: 6unt40
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-relation-creation-payload.util.ts
+msgid "Object targeted by field to create not found"
+msgstr "Об'єкт, на який спрямоване створене поле, не знайдено"
+
+#. js-lingui-id: KHK54G
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-morph-or-relation-flat-field-metadata.util.ts
+msgid "Object targeted by the relation not found"
+msgstr "Об'єкт, на який спрямовано зв'язок, не знайдено"
+
+#. js-lingui-id: bMeJkW
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-object-metadata-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-object-metadata-validator.service.ts
+msgid "Object to delete not found"
+msgstr "Об'єкт для видалення не знайдено"
+
+#. js-lingui-id: pQ5dZU
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-object-metadata-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-object-metadata-validator.service.ts
+msgid "Object to update not found"
+msgstr "Об'єкт для оновлення не знайдено"
+
+#. js-lingui-id: cdjRFZ
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-object-metadata-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-object-metadata-validator.service.ts
+msgid "Object with same id already exists"
+msgstr "Об'єкт з таким самим ідентифікатором вже існує"
+
+#. js-lingui-id: 53pIyA
+#: src/engine/metadata-modules/view/exceptions/view.exception.ts
+msgid "ObjectMetadataId is required to create a view."
+msgstr "ObjectMetadataId потрібний для створення перегляду."
+
+#. js-lingui-id: dzQfDY
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "October"
+msgstr "Жовтень"
+
+#. js-lingui-id: eWQQpx
+#: src/engine/metadata-modules/object-permission/object-permission.service.ts
+msgid "One or more objects you are trying to set permissions for could not be found. They may have been deleted."
+msgstr "Один або кілька об'єктів, для яких ви намагаєтесь встановити дозволи, не були знайдені. Вони могли бути видалені."
+
+#. js-lingui-id: 4MyDFl
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Opportunities"
+msgstr "Можливості"
+
+#. js-lingui-id: 5QgKbT
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Opportunities linked to the company."
+msgstr "Можливості пов'язані з компанією."
+
+#. js-lingui-id: SV/iis
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+#: src/modules/task/standard-objects/task-target.workspace-entity.ts
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+#: src/modules/note/standard-objects/note-target.workspace-entity.ts
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Opportunity"
+msgstr "Можливість"
+
+#. js-lingui-id: WnMlKn
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Opportunity amount"
+msgstr "Сума можливості"
+
+#. js-lingui-id: aj3fnv
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Opportunity close date"
+msgstr "Дата закриття можливості"
+
+#. js-lingui-id: 3NYczb
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Opportunity company"
+msgstr "Компанія можливості"
+
+#. js-lingui-id: as45IN
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Opportunity point of contact"
+msgstr "Контактна особа можливості"
+
+#. js-lingui-id: 5Nu7Uw
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Opportunity probability"
+msgstr "Ймовірність можливості"
+
+#. js-lingui-id: Q1dzBp
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Opportunity record position"
+msgstr "Позиція запису можливості"
+
+#. js-lingui-id: 5ugYS3
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Opportunity stage"
+msgstr "Стадія можливості"
+
+#. js-lingui-id: 2mFkfl
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "Option id is invalid"
+msgstr "Идентифікатор опції недійсний"
+
+#. js-lingui-id: MniXaX
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "Option id is required"
+msgstr "Ідентифікатор опції є обов'язковим"
+
+#. js-lingui-id: //eyK1
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "Option label \"{sanitizedLabel}\" is beneath 1 character"
+msgstr "Мітка опції \"{sanitizedLabel}\" містить менше 1 символу"
+
+#. js-lingui-id: mTFS0z
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "Option label exceeds 63 characters"
+msgstr "Мітка опції перевищує 63 символи"
+
+#. js-lingui-id: h8lHqX
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+msgid "Option label format not supported"
+msgstr "Формат мітки опції не підтримується"
+
+#. js-lingui-id: +E9N4m
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "Option label is required"
+msgstr "Мітка опції є обов'язковою"
+
+#. js-lingui-id: dFudyC
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+msgid "Option label must be a string of at least one character"
+msgstr "Мітка опції має бути рядком, довжиною щонайменше один символ"
+
+#. js-lingui-id: nQqNzE
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "Option value \"{sanitizedValue}\" is beneath 1 character"
+msgstr "Значення опції \"{sanitizedValue}\" містить менше 1 символу"
+
+#. js-lingui-id: 5m/1Hh
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "Option value exceeds 63 characters"
+msgstr "Значення опції перевищує 63 символи"
+
+#. js-lingui-id: zEGChV
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+msgid "Option value format not supported"
+msgstr "Формат значення опції не підтримується"
+
+#. js-lingui-id: /wsRPd
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "Option value is required"
+msgstr "Значення опції є обов'язковим"
+
+#. js-lingui-id: Kub9t0
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+msgid "Option value must be a string of at least one character"
+msgstr "Значення опції має бути рядком, довжиною щонайменше один символ"
+
+#. js-lingui-id: EabrTR
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+msgid "Options are required for enum fields"
+msgstr "Опції необхідні для полів з енумерацією"
+
+#. js-lingui-id: AODALE
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+msgid "Page Layout ID"
+msgstr "Ідентифікатор макета сторінки"
+
+#. js-lingui-id: wT0H4O
+#: src/engine/core-modules/auth/services/sign-in-up.service.ts
+msgid "Password too weak"
+msgstr "Пароль надто слабкий"
+
+#. js-lingui-id: l6qKfi
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+msgid "Pending action for folder sync"
+msgstr ""
+
+#. js-lingui-id: ttZgHv
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+msgid "Pending action for group emails"
+msgstr ""
+
+#. js-lingui-id: 5aGQev
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+msgid "Pending group emails action"
+msgstr ""
+
+#. js-lingui-id: 6jM9pB
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+msgid "Pending Sync Action"
+msgstr ""
+
+#. js-lingui-id: 1wdjme
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "People"
+msgstr "Особи"
+
+#. js-lingui-id: E1zc7W
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "People linked to the company."
+msgstr "Особи пов'язані з компанією."
+
+#. js-lingui-id: OZdaTZ
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+#: src/modules/task/standard-objects/task-target.workspace-entity.ts
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/note/standard-objects/note-target.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-participant.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-participant.workspace-entity.ts
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Person"
+msgstr "Особа"
+
+#. js-lingui-id: c3Qq6o
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Person record Position"
+msgstr "Позиція запису особи"
+
+#. js-lingui-id: zmwvG2
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Phone"
+msgstr "Телефон"
+
+#. js-lingui-id: m2ivgq
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Phones"
+msgstr "Телефони"
+
+#. js-lingui-id: rxi3R2
+#: src/engine/core-modules/imap-smtp-caldav-connection/services/imap-smtp-caldav-connection-validator.service.ts
+msgid "Please check your connection settings. Make sure the server host, port, and password are correct."
+msgstr "Перевірте налаштування з'єднання. Переконайтеся, що серверний хост, порт та пароль введені правильно."
+
+#. js-lingui-id: v0iiWr
+#: src/engine/core-modules/webhook/webhook.service.ts
+#: src/engine/core-modules/webhook/webhook.service.ts
+msgid "Please provide a valid HTTP or HTTPS URL."
+msgstr "Надайте дійсну URL-адресу HTTP або HTTPS."
+
+#. js-lingui-id: RDvKTq
+#: src/engine/core-modules/imap-smtp-caldav-connection/services/imap-smtp-caldav-connection-validator.service.ts
+msgid "Please provide connection details to configure your email account."
+msgstr "Надайте деталі підключення для налаштування вашого електронного поштового облікового запису."
+
+#. js-lingui-id: 0ldKS0
+#: src/engine/core-modules/imap-smtp-caldav-connection/services/imap-smtp-caldav-connection.service.ts
+msgid "Please select a valid connection type (IMAP, SMTP, or CalDAV) and try again."
+msgstr "Оберіть дійсний тип з'єднання (IMAP, SMTP або CalDAV) і спробуйте знову."
+
+#. js-lingui-id: P04j61
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Point of Contact"
+msgstr "Контактна особа"
+
+#. js-lingui-id: p/78dY
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+#: src/modules/favorite-folder/standard-objects/favorite-folder.workspace-entity.ts
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+msgid "Position"
+msgstr "Позиція"
+
+#. js-lingui-id: TTHIbk
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Preferred color scheme"
+msgstr "Переважна колірна схема"
+
+#. js-lingui-id: 5v4qYi
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Preferred language"
+msgstr "Переважна мова"
+
+#. js-lingui-id: WJIL29
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Probability"
+msgstr "Ймовірність"
+
+#. js-lingui-id: dtGxRz
+#: src/engine/core-modules/record-transformer/utils/transform-phones-value.util.ts
+msgid "Provided and inferred calling code are conflicting"
+msgstr "Наданий і отриманий код запиту суперечать"
+
+#. js-lingui-id: Vq/afT
+#: src/engine/core-modules/record-transformer/utils/transform-phones-value.util.ts
+msgid "Provided and inferred country code are conflicting"
+msgstr "Наданий і отриманий код країни суперечать"
+
+#. js-lingui-id: HZ45ox
+#: src/engine/core-modules/record-transformer/utils/transform-phones-value.util.ts
+msgid "Provided country code and calling code are conflicting"
+msgstr "Наданий код країни і код виклику суперечать"
+
+#. js-lingui-id: A4Ohxb
+#: src/engine/core-modules/record-transformer/utils/transform-phones-value.util.ts
+msgid "Provided phone number is invalid {number}"
+msgstr "Надан номер телефону недійсний {number}"
+
+#. js-lingui-id: CrfRPa
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "provider"
+msgstr "провайдер"
+
+#. js-lingui-id: OL88cI
+#: src/engine/core-modules/public-domain/public-domain.service.ts
+msgid "Public domain already registered"
+msgstr "Публічний домен вже зареєстровано"
+
+#. js-lingui-id: Capzni
+#: src/engine/core-modules/dns-manager/services/dns-manager.service.ts
+msgid "Public domain URL is not defined. Please set the PUBLIC_DOMAIN_URL environment variable"
+msgstr "Публічний домен URL не визначено. Установіть змінну середовища PUBLIC_DOMAIN_URL."
+
+#. js-lingui-id: YfbwOB
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+msgid "Received At"
+msgstr "Отримано в"
+
+#. js-lingui-id: x93onj
+#: src/engine/metadata-modules/view-field/services/view-field.service.ts
+#: src/engine/metadata-modules/view-field/services/view-field.service.ts
+msgid "Record text must be in first position of the view."
+msgstr "Текст запису повинен бути на першій позиції у вигляді."
+
+#. js-lingui-id: KGmwY/
+#: src/engine/metadata-modules/view-field/services/view-field.service.ts
+msgid "Record text must stay visible."
+msgstr "Текст запису повинен залишатися видимим."
+
+#. js-lingui-id: 9gXJw8
+#: src/modules/calendar/common/standard-objects/calendar-channel-event-association.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel-event-association.workspace-entity.ts
+msgid "Recurring Event ID"
+msgstr "Ідентифікатор повторюваної події"
+
+#. js-lingui-id: 2rvMKg
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "Refresh Token"
+msgstr "Токен оновлення"
+
+#. js-lingui-id: 2LpFdR
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Related user email address"
+msgstr "Електронна адреса пов'язаного користувача"
+
+#. js-lingui-id: +bFtT5
+#: src/engine/metadata-modules/flat-field-metadata/utils/from-relation-create-field-input-to-flat-field-metadatas.util.ts
+#: src/engine/metadata-modules/flat-field-metadata/utils/from-morph-relation-create-field-input-to-flat-field-metadatas.util.ts
+msgid "Relation creation payload is required"
+msgstr "Payload для створення зв'язку є обов'язковим"
+
+#. js-lingui-id: 5y41wK
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-morph-or-relation-flat-field-metadata.util.ts
+msgid "Relation field target metadata not found"
+msgstr "Метадані цільового поля зв'язку не знайдено"
+
+#. js-lingui-id: g87L9j
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+msgid "Relations"
+msgstr "Відносини"
+
+#. js-lingui-id: PWdFkY
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-field-metadata-validator.service.ts
+msgid "Remote objects are not production ready yet"
+msgstr "Віддалені об'єкти ще не готові до використання"
+
+#. js-lingui-id: yVxtzR
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-object-metadata-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-object-metadata-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-object-metadata-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-object-metadata-validator.service.ts
+msgid "Remote objects are not supported yet"
+msgstr "Віддалені об'єкти ще не підтримуються"
+
+#. js-lingui-id: pCsIQQ
+#: src/engine/core-modules/email-verification/email-verification-exception-filter.util.ts
+msgid "Request has expired, please try again."
+msgstr "Запит закінчився, спробуйте ще раз."
+
+#. js-lingui-id: rnCndp
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+msgid "Response Status"
+msgstr "Статус відповіді"
+
+#. js-lingui-id: GDvlUT
+#: src/modules/messaging/common/standard-objects/message-participant.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-participant.workspace-entity.ts
+msgid "Role"
+msgstr "Роль"
+
+#. js-lingui-id: MFW30/
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-route-trigger-validator.service.ts
+msgid "Route already exists"
+msgstr "Маршрут вже існує"
+
+#. js-lingui-id: ldQZkA
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-route-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-route-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-route-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-route-trigger-validator.service.ts
+msgid "Route not found"
+msgstr "Маршрут не знайдено"
+
+#. js-lingui-id: NCQS+K
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-route-trigger-validator.service.ts
+msgid "Route path already exists"
+msgstr "Шлях маршруту вже існує"
+
+#. js-lingui-id: v5H7VS
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-route-trigger-validator.service.ts
+msgid "Route with same id already exists"
+msgstr "Маршрут з таким самим ідентифікатором вже існує"
+
+#. js-lingui-id: c10Yre
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-route-trigger-validator.service.ts
+msgid "Route with same path already exists"
+msgstr "Маршрут з таким самим шляхом вже існує"
+
+#. js-lingui-id: Tpm2G9
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "Runs"
+msgstr "Запуски"
+
+#. js-lingui-id: +5kO8P
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "Saturday"
+msgstr "Субота"
+
+#. js-lingui-id: N/rFzD
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "Scopes"
+msgstr "Області дозволів"
+
+#. js-lingui-id: PdVIJC
+#: src/engine/metadata-modules/constants/search-vector-field.constants.ts
+msgid "Search vector"
+msgstr "Вектор пошуку"
+
+#. js-lingui-id: hgvbYY
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "September"
+msgstr "Вересень"
+
+#. js-lingui-id: F3+i2a
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-serverless-function-validator.service.ts
+msgid "Serverless function already exists"
+msgstr "Функція без сервера вже існує"
+
+#. js-lingui-id: MSgd2w
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-serverless-function-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-serverless-function-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-serverless-function-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-serverless-function-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-route-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-route-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-route-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-route-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-database-event-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-database-event-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-database-event-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-database-event-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-cron-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-cron-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-cron-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-cron-trigger-validator.service.ts
+msgid "Serverless function not found"
+msgstr "Функцію без сервера не знайдено"
+
+#. js-lingui-id: jNhvmj
+#: src/engine/metadata-modules/serverless-function/utils/from-update-serverless-function-input-to-flat-serverless-function-to-update-or-throw.util.ts
+msgid "Serverless function to update not found"
+msgstr "Функцію без сервера для оновлення не знайдено"
+
+#. js-lingui-id: zoBkIJ
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-serverless-function-validator.service.ts
+msgid "Serverless function with same id already exists"
+msgstr "Функція без сервера з таким самим ідентифікатором вже існує"
+
+#. js-lingui-id: Tz0i8g
+#: src/modules/workflow/common/standard-objects/workflow-automated-trigger.workspace-entity.ts
+msgid "Settings"
+msgstr "Налаштування"
+
+#. js-lingui-id: RyE+Of
+#: src/engine/metadata-modules/role/role.service.ts
+msgid "Some of the information provided is invalid. Please check your input and try again."
+msgstr "Деяка інформація, надана вами, недійсна. Перевірте ваші дані і спробуйте знову."
+
+#. js-lingui-id: 01Sxb6
+#: src/engine/metadata-modules/permission-flag/permission-flag.service.ts
+msgid "Some of the permissions you selected are not valid. Please try again with valid permission settings."
+msgstr "Деякі з вибраних вами дозволів недійсні. Спробуйте знову з дійсними налаштуваннями дозволів."
+
+#. js-lingui-id: 3PRxO3
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Stage"
+msgstr "Стадія"
+
+#. js-lingui-id: dc5N0o
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-field-metadata-validator.service.ts
+msgid "Standard fields cannot be deleted"
+msgstr "Стандартні поля неможливо видалити"
+
+#. js-lingui-id: Ptv+nG
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-object-metadata-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-object-metadata-validator.service.ts
+msgid "Standard objects cannot be deleted"
+msgstr "Стандартні об'єкти не можуть бути видалені"
+
+#. js-lingui-id: D3iCkb
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+msgid "Start Date"
+msgstr "Дата початку"
+
+#. js-lingui-id: amGzX5
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Start of the week"
+msgstr "Початок тижня"
+
+#. js-lingui-id: RS0o7b
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "State"
+msgstr "Стан"
+
+#. js-lingui-id: nY8GL/
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "State of the workflow run"
+msgstr "Стан запуску робочого процесу"
+
+#. js-lingui-id: uAQUqI
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+msgid "Status"
+msgstr "Статус"
+
+#. js-lingui-id: Db4W3/
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "Statuses"
+msgstr "Статуси"
+
+#. js-lingui-id: S7DRR+
+#: src/modules/workflow/common/utils/assert-workflow-statuses-not-set.ts
+msgid "Statuses cannot be set manually."
+msgstr "Статуси не можуть бути встановлені вручну."
+
+#. js-lingui-id: u+rv4L
+#: src/modules/workflow/workflow-runner/workspace-services/workflow-runner.workspace-service.ts
+msgid "Step is not a form"
+msgstr "Крок не є формою"
+
+#. js-lingui-id: YFMPch
+#: src/engine/metadata-modules/utils/validate-metadata-name-start-with-lowercase-letter-and-contain-digits-nor-letters.utils.ts
+msgid "String \"{name}\" is not valid: must start with lowercase letter and contain only alphanumeric letters"
+msgstr "Рядок \"{name}\" недійсний: повинен починатися з малої літери та містити лише алфавітні та цифрові літери"
+
+#. js-lingui-id: UJmAAK
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+msgid "Subject"
+msgstr "Тема"
+
+#. js-lingui-id: DBC3t5
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "Sunday"
+msgstr "Неділя"
+
+#. js-lingui-id: VuvnTL
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+msgid "Sync all folders"
+msgstr ""
+
+#. js-lingui-id: 9PsZjo
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+msgid "Sync all folders including new ones"
+msgstr ""
+
+#. js-lingui-id: oyJYg7
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+msgid "Sync Cursor"
+msgstr "Курсор синхронізації"
+
+#. js-lingui-id: awvBUx
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+msgid "Sync Cursor. Used for syncing events from the calendar provider"
+msgstr "Курсор синхронізації. Використовується для синхронізації подій від провайдера календаря"
+
+#. js-lingui-id: dNAbG6
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+msgid "Sync stage"
+msgstr "Етап синхронізації"
+
+#. js-lingui-id: aqNjQE
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+msgid "Sync stage started at"
+msgstr "Початок етапу синхронізації о"
+
+#. js-lingui-id: bRUdLR
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+msgid "Sync status"
+msgstr "Статус синхронізації"
+
+#. js-lingui-id: 5y3Wbw
+#: src/engine/twenty-orm/utils/compute-relation-connect-query-configs.util.ts
+msgid "Target object metadata not found for {connectFieldName}"
+msgstr "Метадані об'єкта призначення не знайдено для {connectFieldName}"
+
+#. js-lingui-id: Q3P/4s
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+#: src/modules/task/standard-objects/task-target.workspace-entity.ts
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Task"
+msgstr "Завдання"
+
+#. js-lingui-id: kS+Ym6
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+msgid "Task assignee"
+msgstr "Виконавець завдання"
+
+#. js-lingui-id: 7fYQ6E
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+msgid "Task attachments"
+msgstr "Додатки до завдання"
+
+#. js-lingui-id: X8fs74
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+msgid "Task body"
+msgstr "Опис завдання"
+
+#. js-lingui-id: EPxYHS
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+msgid "Task due date"
+msgstr "Термін виконання завдання"
+
+#. js-lingui-id: fUw1j+
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+msgid "Task record position"
+msgstr "Позиція запису завдання"
+
+#. js-lingui-id: I6+0ph
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+msgid "Task status"
+msgstr "Статус завдання"
+
+#. js-lingui-id: WSiiWf
+#: src/modules/task/standard-objects/task-target.workspace-entity.ts
+msgid "Task Target"
+msgstr "Мета завдання"
+
+#. js-lingui-id: khGQLP
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+msgid "Task targets"
+msgstr "Мети завдання"
+
+#. js-lingui-id: 836FiO
+#: src/modules/task/standard-objects/task-target.workspace-entity.ts
+msgid "Task Targets"
+msgstr "Мети завдань"
+
+#. js-lingui-id: R+s8S+
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+msgid "Task title"
+msgstr "Назва завдання"
+
+#. js-lingui-id: GtycJ/
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+msgid "Tasks"
+msgstr "Завдання"
+
+#. js-lingui-id: HlDeG3
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Tasks assigned to the workspace member"
+msgstr "Завдання, призначені члену робочого простору"
+
+#. js-lingui-id: Ca/n4T
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+msgid "Tasks tied to the {label}"
+msgstr "Завдання пов’язані з \"{label}\""
+
+#. js-lingui-id: M4rBti
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Tasks tied to the company"
+msgstr "Завдання, пов’язані з компанією"
+
+#. js-lingui-id: /VaiDW
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Tasks tied to the contact"
+msgstr "Завдання, пов’язані з контактом"
+
+#. js-lingui-id: 1TfX9U
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Tasks tied to the opportunity"
+msgstr "Завдання, пов’язані з можливістю"
+
+#. js-lingui-id: pP0Dt9
+#: src/modules/task/standard-objects/task-target.workspace-entity.ts
+msgid "TaskTarget company"
+msgstr "Компанія-мета завдання"
+
+#. js-lingui-id: UJ2aPi
+#: src/modules/task/standard-objects/task-target.workspace-entity.ts
+msgid "TaskTarget opportunity"
+msgstr "Можливість-мета завдання"
+
+#. js-lingui-id: I1MiSs
+#: src/modules/task/standard-objects/task-target.workspace-entity.ts
+msgid "TaskTarget person"
+msgstr "Особа-мета завдання"
+
+#. js-lingui-id: pciKLT
+#: src/modules/task/standard-objects/task-target.workspace-entity.ts
+msgid "TaskTarget task"
+msgstr "Завдання-мета завдання"
+
+#. js-lingui-id: xeiujy
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+msgid "Text"
+msgstr "Текст"
+
+#. js-lingui-id: 6PJbR2
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "The account handle (email, username, phone number, etc.)"
+msgstr "Ідентифікатор облікового запису (електронна пошта, ім'я користувача, номер телефону тощо)"
+
+#. js-lingui-id: zUXOAB
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "The account provider"
+msgstr "Провайдер облікового запису"
+
+#. js-lingui-id: eC8p5b
+#: src/engine/metadata-modules/permissions/permissions.service.ts
+msgid "The API key does not have a valid role assigned. Please check your API key configuration."
+msgstr "Ключ API не має відповідної ролі. Перевірте налаштування вашого ключа API."
+
+#. js-lingui-id: qnNFrW
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "The company Linkedin account"
+msgstr "Обліковий запис Linkedin компанії"
+
+#. js-lingui-id: N31Pso
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "The company name"
+msgstr "Назва компанії"
+
+#. js-lingui-id: BHFCqB
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "The company Twitter/X account"
+msgstr "Обліковий запис Twitter/X компанії"
+
+#. js-lingui-id: OBmU0K
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "The company website URL. We use this url to fetch the company icon"
+msgstr "URL-адреса веб-сайту компанії. Ми використовуємо цю адресу для отримання іконки компанії"
+
+#. js-lingui-id: zGBDEH
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+msgid "The creator of the record"
+msgstr "Творець запису"
+
+#. js-lingui-id: bMyVOx
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "The current statuses of the workflow versions"
+msgstr "Поточні статуси версій робочих процесів"
+
+#. js-lingui-id: 0bo4Q0
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+msgid "The date the message was received"
+msgstr "Дата отримання повідомлення"
+
+#. js-lingui-id: nCXfEw
+#: src/engine/metadata-modules/role/role.service.ts
+msgid "The default role cannot be deleted as it is required for the workspace to function properly."
+msgstr "Роль за замовчуванням не може бути видалена, бо необхідна для правильного функціонування робочого простору."
+
+#. js-lingui-id: 6BBrjb
+#: src/engine/metadata-modules/role/role.service.ts
+msgid "The default role for this workspace could not be found. Please contact support for assistance."
+msgstr "Роль за замовчуванням для цього робочого місця не знайдено. Будь ласка, зв'яжіться з підтримкою для отримання допомоги."
+
+#. js-lingui-id: 8h4mhq
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "The executor of the workflow"
+msgstr "Виконавець робочого процесу"
+
+#. js-lingui-id: LdhPiK
+#: src/engine/metadata-modules/object-permission/field-permission/field-permission.service.ts
+msgid "The field you are trying to set permissions for could not be found. It may have been deleted."
+msgstr "Поле, для якого ви намагаєтеся встановити дозволи, не знайдено. Воно могло бути видалено."
+
+#. js-lingui-id: W3raza
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "The folder this favorite belongs to"
+msgstr "Папка, до якої належить цей вибраний запис"
+
+#. js-lingui-id: EJUSll
+#: src/modules/workflow/common/workspace-services/workflow-version-validation.workspace-service.ts
+msgid "The initial version of a workflow can not be deleted"
+msgstr "Первісна версія робочого процесу не може бути видалена"
+
+#. js-lingui-id: YTftFF
+#: src/engine/metadata-modules/utils/constants/metadata-name-flat-metadata-validators.constants.ts
+msgid "The name is not available"
+msgstr "Це ім'я недоступне"
+
+#. js-lingui-id: hx2IZ4
+#: src/engine/metadata-modules/object-permission/object-permission.service.ts
+#: src/engine/metadata-modules/object-permission/field-permission/field-permission.service.ts
+msgid "The object you are trying to set permissions for could not be found. It may have been deleted."
+msgstr "Об'єкт, для якого ви намагаєтеся встановити дозволи, не знайдено. Він міг бути видалений."
+
+#. js-lingui-id: DbWmKZ
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "The opportunity name"
+msgstr "\\"
+
+#. js-lingui-id: Zi9X+u
+#: src/engine/metadata-modules/role/role.service.ts
+msgid "The role you are looking for could not be found. It may have been deleted or you may not have access to it."
+msgstr "Шукану роль не знайдено. Вона могла бути видалена або у вас може не бути доступу до неї."
+
+#. js-lingui-id: 5h4Nxe
+#: src/engine/metadata-modules/user-role/user-role.service.ts
+msgid "The role you are trying to assign could not be found. It may have been deleted."
+msgstr "Роль, яку ви намагаєтеся призначити, не знайдено. Вона могла бути видалена."
+
+#. js-lingui-id: HRcugS
+#: src/engine/metadata-modules/permission-flag/permission-flag.service.ts
+#: src/engine/metadata-modules/object-permission/object-permission.service.ts
+#: src/engine/metadata-modules/object-permission/object-permission.service.ts
+#: src/engine/metadata-modules/object-permission/field-permission/field-permission.service.ts
+msgid "The role you are trying to modify could not be found. It may have been deleted or you may not have access to it."
+msgstr "Роль, яку ви намагаєтеся змінити, не знайдено. Вона могла бути видалена або ви можете не мати доступу до неї."
+
+#. js-lingui-id: H1tAJD
+#: src/engine/metadata-modules/flat-object-metadata/validators/utils/validate-flat-object-metadata-label.util.ts
+msgid "The singular and plural labels cannot be the same for an object"
+msgstr "Єдині та множинні позначки не можуть бути однаковими для об'єкта"
+
+#. js-lingui-id: FOEWHl
+#: src/engine/metadata-modules/flat-object-metadata/validators/utils/validate-flat-object-metadata-name.util.ts
+msgid "The singular and plural names cannot be the same for an object"
+msgstr "Єдині та множинні імена не можуть бути однаковими для об'єкта"
+
+#. js-lingui-id: 5N6QtE
+#: src/modules/workflow/common/standard-objects/workflow-automated-trigger.workspace-entity.ts
+msgid "The workflow automated trigger settings"
+msgstr "Налаштування автоматичного тригера робочого процесу"
+
+#. js-lingui-id: SpKbfT
+#: src/modules/workflow/common/standard-objects/workflow-automated-trigger.workspace-entity.ts
+msgid "The workflow automated trigger type"
+msgstr "Тип автоматизованого тригера робочого процесу"
+
+#. js-lingui-id: od0omS
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "The workflow last published version id"
+msgstr "Ідентифікатор останньої опублікованої версії робочого процесу"
+
+#. js-lingui-id: /EdWx6
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "The workflow name"
+msgstr "Назва робочого процесу"
+
+#. js-lingui-id: EhAsND
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "The workflow version name"
+msgstr "Назва версії робочого процесу"
+
+#. js-lingui-id: dhx13p
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "The workflow version status"
+msgstr "Статус версії робочого процесу"
+
+#. js-lingui-id: Kfwq7n
+#: src/engine/core-modules/imap-smtp-caldav-connection/services/imap-smtp-caldav-connection-validator.service.ts
+msgid "There was an issue with your connection settings. Please try again."
+msgstr "Виникла проблема з вашими налаштуваннями з'єднання. Спробуйте ще раз."
+
+#. js-lingui-id: Bm40Ow
+#: src/engine/api/graphql/workspace-query-runner/utils/handle-duplicate-key-error.util.ts
+msgid "This {fieldName} is already taken. Please choose a different value."
+msgstr "Цей {fieldName} вже зайнято. Будь ласка, оберіть інше значення."
+
+#. js-lingui-id: CYyoPc
+#: src/engine/api/graphql/workspace-query-runner/utils/handle-duplicate-key-error.util.ts
+msgid "This {fieldName} with value {duplicatedValues} is already taken. Please choose a different value."
+msgstr "Цей {fieldName} зі значенням {duplicatedValues} вже зайнятий. Будь ласка, оберіть інше значення."
+
+#. js-lingui-id: Izdz+Y
+#: src/engine/core-modules/api-key/api-key.service.ts
+msgid "This API Key has been revoked and can no longer be used."
+msgstr "Цей ключ API скасовано і більше не може бути використаний."
+
+#. js-lingui-id: Jmzgho
+#: src/engine/core-modules/api-key/api-key.service.ts
+msgid "This API Key has expired. Please create a new one."
+msgstr "Термін дії цього ключа API закінчився. Будь ласка, створіть новий."
+
+#. js-lingui-id: r/Z8XK
+#: src/engine/api/graphql/workspace-query-runner/utils/handle-duplicate-key-error.util.ts
+msgid "This combination of {fieldNames} already exists. Please use different values."
+msgstr "Ця комбінація {fieldNames} вже існує. Будь ласка, використовуйте різні значення."
+
+#. js-lingui-id: mAs70Y
+#: src/engine/metadata-modules/utils/validate-field-name-availability.utils.ts
+msgid "This name is not available as it is already used by another field."
+msgstr "Це ім'я недоступне, оскільки вже використовується іншим полем."
+
+#. js-lingui-id: yIUmAs
+#: src/engine/metadata-modules/utils/validate-metadata-name-is-not-reserved-keyword.ts
+#: src/engine/metadata-modules/utils/validate-field-name-availability.utils.ts
+msgid "This name is not available."
+msgstr "Це ім'я недоступне."
+
+#. js-lingui-id: eitC3W
+#: src/engine/workspace-datasource/workspace-datasource.service.ts
+msgid "This operation is not allowed. Please try a different approach or contact support if you need assistance."
+msgstr "Ця операція не дозволена. Будь ласка, спробуйте інший підхід або зв'яжіться з підтримкою, якщо вам потрібна допомога."
+
+#. js-lingui-id: TjUnO1
+#: src/engine/api/graphql/workspace-query-runner/utils/handle-duplicate-key-error.util.ts
+msgid "This record already exists. Please check your data and try again."
+msgstr "Цей запис вже існує. Перевірте свої дані і спробуйте знову."
+
+#. js-lingui-id: +L9yxk
+#: src/engine/metadata-modules/user-role/user-role.service.ts
+msgid "This role cannot be assigned to users. Please select a different role."
+msgstr "Цю роль не можна призначити користувачам. Будь ласка, виберіть іншу роль."
+
+#. js-lingui-id: KoDdqN
+#: src/engine/metadata-modules/role/role.service.ts
+#: src/engine/metadata-modules/permission-flag/permission-flag.service.ts
+#: src/engine/metadata-modules/object-permission/object-permission.service.ts
+#: src/engine/metadata-modules/object-permission/field-permission/field-permission.service.ts
+msgid "This role cannot be modified because it is a system role. Only custom roles can be edited."
+msgstr "Цю роль неможливо змінити, оскільки вона є системною. Тільки користувацькі ролі можуть бути змінені."
+
+#. js-lingui-id: Zl0BJl
+#: src/modules/messaging/common/standard-objects/message-channel-message-association.workspace-entity.ts
+msgid "Thread External Id"
+msgstr "Зовнішній ідентифікатор ланцюжка"
+
+#. js-lingui-id: RSSbWN
+#: src/modules/messaging/common/standard-objects/message-channel-message-association.workspace-entity.ts
+msgid "Thread id from the messaging provider"
+msgstr "Ідентифікатор ланцюжка від провайдера обміну повідомленнями"
+
+#. js-lingui-id: sS8v5K
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+msgid "Throttle Failure Count"
+msgstr "Кількість збоїв обмеження"
+
+#. js-lingui-id: kkDQ8m
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "Thursday"
+msgstr "Четвер"
+
+#. js-lingui-id: n9nSNJ
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Time format"
+msgstr "Формат часу"
+
+#. js-lingui-id: Mz2JN2
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Time zone"
+msgstr "Часовий пояс"
+
+#. js-lingui-id: az1boY
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+msgid "Timeline Activities"
+msgstr "Дії в таймлайні"
+
+#. js-lingui-id: fqKMpF
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Timeline Activities linked to the company"
+msgstr "Дії в таймлайні, пов'язані з компанією"
+
+#. js-lingui-id: CNev+0
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+msgid "Timeline activities linked to the dashboard"
+msgstr "Дії в таймлайні, пов'язані з інформаційною панеллю"
+
+#. js-lingui-id: 4/UzU5
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+msgid "Timeline Activities linked to the note."
+msgstr "Дії в таймлайні, пов'язані з нотаткою."
+
+#. js-lingui-id: p6feIz
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Timeline Activities linked to the opportunity."
+msgstr "Дії в таймлайні, пов'язані з можливістю."
+
+#. js-lingui-id: yvPwuF
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "Timeline activities linked to the run"
+msgstr "Дії в таймлайні, пов'язані з виконанням"
+
+#. js-lingui-id: q96UvB
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+msgid "Timeline Activities linked to the task."
+msgstr "Дії в таймлайні, пов'язані з завданням."
+
+#. js-lingui-id: N9HMa/
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "Timeline activities linked to the version"
+msgstr "Дії в таймлайні, пов'язані з версією"
+
+#. js-lingui-id: B1CYKX
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "Timeline activities linked to the workflow"
+msgstr "Дії в таймлайні, пов'язані з робочим процесом"
+
+#. js-lingui-id: G0UmtQ
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+msgid "Timeline Activities tied to the {label}"
+msgstr "Дії на часовій шкалі, пов'язані з <b>{label}</b>"
+
+#. js-lingui-id: K/kU4E
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Timeline Activity"
+msgstr "Дія в таймлайні"
+
+#. js-lingui-id: MHrjPM
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+msgid "Title"
+msgstr "Заголовок"
+
+#. js-lingui-id: G3myU+
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "Tuesday"
+msgstr "Вівторок"
+
+#. js-lingui-id: +zy2Nq
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+msgid "Type"
+msgstr "Тип"
+
+#. js-lingui-id: UhRoLN
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Type (deprecated)"
+msgstr "Тип (застарілий)"
+
+#. js-lingui-id: RBJNRI
+#: src/engine/metadata-modules/field-metadata/services/field-metadata.service.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata.service.ts
+msgid "Unique field cannot have a default value"
+msgstr "Унікальне поле не може мати значення за замовчуванням"
+
+#. js-lingui-id: WWSSTx
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "Unique index cannot be created for field {fieldName} of type {fieldType}"
+msgstr "Унікальний індекс не може бути створений для поля {fieldName} типу {fieldType}"
+
+#. js-lingui-id: rtir7c
+#: src/engine/metadata-modules/view-group/exceptions/view-group.exception.ts
+msgid "unknown"
+msgstr ""
+
+#. js-lingui-id: EBZdX5
+#: src/modules/workflow/workflow-trigger/utils/compute-cron-pattern-from-schedule.ts
+msgid "Unsupported cron schedule type"
+msgstr "Тип розкладу cron не підтримується"
+
+#. js-lingui-id: crxihq
+#: src/engine/metadata-modules/flat-field-metadata/services/flat-field-metadata-type-validator.service.ts
+msgid "Unsupported field metadata type {fieldType}"
+msgstr "Непідтримуваний тип метаданих поля {fieldType}"
+
+#. js-lingui-id: 0gY5lO
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+msgid "Update DateTime"
+msgstr "Дата й час оновлення"
+
+#. js-lingui-id: r5C2wB
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-field-metadata-validator.service.ts
+msgid "Updated field name is not synced with label"
+msgstr "Оновлена назва поля не синхронізована з міткою"
+
+#. js-lingui-id: GkcfmO
+#: src/engine/core-modules/auth/services/sign-in-up.service.ts
+msgid "User already exists"
+msgstr "Користувач вже існує"
+
+#. js-lingui-id: l9dlVi
+#: src/engine/core-modules/auth/strategies/jwt.auth.strategy.ts
+#: src/engine/core-modules/auth/services/auth.service.ts
+msgid "User does not have access to this workspace"
+msgstr "Користувач не має доступу до цього робочого простору"
+
+#. js-lingui-id: Sl1ElS
+#: src/engine/metadata-modules/permissions/utils/permission-graphql-api-exception-handler.util.ts
+msgid "User does not have permission."
+msgstr "Користувач не має дозволу."
+
+#. js-lingui-id: YFciqL
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "User Email"
+msgstr "Електронна адреса користувача"
+
+#. js-lingui-id: d1BTW8
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "User Id"
+msgstr "Ідентифікатор користувача"
+
+#. js-lingui-id: B43Kks
+#: src/engine/core-modules/auth/services/sign-in-up.service.ts
+msgid "User is not part of the workspace"
+msgstr "Користувач не є частиною робочого простору"
+
+#. js-lingui-id: g5Z6no
+#: src/engine/core-modules/admin-panel/admin-panel.service.ts
+msgid "User not found. Please check the email or ID."
+msgstr "Користувач не знайдений. Перевірте електронну адресу або ID."
+
+#. js-lingui-id: 4juE7s
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "User time zone"
+msgstr "Часовий пояс користувача"
+
+#. js-lingui-id: VkcC68
+#: src/engine/core-modules/auth/services/auth.service.ts
+msgid "User was not created with email/password"
+msgstr "Користувача не було створено з використанням електронної пошти/пароля"
+
+#. js-lingui-id: 43zCwQ
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "User's preferred date format"
+msgstr "Переважний формат дати користувача"
+
+#. js-lingui-id: PLfanm
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "User's preferred number format"
+msgstr "Переважний формат числа користувача"
+
+#. js-lingui-id: Uce+A8
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "User's preferred start day of the week"
+msgstr "Бажаний користувачем початковий день тижня"
+
+#. js-lingui-id: kJuoKm
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "User's preferred time format"
+msgstr "Переважний формат часу користувача"
+
+#. js-lingui-id: xInMK/
+#: src/engine/workspace-manager/workspace-migration-v2/interceptors/workspace-migration-builder-exception-v2-formatter.ts
+msgid "Validation failed for 0 object(s) and 0 field(s)"
+msgstr "Перевірка не вдалася для 0 об'єкта(ів) і 0 поля(ів)"
+
+#. js-lingui-id: UBPzFQ
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "Value must be in UPPER_CASE and follow snake_case \"{sanitizedValue}\""
+msgstr "Значення повинно бути у ВЕЛИКИХ_ЛІТЕРАХ та відповідати формату snake_case \"{sanitizedValue}\"."
+
+#. js-lingui-id: 7aatUy
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "Version status"
+msgstr "Статус версії"
+
+#. js-lingui-id: CdQeU7
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "Version steps"
+msgstr "Кроки версії"
+
+#. js-lingui-id: PGMPIi
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "Version trigger"
+msgstr "Тригер версії"
+
+#. js-lingui-id: IYNSdp
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "Versions"
+msgstr "Версії"
+
+#. js-lingui-id: HhN1Bv
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-validator.service.ts
+msgid "View already exists"
+msgstr "Перегляд вже існує"
+
+#. js-lingui-id: pTvQqf
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+msgid "View field already exists"
+msgstr "Поле перегляду вже існує"
+
+#. js-lingui-id: Xm6R6B
+#: src/engine/metadata-modules/view-field/exceptions/view-field.exception.ts
+msgid "View field already exists."
+msgstr "Польове поле вже існує."
+
+#. js-lingui-id: 7jUWQ+
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+msgid "View field metadata already exists"
+msgstr "Метадані поля перегляду вже існують"
+
+#. js-lingui-id: Yvf7WL
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+msgid "View field metadata with id {flatViewFieldId} already exists"
+msgstr "Метадані поля перегляду з ідентифікатором {flatViewFieldId} вже існують"
+
+#. js-lingui-id: 7LMaUn
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+msgid "View field position cannot be lower than label identifier view field position"
+msgstr "Позиція поля перегляду не може бути нижчою за позицію поля перегляду ідентифікатора мітки"
+
+#. js-lingui-id: WZzm3R
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+msgid "View field related view object metadata not found"
+msgstr "Метадані, пов'язані з об'єктом перегляду, не знайдено"
+
+#. js-lingui-id: XJlyZS
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+#: src/engine/metadata-modules/flat-view-field/utils/from-delete-view-field-input-to-flat-view-field-or-throw.util.ts
+msgid "View field to delete not found"
+msgstr "Поле перегляду для видалення не знайдено"
+
+#. js-lingui-id: DXyYuh
+#: src/engine/metadata-modules/flat-view-field/utils/from-destroy-view-field-input-to-flat-view-field-or-throw.util.ts
+msgid "View field to destroy not found"
+msgstr "Поле перегляду для знищення не знайдено"
+
+#. js-lingui-id: Fpy/K1
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+#: src/engine/metadata-modules/flat-view-field/utils/from-update-view-field-input-to-flat-view-field-to-update-or-throw.util.ts
+msgid "View field to update not found"
+msgstr "Поле перегляду для оновлення не знайдено"
+
+#. js-lingui-id: AprfQL
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+msgid "View field to update parent view not found"
+msgstr "Поле перегляду для оновлення батьківського перегляду не знайдено"
+
+#. js-lingui-id: sqzMKR
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+msgid "View field to update parent view object not found"
+msgstr "Поле перегляду для оновлення об'єкта батьківського перегляду не знайдено"
+
+#. js-lingui-id: 89Wiy+
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+msgid "View field with same fieldmetadataId and viewId already exists"
+msgstr "Поле перегляду з однаковими fieldmetadataId і viewId вже існує"
+
+#. js-lingui-id: 1KSqGE
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-filter-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-filter-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-filter-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-filter-validator.service.ts
+msgid "View filter not found"
+msgstr "Фільтр перегляду не знайдено"
+
+#. js-lingui-id: 3l1ppY
+#: src/engine/metadata-modules/flat-view-filter/utils/from-delete-view-filter-input-to-flat-view-filter-or-throw.util.ts
+msgid "View filter to delete not found"
+msgstr "Фільтр перегляду для видалення не знайдено"
+
+#. js-lingui-id: 9gedIx
+#: src/engine/metadata-modules/flat-view-filter/utils/from-destroy-view-filter-input-to-flat-view-filter-or-throw.util.ts
+msgid "View filter to destroy not found"
+msgstr "Фільтр перегляду для знищення не знайдено"
+
+#. js-lingui-id: GzthLy
+#: src/engine/metadata-modules/flat-view-filter/utils/from-update-view-filter-input-to-flat-view-filter-to-update-or-throw.util.ts
+msgid "View filter to update not found"
+msgstr "Фільтр перегляду для оновлення не знайдено"
+
+#. js-lingui-id: LnNgrI
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-filter-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-filter-validator.service.ts
+msgid "View filter with this id already exists"
+msgstr "Фільтр перегляду з цим ідентифікатором вже існує"
+
+#. js-lingui-id: MGbEFN
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-group-validator.service.ts
+msgid "View group metadata already exists"
+msgstr "Метадані групи перегляду вже існують"
+
+#. js-lingui-id: lbyQO4
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-group-validator.service.ts
+msgid "View group metadata with id {flatViewGroupId} already exists"
+msgstr "Метадані групи перегляду з ідентифікатором {flatViewGroupId} вже існують"
+
+#. js-lingui-id: JdAvYa
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-group-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-group-validator.service.ts
+#: src/engine/metadata-modules/flat-view-group/utils/from-delete-view-group-input-to-flat-view-group-or-throw.util.ts
+msgid "View group to delete not found"
+msgstr "Група перегляду для видалення не знайдена"
+
+#. js-lingui-id: 34hWb7
+#: src/engine/metadata-modules/flat-view-group/utils/from-destroy-view-group-input-to-flat-view-group-or-throw.util.ts
+msgid "View group to destroy not found"
+msgstr "Група перегляду для знищення не знайдена"
+
+#. js-lingui-id: UP/TXo
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-group-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-group-validator.service.ts
+#: src/engine/metadata-modules/flat-view-group/utils/from-update-view-group-input-to-flat-view-group-to-update-or-throw.util.ts
+msgid "View group to update not found"
+msgstr "Група перегляду для оновлення не знайдена"
+
+#. js-lingui-id: XbOhpY
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-group-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-group-validator.service.ts
+msgid "View group to update parent field not found"
+msgstr "Поле для оновлення батьківської групи перегляду не знайдено"
+
+#. js-lingui-id: P0grPG
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-group-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-group-validator.service.ts
+msgid "View group to update parent view not found"
+msgstr "Батьківський перегляд для оновлення групи перегляду не знайдено"
+
+#. js-lingui-id: M7KWZV
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-validator.service.ts
+msgid "View kanban aggregate field metadata not found"
+msgstr "Дані про перегляд канбан поля збору не знайдено"
+
+#. js-lingui-id: F4A9mL
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-group-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-group-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-filter-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-filter-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+msgid "View not found"
+msgstr "Перегляд не знайдено"
+
+#. js-lingui-id: znNExx
+#: src/engine/metadata-modules/view-sort/exceptions/view-sort.exception.ts
+msgid "View sort (id: {id}) not found"
+msgstr "Сортування виду (id: {id}) не знайдено"
+
+#. js-lingui-id: 3zMs+f
+#: src/engine/metadata-modules/view-sort/exceptions/view-sort.exception.ts
+msgid "View sort not found"
+msgstr "Сортування виду не знайдено"
+
+#. js-lingui-id: toB/08
+#: src/engine/metadata-modules/flat-view/utils/from-delete-view-input-to-flat-view-or-throw.util.ts
+msgid "View to delete not found"
+msgstr "Перегляд для видалення не знайдено"
+
+#. js-lingui-id: NnD3Ti
+#: src/engine/metadata-modules/flat-view/utils/from-destroy-view-input-to-flat-view-or-throw.util.ts
+msgid "View to destroy not found"
+msgstr "Перегляд для знищення не знайдено"
+
+#. js-lingui-id: 3+GbNY
+#: src/engine/metadata-modules/flat-view/utils/from-update-view-input-to-flat-view-to-update-or-throw.util.ts
+msgid "View to update not found"
+msgstr "Перегляд для оновлення не знайдено"
+
+#. js-lingui-id: ZgRtC4
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-validator.service.ts
+msgid "View with same id is already exists"
+msgstr "Перегляд з таким самим ідентифікатором вже існує"
+
+#. js-lingui-id: aeqysn
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "ViewId"
+msgstr "Ідентифікатор перегляду"
+
+#. js-lingui-id: kpQRY2
+#: src/engine/metadata-modules/view-sort/exceptions/view-sort.exception.ts
+msgid "ViewId is required"
+msgstr "ViewId є обов'язковим"
+
+#. js-lingui-id: l88nXn
+#: src/engine/metadata-modules/view-field/exceptions/view-field.exception.ts
+msgid "ViewId is required to create a view field."
+msgstr "ViewId потрібний для створення поля перегляду."
+
+#. js-lingui-id: 9XMTpT
+#: src/engine/metadata-modules/view-filter-group/exceptions/view-filter-group.exception.ts
+msgid "ViewId is required to create a view filter group."
+msgstr "ViewId потрібний для створення групи фільтрів перегляду."
+
+#. js-lingui-id: pCCxli
+#: src/engine/metadata-modules/view-filter/exceptions/view-filter.exception.ts
+msgid "ViewId is required to create a view filter."
+msgstr "ViewId потрібний для створення фільтра перегляду."
+
+#. js-lingui-id: 1X1RW5
+#: src/engine/metadata-modules/view-group/exceptions/view-group.exception.ts
+msgid "ViewId is required to create a view group."
+msgstr "ViewId потрібний для створення групи перегляду."
+
+#. js-lingui-id: uGUFcy
+#: src/engine/metadata-modules/view-sort/exceptions/view-sort.exception.ts
+msgid "ViewId is required to create a view sort."
+msgstr "ViewId потрібний для створення сортування перегляду."
+
+#. js-lingui-id: 2q/Q7x
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+msgid "Visibility"
+msgstr "Видимість"
+
+#. js-lingui-id: xvV2NJ
+#: src/engine/twenty-orm/error-handling/compute-twenty-orm-exception.ts
+msgid "We are experiencing a temporary issue with our database. Please try again later."
+msgstr "Ми тимчасово маємо проблему з нашою базою даних. Будь ласка, спробуйте пізніше."
+
+#. js-lingui-id: B3CG/U
+#: src/engine/core-modules/imap-smtp-caldav-connection/services/imap-smtp-caldav-connection.service.ts
+msgid "We couldn't connect to your CalDAV server. Please check your server settings and try again."
+msgstr "Не вдалося підключитися до вашого сервера CalDAV. Перевірте налаштування сервера та спробуйте ще раз."
+
+#. js-lingui-id: ax8unE
+#: src/engine/core-modules/imap-smtp-caldav-connection/services/imap-smtp-caldav-connection.service.ts
+msgid "We couldn't connect to your email server. Please check your server settings and try again."
+msgstr "Не вдалося підключитися до вашого електронного сервера. Перевірте налаштування сервера та спробуйте ще раз."
+
+#. js-lingui-id: g4rOV3
+#: src/engine/core-modules/imap-smtp-caldav-connection/services/imap-smtp-caldav-connection.service.ts
+msgid "We couldn't connect to your outgoing email server. Please check your SMTP settings and try again."
+msgstr "Не вдалося підключитися до вашого вихідного серверу електронної пошти. Перевірте налаштування SMTP та спробуйте ще раз."
+
+#. js-lingui-id: v8UNEA
+#: src/engine/core-modules/imap-smtp-caldav-connection/services/imap-smtp-caldav-connection.service.ts
+msgid "We couldn't log in to your email account. Please check your email address and password, then try again."
+msgstr "Не вдалося увійти до вашого електронного облікового запису. Перевірте вашу електронну адресу і пароль, потім спробуйте ще раз."
+
+#. js-lingui-id: YxBvFz
+#: src/engine/core-modules/imap-smtp-caldav-connection/services/imap-smtp-caldav-connection.service.ts
+msgid "We encountered an issue connecting to your email account. Please check your settings and try again."
+msgstr "Виникла проблема з підключенням до вашого електронного облікового запису. Перевірте налаштування і спробуйте ще раз."
+
+#. js-lingui-id: VAcXNz
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "Wednesday"
+msgstr "Середа"
+
+#. js-lingui-id: TVkCrJ
+#: src/engine/core-modules/email-verification/services/email-verification.service.ts
+msgid "Welcome to Twenty: Please Confirm Your Email"
+msgstr "Ласкаво просимо до Twenty: Будь ласка, підтвердіть свою електронну пошту"
+
+#. js-lingui-id: bLt/0J
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-automated-trigger.workspace-entity.ts
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Workflow"
+msgstr "Робочий процес"
+
+#. js-lingui-id: hdtWQn
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "Workflow automated triggers linked to the workflow."
+msgstr "Автоматизовані тригери робочого процесу, пов'язані з робочим процесом."
+
+#. js-lingui-id: vwSkSW
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "Workflow linked to the run."
+msgstr "Робочий процес пов'язаний з виконанням."
+
+#. js-lingui-id: y9tnFx
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "Workflow record position"
+msgstr "Позиція запису робочого процесу"
+
+#. js-lingui-id: 5vIcqC
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Workflow Run"
+msgstr "Виконання робочого процесу"
+
+#. js-lingui-id: 3Iz+qz
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "Workflow run ended at"
+msgstr "Виконання робочого процесу закінчено о"
+
+#. js-lingui-id: NKQlas
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "Workflow run enqueued at"
+msgstr "Workflow виконування було поставлено в чергу о"
+
+#. js-lingui-id: C5dusT
+#: src/modules/workflow/workflow-runner/workspace-services/workflow-runner.workspace-service.ts
+msgid "Workflow run is not running"
+msgstr "Запуск робочого процесу не працює"
+
+#. js-lingui-id: IUaK6s
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "Workflow run position"
+msgstr "Позиція виконання робочого процесу"
+
+#. js-lingui-id: zaN7tH
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "Workflow run started at"
+msgstr "Виконання робочого процесу розпочато о"
+
+#. js-lingui-id: 1TU2A8
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "Workflow run status"
+msgstr "Статус виконання робочого процесу"
+
+#. js-lingui-id: u6DF/V
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "Workflow Runs"
+msgstr "Виконання робочих процесів"
+
+#. js-lingui-id: 9nOy7k
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "Workflow runs linked to the version."
+msgstr "Виконання робочих процесів пов'язані з версією."
+
+#. js-lingui-id: c37F3j
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "Workflow runs linked to the workflow."
+msgstr "Виконання робочих процесів пов'язані з робочим процесом."
+
+#. js-lingui-id: lTXctu
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "Workflow version"
+msgstr "Версія робочого процесу"
+
+#. js-lingui-id: +wYPET
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "Workflow Version"
+msgstr "Версія робочого процесу"
+
+#. js-lingui-id: n4/IOE
+#: src/modules/workflow/common/utils/assert-workflow-version-has-steps.ts
+msgid "Workflow version does not contain at least one step"
+msgstr "Версія робочого процесу не містить жодного кроку"
+
+#. js-lingui-id: k4DPlQ
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+#: src/modules/workflow/common/utils/assert-workflow-version-trigger-is-defined.util.ts
+msgid "Workflow version does not contain trigger"
+msgstr "Версія робочого процесу не містить тригера"
+
+#. js-lingui-id: bqFL4g
+#: src/modules/workflow/common/utils/assert-workflow-version-is-draft.util.ts
+msgid "Workflow version is not in draft status"
+msgstr "Версія робочого процесу не має статусу чернетки"
+
+#. js-lingui-id: CocTJJ
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "Workflow version linked to the run."
+msgstr "Версія робочого процесу пов'язана з виконанням."
+
+#. js-lingui-id: 9l+pJT
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "Workflow version position"
+msgstr "Позиція версії робочого процесу"
+
+#. js-lingui-id: OCyhkn
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "Workflow Versions"
+msgstr "Версії робочих процесів"
+
+#. js-lingui-id: 018fP9
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "Workflow versions linked to the workflow."
+msgstr "Версії робочих процесів пов'язані з робочим процесом."
+
+#. js-lingui-id: s7p+TL
+#: src/modules/workflow/common/standard-objects/workflow-automated-trigger.workspace-entity.ts
+msgid "WorkflowAutomatedTrigger"
+msgstr "Автоматизований тригер робочого процесу"
+
+#. js-lingui-id: 96bCgZ
+#: src/modules/workflow/common/standard-objects/workflow-automated-trigger.workspace-entity.ts
+msgid "WorkflowAutomatedTrigger workflow"
+msgstr "Робочий процес автоматизованого тригера"
+
+#. js-lingui-id: 5z92T9
+#: src/modules/workflow/common/standard-objects/workflow-automated-trigger.workspace-entity.ts
+msgid "WorkflowAutomatedTriggers"
+msgstr "Автоматизовані тригери робочих процесів"
+
+#. js-lingui-id: woYYQq
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "Workflows"
+msgstr "Робочі процеси"
+
+#. js-lingui-id: urCUgs
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "WorkflowVersion"
+msgstr "ВерсіяРобочогоПроцесу"
+
+#. js-lingui-id: b4kire
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "WorkflowVersion workflow"
+msgstr "Робочий процес версії"
+
+#. js-lingui-id: XsSVrR
+#: src/engine/core-modules/auth/services/sign-in-up.service.ts
+msgid "Workspace creation is restricted to admins"
+msgstr "Створення робочого простору дозволено лише адміністраторам"
+
+#. js-lingui-id: rklt6M
+#: src/engine/core-modules/auth/services/sign-in-up.service.ts
+msgid "Workspace is not ready to welcome new members"
+msgstr "Робочий простір не готовий приймати нових учасників"
+
+#. js-lingui-id: CbGxon
+#: src/modules/messaging/common/standard-objects/message-participant.workspace-entity.ts
+msgid "Workspace member"
+msgstr "Член робочого простору"
+
+#. js-lingui-id: qc38qR
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-participant.workspace-entity.ts
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+msgid "Workspace Member"
+msgstr "Член робочого простору"
+
+#. js-lingui-id: R1S9pO
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Workspace member avatar"
+msgstr "Аватар члена робочого простору"
+
+#. js-lingui-id: 5VCX7o
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Workspace member name"
+msgstr "Ім'я члена робочого простору"
+
+#. js-lingui-id: NiUpuN
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Workspace member position"
+msgstr "Посада учасника робочого простору"
+
+#. js-lingui-id: YCAEr+
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Workspace Members"
+msgstr "Члени робочого простору"
+
+#. js-lingui-id: bBr+RW
+#: src/engine/metadata-modules/view-sort/exceptions/view-sort.exception.ts
+msgid "WorkspaceId is required"
+msgstr "WorkspaceId є обов'язковим"
+
+#. js-lingui-id: kjLpTn
+#: src/engine/metadata-modules/view-field/exceptions/view-field.exception.ts
+msgid "WorkspaceId is required to create a view field."
+msgstr "WorkspaceId потрібний для створення поля перегляду."
+
+#. js-lingui-id: zWj6VZ
+#: src/engine/metadata-modules/view-filter-group/exceptions/view-filter-group.exception.ts
+msgid "WorkspaceId is required to create a view filter group."
+msgstr "WorkspaceId потрібний для створення групи фільтрів перегляду."
+
+#. js-lingui-id: jQMXtD
+#: src/engine/metadata-modules/view-filter/exceptions/view-filter.exception.ts
+msgid "WorkspaceId is required to create a view filter."
+msgstr "WorkspaceId потрібний для створення фільтра перегляду."
+
+#. js-lingui-id: NAoJAX
+#: src/engine/metadata-modules/view-group/exceptions/view-group.exception.ts
+msgid "WorkspaceId is required to create a view group."
+msgstr "WorkspaceId потрібний для створення групи перегляду."
+
+#. js-lingui-id: hU1QaN
+#: src/engine/metadata-modules/view-sort/exceptions/view-sort.exception.ts
+msgid "WorkspaceId is required to create a view sort."
+msgstr "WorkspaceId потрібний для створення сортування перегляду."
+
+#. js-lingui-id: jtb/lI
+#: src/engine/metadata-modules/view/exceptions/view.exception.ts
+msgid "WorkspaceId is required to create a view."
+msgstr "WorkspaceId потрібний для створення перегляду."
+
+#. js-lingui-id: EtzFC0
+#: src/modules/blocklist/standard-objects/blocklist.workspace-entity.ts
+#: src/modules/blocklist/standard-objects/blocklist.workspace-entity.ts
+msgid "WorkspaceMember"
+msgstr "ЧленРобочогоПростору"
+
+#. js-lingui-id: fV2Bu6
+#: src/engine/core-modules/auth/services/sign-in-up.service.ts
+#: src/engine/core-modules/auth/services/auth.service.ts
+msgid "Wrong password"
+msgstr "Невірний пароль"
+
+#. js-lingui-id: 0gv+T2
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "X"
+msgstr "Х"
+
+#. js-lingui-id: 1SQnFB
+#: src/engine/metadata-modules/role/role.resolver.ts
+msgid "You cannot change your own role. Please ask another administrator to update your role."
+msgstr "Ви не можете змінити власну роль. Попросіть іншого адміністратора оновити вашу роль."
+
+#. js-lingui-id: y5haJ4
+#: src/engine/metadata-modules/role/role.service.ts
+#: src/engine/metadata-modules/object-permission/object-permission.service.ts
+msgid "You cannot grant edit permissions without also granting read permissions. Please enable read access first."
+msgstr "Ви не можете надати дозволи на редагування без також надання дозволів на читання. Спочатку увімкніть доступ для читання."
+
+#. js-lingui-id: 8wovNr
+#: src/engine/metadata-modules/user-role/user-role.service.ts
+msgid "You cannot remove the admin role from the last administrator. Please assign another administrator first."
+msgstr "Ви не можете видалити адміністративну роль у останнього адміністратора. Спочатку призначте іншого адміністратора."
+
+#. js-lingui-id: WUcQVb
+#: src/engine/metadata-modules/object-permission/field-permission/field-permission.service.ts
+msgid "You cannot set field permissions on system objects as they are managed by the platform."
+msgstr "Ви не можете встановити дозволи на поле у системних об'єктах, оскільки вони керуються платформою."
+
+#. js-lingui-id: SI6USg
+#: src/engine/metadata-modules/object-permission/object-permission.service.ts
+msgid "You cannot set permissions on system objects as they are managed by the platform."
+msgstr "Ви не можете встановити дозволи у системних об'єктах, бо вони керуються платформою."
+
+#. js-lingui-id: EFQeXU
+#: src/engine/guards/settings-permissions.guard.ts
+msgid "You do not have permission to access this feature. Please contact your workspace administrator for access."
+msgstr "Ви не маєте дозволу на доступ до цієї функції. Зверніться до адміністратора робочого простору для отримання доступу."
+
+#. js-lingui-id: +2vVRB
+#: src/engine/guards/impersonate-permission.guard.ts
+msgid "You do not have permission to impersonate users. Please contact your workspace administrator for access."
+msgstr "Ви не маєте дозволу на імперсонування користувачів. Зверніться до адміністратора робочого простору для доступу."
+
+#. js-lingui-id: k7P8yU
+#: src/engine/core-modules/workspace/services/workspace.service.ts
+msgid "You do not have permission to manage security settings. Please contact your workspace administrator."
+msgstr "Ви не маєте дозволу на управління налаштуваннями безпеки. Зверніться до адміністратора робочого простору."
+
+#. js-lingui-id: svchJc
+#: src/engine/core-modules/workspace/services/workspace.service.ts
+msgid "You do not have permission to manage workspace settings. Please contact your workspace administrator."
+msgstr "Ви не маєте дозволу на управління налаштуваннями робочого простору. Зверніться до адміністратора робочого простору."
+
+#. js-lingui-id: z+7x/s
+#: src/engine/core-modules/auth/utils/auth-graphql-api-exception-handler.util.ts
+msgid "You must be authenticated to perform this action."
+msgstr "Щоб виконати цю дію, ви повинні бути автентифіковані."
+
+#. js-lingui-id: 8pqpv/
+#: src/engine/core-modules/graphql/hooks/use-graphql-error-handler.hook.ts
+msgid "Your app version is out of date. Please refresh the page to continue."
+msgstr "Ваша версія додатка застаріла. Будь ласка, оновіть сторінку для продовження."
+
+#. js-lingui-id: J5Vm4Q
+#: src/engine/core-modules/billing/billing.validate.ts
+msgid "Your billing subscription is corrupted. Please contact support."
+msgstr "Ваше підписання на платні послуги пошкоджено. Будь ласка, зв'яжіться з підтримкою."
+
+#. js-lingui-id: bTyBrW
+#: src/engine/core-modules/auth/services/auth.service.ts
+msgid "Your Password Has Been Successfully Changed"
+msgstr "Ваш пароль було успішно змінено"
+
+#. js-lingui-id: XxkUFT
+#: src/engine/metadata-modules/user-role/user-role.service.ts
+#: src/engine/metadata-modules/permissions/permissions.service.ts
+#: src/engine/metadata-modules/permissions/permissions.service.ts
+msgid "Your role in this workspace could not be found. Please contact your workspace administrator."
+msgstr "Вашу роль у цьому робочому просторі не знайдено. Зверніться до адміністратора робочого простору."
+
+#. js-lingui-id: vPccnr
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Your team member responsible for managing the company account"
+msgstr "Ваш колега з команди, відповідальний за управління обліковим записом компанії"
+
+#. js-lingui-id: ej/tZF
+#: src/engine/core-modules/graphql/hooks/use-graphql-error-handler.hook.ts
+msgid "Your workspace has been updated with a new data model. Please refresh the page."
+msgstr "Ваш робочий простір було оновлено новою моделлю даних. Оновіть сторінку."
+
+#. js-lingui-id: ZukXiD
+#: src/engine/metadata-modules/user-role/user-role.service.ts
+msgid "Your workspace membership could not be found. You may no longer have access to this workspace."
+msgstr "Не знайдено вашої участі у робочому просторі. Ви більше не можете мати доступ до цього робочого простору."

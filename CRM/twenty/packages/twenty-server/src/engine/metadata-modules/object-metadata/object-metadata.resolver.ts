@@ -1,0 +1,233 @@
+import { UseFilters, UseGuards, UsePipes } from '@nestjs/common';
+import {
+  Args,
+  Context,
+  Mutation,
+  Parent,
+  ResolveField,
+  Resolver,
+} from '@nestjs/graphql';
+
+import { FeatureFlagKey } from 'src/engine/core-modules/feature-flag/enums/feature-flag-key.enum';
+import { FeatureFlagService } from 'src/engine/core-modules/feature-flag/services/feature-flag.service';
+import { PreventNestToAutoLogGraphqlErrorsFilter } from 'src/engine/core-modules/graphql/filters/prevent-nest-to-auto-log-graphql-errors.filter';
+import { ResolverValidationPipe } from 'src/engine/core-modules/graphql/pipes/resolver-validation.pipe';
+import { I18nService } from 'src/engine/core-modules/i18n/i18n.service';
+import { I18nContext } from 'src/engine/core-modules/i18n/types/i18n-context.type';
+import { WorkspaceEntity } from 'src/engine/core-modules/workspace/workspace.entity';
+import { type IDataloaders } from 'src/engine/dataloaders/dataloader.interface';
+import { AuthWorkspace } from 'src/engine/decorators/auth/auth-workspace.decorator';
+import { SettingsPermissionsGuard } from 'src/engine/guards/settings-permissions.guard';
+import { WorkspaceAuthGuard } from 'src/engine/guards/workspace-auth.guard';
+import { FieldMetadataDTO } from 'src/engine/metadata-modules/field-metadata/dtos/field-metadata.dto';
+import { IndexMetadataDTO } from 'src/engine/metadata-modules/index-metadata/dtos/index-metadata.dto';
+import { DeleteOneObjectInput } from 'src/engine/metadata-modules/object-metadata/dtos/delete-object.input';
+import { ObjectMetadataDTO } from 'src/engine/metadata-modules/object-metadata/dtos/object-metadata.dto';
+import {
+  UpdateOneObjectInput,
+  type UpdateObjectPayload,
+} from 'src/engine/metadata-modules/object-metadata/dtos/update-object.input';
+import { BeforeUpdateOneObject } from 'src/engine/metadata-modules/object-metadata/hooks/before-update-one-object.hook';
+import { ObjectMetadataServiceV2 } from 'src/engine/metadata-modules/object-metadata/object-metadata-v2.service';
+import { ObjectMetadataService } from 'src/engine/metadata-modules/object-metadata/object-metadata.service';
+import { objectMetadataGraphqlApiExceptionHandler } from 'src/engine/metadata-modules/object-metadata/utils/object-metadata-graphql-api-exception-handler.util';
+import { resolveObjectMetadataStandardOverride } from 'src/engine/metadata-modules/object-metadata/utils/resolve-object-metadata-standard-override.util';
+import { PermissionFlagType } from 'src/engine/metadata-modules/permissions/constants/permission-flag-type.constants';
+import { PermissionsGraphqlApiExceptionFilter } from 'src/engine/metadata-modules/permissions/utils/permissions-graphql-api-exception.filter';
+
+@UseGuards(WorkspaceAuthGuard)
+@Resolver(() => ObjectMetadataDTO)
+@UsePipes(ResolverValidationPipe)
+@UseFilters(
+  PreventNestToAutoLogGraphqlErrorsFilter,
+  PermissionsGraphqlApiExceptionFilter,
+)
+export class ObjectMetadataResolver {
+  constructor(
+    private readonly objectMetadataService: ObjectMetadataService,
+    private readonly beforeUpdateOneObject: BeforeUpdateOneObject<UpdateObjectPayload>,
+    private readonly featureFlagService: FeatureFlagService,
+    private readonly objectMetadataServiceV2: ObjectMetadataServiceV2,
+    private readonly i18nService: I18nService,
+  ) {}
+
+  @ResolveField(() => String, { nullable: true })
+  async labelPlural(
+    @Parent() objectMetadata: ObjectMetadataDTO,
+    @Context() context: I18nContext,
+  ): Promise<string> {
+    const i18n = this.i18nService.getI18nInstance(context.req.locale);
+
+    return resolveObjectMetadataStandardOverride(
+      objectMetadata,
+      'labelPlural',
+      context.req.locale,
+      i18n,
+    );
+  }
+
+  @ResolveField(() => String, { nullable: true })
+  async labelSingular(
+    @Parent() objectMetadata: ObjectMetadataDTO,
+    @Context() context: I18nContext,
+  ): Promise<string> {
+    const i18n = this.i18nService.getI18nInstance(context.req.locale);
+
+    return resolveObjectMetadataStandardOverride(
+      objectMetadata,
+      'labelSingular',
+      context.req.locale,
+      i18n,
+    );
+  }
+
+  @ResolveField(() => String, { nullable: true })
+  async description(
+    @Parent() objectMetadata: ObjectMetadataDTO,
+    @Context() context: I18nContext,
+  ): Promise<string> {
+    const i18n = this.i18nService.getI18nInstance(context.req.locale);
+
+    return resolveObjectMetadataStandardOverride(
+      objectMetadata,
+      'description',
+      context.req.locale,
+      i18n,
+    );
+  }
+
+  @UseGuards(SettingsPermissionsGuard(PermissionFlagType.DATA_MODEL))
+  @ResolveField(() => String, { nullable: true })
+  async icon(
+    @Parent() objectMetadata: ObjectMetadataDTO,
+    @Context() context: I18nContext,
+  ): Promise<string> {
+    const i18n = this.i18nService.getI18nInstance(context.req.locale);
+
+    return resolveObjectMetadataStandardOverride(
+      objectMetadata,
+      'icon',
+      context.req.locale,
+      i18n,
+    );
+  }
+
+  @UseGuards(SettingsPermissionsGuard(PermissionFlagType.DATA_MODEL))
+  @Mutation(() => ObjectMetadataDTO)
+  async deleteOneObject(
+    @Args('input') input: DeleteOneObjectInput,
+    @AuthWorkspace() { id: workspaceId }: WorkspaceEntity,
+    @Context() context: I18nContext,
+  ) {
+    try {
+      return await this.objectMetadataService.deleteOneObject(
+        input,
+        workspaceId,
+      );
+    } catch (error) {
+      objectMetadataGraphqlApiExceptionHandler(
+        error,
+        this.i18nService.getI18nInstance(context.req.locale),
+      );
+    }
+  }
+
+  @UseGuards(SettingsPermissionsGuard(PermissionFlagType.DATA_MODEL))
+  @Mutation(() => ObjectMetadataDTO)
+  async updateOneObject(
+    @Args('input') updateObjectInput: UpdateOneObjectInput,
+    @AuthWorkspace() { id: workspaceId }: WorkspaceEntity,
+    @Context() context: I18nContext,
+  ) {
+    const isWorkspaceMigrationV2Enabled =
+      await this.featureFlagService.isFeatureEnabled(
+        FeatureFlagKey.IS_WORKSPACE_MIGRATION_V2_ENABLED,
+        workspaceId,
+      );
+
+    if (isWorkspaceMigrationV2Enabled) {
+      try {
+        return await this.objectMetadataServiceV2.updateOne({
+          updateObjectInput,
+          workspaceId,
+        });
+      } catch (error) {
+        objectMetadataGraphqlApiExceptionHandler(
+          error,
+          this.i18nService.getI18nInstance(context.req.locale),
+        );
+      }
+    }
+
+    try {
+      const updatedInput = (await this.beforeUpdateOneObject.run(
+        updateObjectInput,
+        {
+          workspaceId,
+          locale: context.req.locale,
+        },
+      )) as UpdateOneObjectInput;
+
+      return await this.objectMetadataService.updateOneObject(
+        updatedInput,
+        workspaceId,
+      );
+    } catch (error) {
+      objectMetadataGraphqlApiExceptionHandler(
+        error,
+        this.i18nService.getI18nInstance(context.req.locale),
+      );
+    }
+  }
+
+  @ResolveField(() => [FieldMetadataDTO], { nullable: false })
+  async fieldsList(
+    @AuthWorkspace() workspace: WorkspaceEntity,
+    @Parent() objectMetadata: ObjectMetadataDTO,
+    @Context() context: { loaders: IDataloaders } & I18nContext,
+  ): Promise<FieldMetadataDTO[]> {
+    try {
+      const fieldMetadataItems = await context.loaders.fieldMetadataLoader.load(
+        {
+          objectMetadata,
+          workspaceId: workspace.id,
+          locale: context.req.locale,
+        },
+      );
+
+      return fieldMetadataItems;
+    } catch (error) {
+      objectMetadataGraphqlApiExceptionHandler(
+        error,
+        this.i18nService.getI18nInstance(context.req.locale),
+      );
+
+      return [];
+    }
+  }
+
+  @ResolveField(() => [IndexMetadataDTO], { nullable: false })
+  async indexMetadataList(
+    @AuthWorkspace() workspace: WorkspaceEntity,
+    @Parent() objectMetadata: ObjectMetadataDTO,
+    @Context() context: { loaders: IDataloaders } & I18nContext,
+  ): Promise<IndexMetadataDTO[]> {
+    try {
+      const indexMetadataItems = await context.loaders.indexMetadataLoader.load(
+        {
+          objectMetadata,
+          workspaceId: workspace.id,
+        },
+      );
+
+      return indexMetadataItems;
+    } catch (error) {
+      objectMetadataGraphqlApiExceptionHandler(
+        error,
+        this.i18nService.getI18nInstance(context.req.locale),
+      );
+
+      return [];
+    }
+  }
+}

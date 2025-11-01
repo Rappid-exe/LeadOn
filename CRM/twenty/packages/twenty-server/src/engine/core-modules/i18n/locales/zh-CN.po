@@ -1,0 +1,4271 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2025-01-29 18:14+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: zh\n"
+"Project-Id-Version: cf448e737e0d6d7b78742f963d761c61\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2025-01-01 00:00\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: cf448e737e0d6d7b78742f963d761c61\n"
+"X-Crowdin-Project-ID: 1\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /packages/twenty-server/src/engine/core-modules/i18n/locales/en.po\n"
+"X-Crowdin-File-ID: 31\n"
+
+#. js-lingui-id: Q0ISF1
+#: src/engine/twenty-orm/utils/compute-relation-connect-query-configs.util.ts
+msgid "{fieldName} and {fieldName}Id cannot be both provided."
+msgstr "{fieldName}和{fieldName}Id不能同时提供。"
+
+#. js-lingui-id: ZkHTHm
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+#: src/engine/metadata-modules/index-metadata/utils/validate-can-create-unique-index.util.ts
+msgid "{fieldType} fields cannot be unique."
+msgstr "{fieldType} 字段不能是唯一的。"
+
+#. js-lingui-id: LeIJhm
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "{fieldType} fields cannot have a default value."
+msgstr "{fieldType} 字段不能设定默认值。"
+
+#. js-lingui-id: iEZavm
+#: src/engine/core-modules/dns-manager/services/dns-manager.service.ts
+msgid "{hostnameCount} hostnames found for domain '{domainName}'. Expect 1"
+msgstr "域名“{domainName}”找到{hostnameCount}个主机名。预期1"
+
+#. js-lingui-id: 8haj+G
+#: src/engine/metadata-modules/utils/validate-metadata-name-is-camel-case.utils.ts
+msgid "{name} should be in camelCase"
+msgstr "{name} 应为 camelCase 格式"
+
+#. js-lingui-id: kZR6+h
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "A company"
+msgstr "公司"
+
+#. js-lingui-id: +aeifv
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "A connected account"
+msgstr "关联账户"
+
+#. js-lingui-id: cOSBjW
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+msgid "A dashboard"
+msgstr "仪表板"
+
+#. js-lingui-id: HCoswz
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "A favorite that can be accessed from the left menu"
+msgstr "可从左侧菜单访问的收藏"
+
+#. js-lingui-id: 6w8bHl
+#: src/modules/favorite-folder/standard-objects/favorite-folder.workspace-entity.ts
+msgid "A Folder of favorites"
+msgstr "收藏夹"
+
+#. js-lingui-id: sSGYmf
+#: src/modules/messaging/common/standard-objects/message-thread.workspace-entity.ts
+msgid "A group of related messages (e.g. email thread, chat thread)"
+msgstr "一组相关消息（如电子邮件线程、聊天线程）"
+
+#. js-lingui-id: vZj1Xc
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+msgid "A message sent or received through a messaging channel (email, chat, etc.)"
+msgstr "通过消息渠道（电子邮件、聊天等）发送或接收的消息"
+
+#. js-lingui-id: bufuBA
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+msgid "A note"
+msgstr "笔记"
+
+#. js-lingui-id: 6kUkZW
+#: src/modules/note/standard-objects/note-target.workspace-entity.ts
+msgid "A note target"
+msgstr "笔记目标"
+
+#. js-lingui-id: Io42ej
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "A person"
+msgstr "个人"
+
+#. js-lingui-id: Q2De+v
+#: src/engine/metadata-modules/role/role.service.ts
+msgid "A role with this label already exists."
+msgstr "带有此标签的角色已存在。"
+
+#. js-lingui-id: mkFXEH
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+msgid "A task"
+msgstr "任务"
+
+#. js-lingui-id: hk2NzW
+#: src/modules/task/standard-objects/task-target.workspace-entity.ts
+msgid "A task target"
+msgstr "任务目标"
+
+#. js-lingui-id: ZIN9Ga
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "A workflow"
+msgstr "工作流"
+
+#. js-lingui-id: YwBCp8
+#: src/modules/workflow/common/standard-objects/workflow-automated-trigger.workspace-entity.ts
+msgid "A workflow automated trigger"
+msgstr "一个工作流自动触发器"
+
+#. js-lingui-id: 1+xDbI
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "A workflow run"
+msgstr "工作流运行"
+
+#. js-lingui-id: N0g7rp
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "A workflow version"
+msgstr "工作流版本"
+
+#. js-lingui-id: HpZ/I5
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "A workspace member"
+msgstr "工作区成员"
+
+#. js-lingui-id: GDKKxT
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "Access Token"
+msgstr "访问令牌"
+
+#. js-lingui-id: pd81Qb
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Account Owner"
+msgstr "账户所有者"
+
+#. js-lingui-id: loqL/f
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Account owner for companies"
+msgstr "公司账户所有者"
+
+#. js-lingui-id: HZosRi
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Account Owner For Companies"
+msgstr "公司账户所有者"
+
+#. js-lingui-id: 48AxkT
+#: src/engine/workspace-manager/workspace-cleaner/services/cleaner.workspace-service.ts
+msgid "Action needed to prevent workspace deletion"
+msgstr "防止工作区删除所需的操作"
+
+#. js-lingui-id: j0DfGR
+#: src/engine/core-modules/auth/services/reset-password.service.ts
+msgid "Action Needed to Reset Password"
+msgstr "需要操作以重置密码"
+
+#. js-lingui-id: 52fA3U
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-field-metadata-validator.service.ts
+msgid "Active fields cannot be deleted"
+msgstr "激活的字段无法删除"
+
+#. js-lingui-id: 0N5kF6
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-object-metadata-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-object-metadata-validator.service.ts
+msgid "Active objects cannot be deleted"
+msgstr "激活的对象无法删除"
+
+#. js-lingui-id: Du6bPw
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Address"
+msgstr "地址"
+
+#. js-lingui-id: JiOJxf
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Address (deprecated) "
+msgstr "地址（已弃用）"
+
+#. js-lingui-id: Knl3c9
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Address of the company"
+msgstr "公司地址"
+
+#. js-lingui-id: zJhwjv
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Address of the company - deprecated in favor of new address field"
+msgstr "公司地址 - 已弃用，改用新地址字段"
+
+#. js-lingui-id: W58PBh
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Aggregated / filtered event to be displayed on the timeline"
+msgstr "时间轴上显示的汇总/筛选事件"
+
+#. js-lingui-id: pdOYzu
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/workflows-all.view.ts
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/workflow-versions-all.view.ts
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/workflow-runs-all.view.ts
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/tasks-all.view.ts
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/people-all.view.ts
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/opportunities-all.view.ts
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/notes-all.view.ts
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/dashboards-all.view.ts
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/custom-all.view.ts
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/companies-all.view.ts
+msgid "All {objectLabelPlural}"
+msgstr "全部{objectLabelPlural}"
+
+#. js-lingui-id: hehnjM
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Amount"
+msgstr "金额"
+
+#. js-lingui-id: MjyFvC
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "An attachment"
+msgstr "附件"
+
+#. js-lingui-id: eW83iC
+#: src/modules/messaging/message-import-manager/drivers/microsoft/exceptions/microsoft-import-driver.exception.ts
+msgid "An error occurred during messages import"
+msgstr "导入消息时发生错误"
+
+#. js-lingui-id: XyOToQ
+#: src/engine/core-modules/graphql/utils/generate-graphql-error-from-error.util.ts
+#: src/engine/core-modules/graphql/hooks/use-graphql-error-handler.hook.ts
+msgid "An error occurred."
+msgstr "发生错误。"
+
+#. js-lingui-id: +MvnxO
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "An index must contain at least one field"
+msgstr "索引中必须至少包含一个字段"
+
+#. js-lingui-id: bZq8rL
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "An opportunity"
+msgstr "机会"
+
+#. js-lingui-id: JKWicb
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Annual Recurring Revenue: The actual or estimated annual revenue of the company"
+msgstr "年度经常性收入：公司的实际或估计年收入"
+
+#. js-lingui-id: mU5fvk
+#: src/engine/core-modules/approved-access-domain/services/approved-access-domain.service.ts
+msgid "Approved access domain already registered."
+msgstr "批准的访问域已注册。"
+
+#. js-lingui-id: DGW5iN
+#: src/engine/core-modules/approved-access-domain/services/approved-access-domain.service.ts
+msgid "Approved access domain does not match email domain"
+msgstr "批准的访问域与电子邮件域不匹配"
+
+#. js-lingui-id: BKvuAq
+#: src/engine/core-modules/approved-access-domain/services/approved-access-domain.service.ts
+#: src/engine/core-modules/approved-access-domain/services/approved-access-domain.service.ts
+msgid "Approved access domain has already been validated"
+msgstr "批准的访问域已被验证"
+
+#. js-lingui-id: naCW6Z
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "April"
+msgstr "四月"
+
+#. js-lingui-id: 3EiOLz
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "ARR"
+msgstr "ARR"
+
+#. js-lingui-id: Ek7xGj
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Assigned tasks"
+msgstr "分配的任务"
+
+#. js-lingui-id: kZ7PLo
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/tasks-assigned-to-me.ts
+msgid "Assigned to Me"
+msgstr "分配给我"
+
+#. js-lingui-id: ojKCLU
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+msgid "Assignee"
+msgstr "受托人"
+
+#. js-lingui-id: Max2GU
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Associated User Id"
+msgstr "关联用户 ID"
+
+#. js-lingui-id: K9efby
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-morph-relation-creation-payload.util.ts
+msgid "At least one relation is require"
+msgstr "至少需要一个关系"
+
+#. js-lingui-id: UY1vmE
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Attachment"
+msgstr "附件"
+
+#. js-lingui-id: dda+ze
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Attachment author (deprecated - use createdBy)"
+msgstr "附件作者（已弃用 - 使用 createdBy）"
+
+#. js-lingui-id: bIaesZ
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Attachment company"
+msgstr "附件公司"
+
+#. js-lingui-id: wtcL/T
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Attachment dashboard"
+msgstr "附件仪表板"
+
+#. js-lingui-id: u3pBxa
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Attachment file category"
+msgstr "附件文件类别"
+
+#. js-lingui-id: gfGYcl
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Attachment full path"
+msgstr "附件完整路径"
+
+#. js-lingui-id: wjocwa
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Attachment name"
+msgstr "附件名称"
+
+#. js-lingui-id: FWlOXr
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Attachment note"
+msgstr "附件备注"
+
+#. js-lingui-id: YASWpH
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Attachment opportunity"
+msgstr "附件机会"
+
+#. js-lingui-id: P38yED
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Attachment person"
+msgstr "附件联系人"
+
+#. js-lingui-id: Tx1DxS
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Attachment task"
+msgstr "附件任务"
+
+#. js-lingui-id: ZXjjRz
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Attachment type (deprecated - use fileCategory)"
+msgstr "附件类型（已弃用 - 使用 fileCategory）"
+
+#. js-lingui-id: tH6L3e
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Attachment workflow"
+msgstr "附件工作流程"
+
+#. js-lingui-id: w/Sphq
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+msgid "Attachments"
+msgstr "附件"
+
+#. js-lingui-id: 2tQOVc
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Attachments created by the workspace member"
+msgstr "工作区成员创建的附件"
+
+#. js-lingui-id: iVnA89
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Attachments linked to the company"
+msgstr "与公司关联的附件"
+
+#. js-lingui-id: MuTXtT
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Attachments linked to the contact."
+msgstr "与联系人关联的附件。"
+
+#. js-lingui-id: 2AEUIb
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+msgid "Attachments linked to the dashboard"
+msgstr "与仪表板关联的附件"
+
+#. js-lingui-id: kw0mLu
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Attachments linked to the opportunity"
+msgstr "与机会关联的附件"
+
+#. js-lingui-id: 83l3Yd
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "Attachments linked to the workflow"
+msgstr "与工作流关联的附件"
+
+#. js-lingui-id: fCbqr7
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+msgid "Attachments tied to the {label}"
+msgstr "与 {label} 关联的附件"
+
+#. js-lingui-id: DBHTm/
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "August"
+msgstr "八月"
+
+#. js-lingui-id: cNBqH+
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "Auth failed at"
+msgstr "认证失败于"
+
+#. js-lingui-id: LB4qX/
+#: src/engine/core-modules/auth/utils/auth-graphql-api-exception-handler.util.ts
+msgid "Authentication is not enabled with this provider."
+msgstr "此提供者未启用身份验证。"
+
+#. js-lingui-id: Tsx+z2
+#: src/engine/metadata-modules/permissions/permissions.service.ts
+msgid "Authentication is required to access this feature. Please sign in and try again."
+msgstr "需要验证才能访问此功能。请登录后重试。"
+
+#. js-lingui-id: VbeIOx
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Author"
+msgstr "作者"
+
+#. js-lingui-id: XJONK6
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Authored attachments"
+msgstr "已创作的附件"
+
+#. js-lingui-id: cvSznK
+#: src/modules/workflow/common/standard-objects/workflow-automated-trigger.workspace-entity.ts
+msgid "Automated Trigger Type"
+msgstr "自动触发类型"
+
+#. js-lingui-id: 2mtBXs
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "Automated Triggers"
+msgstr "自动触发器"
+
+#. js-lingui-id: RpExX0
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+msgid "Automatically create People records when receiving or sending emails"
+msgstr "接收或发送电子邮件时自动创建人员记录"
+
+#. js-lingui-id: lXxdId
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+msgid "Automatically create records for people you participated with in an event."
+msgstr "自动为您参与活动的人员创建记录。"
+
+#. js-lingui-id: kfcRb0
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Avatar"
+msgstr "头像"
+
+#. js-lingui-id: S/mJUR
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Avatar Url"
+msgstr "头像网址"
+
+#. js-lingui-id: K1172m
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+#: src/modules/blocklist/standard-objects/blocklist.workspace-entity.ts
+#: src/modules/blocklist/standard-objects/blocklist.workspace-entity.ts
+msgid "Blocklist"
+msgstr "黑名单"
+
+#. js-lingui-id: Tv2hxv
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Blocklisted handles"
+msgstr "被屏蔽的账号"
+
+#. js-lingui-id: L5JhJe
+#: src/modules/blocklist/standard-objects/blocklist.workspace-entity.ts
+msgid "Blocklists"
+msgstr "黑名单"
+
+#. js-lingui-id: bGQplw
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+msgid "Body"
+msgstr "正文"
+
+#. js-lingui-id: 6+byWT
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/opportunity-table-by-stage.view.ts
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/opportunity-by-stage.view.ts
+msgid "By Stage"
+msgstr "按阶段"
+
+#. js-lingui-id: jQX8V+
+#: src/engine/workspace-manager/standard-objects-prefill-data/views/tasks-by-status.view.ts
+msgid "By Status"
+msgstr "按状态"
+
+#. js-lingui-id: 8mVqF7
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Cached record name"
+msgstr "缓存记录名称"
+
+#. js-lingui-id: Nh6GTX
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+msgid "Calendar Channel"
+msgstr "日历频道"
+
+#. js-lingui-id: jfNQ0m
+#: src/modules/calendar/common/standard-objects/calendar-channel-event-association.workspace-entity.ts
+msgid "Calendar Channel Event Association"
+msgstr "日历频道事件关联"
+
+#. js-lingui-id: kYNT3F
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel-event-association.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel-event-association.workspace-entity.ts
+msgid "Calendar Channel Event Associations"
+msgstr "日历频道事件关联"
+
+#. js-lingui-id: Znix/S
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+msgid "Calendar Channels"
+msgstr "日历频道"
+
+#. js-lingui-id: bRk+FR
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+msgid "Calendar event"
+msgstr "日历事件"
+
+#. js-lingui-id: N2kMfO
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+msgid "Calendar event participant"
+msgstr "日历事件参与者"
+
+#. js-lingui-id: AWDqkQ
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+msgid "Calendar event participants"
+msgstr "日历事件参与者"
+
+#. js-lingui-id: ZI2UyM
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Calendar Event Participants"
+msgstr "日历事件参与者"
+
+#. js-lingui-id: X9A2xC
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+msgid "Calendar events"
+msgstr "日历事件"
+
+#. js-lingui-id: eSaCR/
+#: src/engine/twenty-orm/relation-nested-queries/utils/formatConnectRecordNotFoundErrorMessage.util.ts
+msgid "Can't connect to {connectFieldName}. No unique record found with condition: {formattedConnectCondition}"
+msgstr "无法连接到{connectFieldName}。无法找到符合以下条件的唯一记录：{formattedConnectCondition}"
+
+#. js-lingui-id: 2oVE+z
+#: src/engine/guards/impersonate-permission.guard.ts
+msgid "Can't impersonate user via api key"
+msgstr "无法通过 API 密钥模拟用户"
+
+#. js-lingui-id: vxbVwc
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+msgid "Cannot activate non-draft or non-last-published version"
+msgstr "无法激活非草稿或非最新发布版本"
+
+#. js-lingui-id: LIPsWu
+#: src/modules/workflow/common/workspace-services/workflow-version-validation.workspace-service.ts
+msgid "Cannot create multiple draft versions for the same workflow"
+msgstr "无法为同一工作流程创建多个草稿版本"
+
+#. js-lingui-id: RggZr4
+#: src/modules/workflow/common/workspace-services/workflow-version-validation.workspace-service.ts
+msgid "Cannot create workflow version with status other than draft"
+msgstr "无法创建除草稿之外状态的工作流程版本"
+
+#. js-lingui-id: VPXcr5
+#: src/engine/core-modules/user/services/user.service.ts
+msgid "Cannot delete account: you are the only admin. Assign another admin or delete the workspace(s) first."
+msgstr "无法删除账户：您是唯一的管理员。请先分配其他管理员或删除工作区。"
+
+#. js-lingui-id: AQyr9X
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-field-metadata-validator.service.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata.service.ts
+msgid "Cannot delete, please update the label identifier field first"
+msgstr "无法删除，请先更新标签标识字段"
+
+#. js-lingui-id: FrNWt0
+#: src/modules/workflow/workflow-trigger/workspace-services/workflow-trigger.workspace-service.ts
+msgid "Cannot disable non-active workflow version"
+msgstr "无法禁用非活动工作流程版本"
+
+#. js-lingui-id: otFZos
+#: src/engine/workspace-manager/workspace-migration-runner/workspace-migration-runner.service.ts
+msgid "Cannot enable uniqueness due to existing duplicate values. Please review and fix your data first (including soft deleted records)."
+msgstr "由于存在重复值，无法启用唯一性。请先查看并修复您的数据（包括软删除的记录）。"
+
+#. js-lingui-id: IDMgr/
+#: src/modules/workflow/workflow-trigger/workspace-services/workflow-trigger.workspace-service.ts
+msgid "Cannot have more than one active workflow version"
+msgstr "不能有多个活动中的工作流程版本"
+
+#. js-lingui-id: PjZIyI
+#: src/modules/messaging/message-channel-manager/query-hooks/message-channel-update-one.pre-query.hook.ts
+msgid "Cannot update message channel while sync is ongoing. Please wait for the sync to complete."
+msgstr ""
+
+#. js-lingui-id: 4DKo3U
+#: src/modules/workflow/common/workspace-services/workflow-version-validation.workspace-service.ts
+msgid "Cannot update workflow version status manually"
+msgstr "不能手动更新工作流程版本状态"
+
+#. js-lingui-id: 4IVK41
+#: src/modules/calendar/common/standard-objects/calendar-channel-event-association.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel-event-association.workspace-entity.ts
+msgid "Channel ID"
+msgstr "频道 ID"
+
+#. js-lingui-id: Ubg/B+
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+msgid "Channel Type"
+msgstr "频道类型"
+
+#. js-lingui-id: 3wV73y
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "City"
+msgstr "城市"
+
+#. js-lingui-id: NRF7pg
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Close date"
+msgstr "关闭日期"
+
+#. js-lingui-id: 96YB1a
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Color Scheme"
+msgstr "配色方案"
+
+#. js-lingui-id: s2QZS6
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Companies"
+msgstr "公司"
+
+#. js-lingui-id: 7i8j3G
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+#: src/modules/task/standard-objects/task-target.workspace-entity.ts
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+#: src/modules/note/standard-objects/note-target.workspace-entity.ts
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Company"
+msgstr "公司"
+
+#. js-lingui-id: yA1de7
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Company record position"
+msgstr "公司记录位置"
+
+#. js-lingui-id: AgktVC
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+msgid "Conference Solution"
+msgstr "会议解决方案"
+
+#. js-lingui-id: 1fFL4B
+#: src/engine/twenty-orm/utils/compute-relation-connect-query-configs.util.ts
+msgid "Connect is not allowed for {connectFieldName} on {objectMetadataNameSingular}"
+msgstr "在{objectMetadataNameSingular}上不允许为{connectFieldName}进行连接。"
+
+#. js-lingui-id: PQ1Dw2
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+msgid "Connected Account"
+msgstr "连接账户"
+
+#. js-lingui-id: 9TzudL
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Connected accounts"
+msgstr "连接账户"
+
+#. js-lingui-id: AMDUqA
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "Connected Accounts"
+msgstr "连接账户"
+
+#. js-lingui-id: bA6O5B
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+msgid "Contact auto creation policy"
+msgstr "联系人自动创建策略"
+
+#. js-lingui-id: RnsmQs
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Contact’s avatar"
+msgstr "联系人的头像"
+
+#. js-lingui-id: pL+pqi
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Contact’s city"
+msgstr "联系人所在城市"
+
+#. js-lingui-id: VnWMlz
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Contact’s company"
+msgstr "联系人的公司"
+
+#. js-lingui-id: ITlFIB
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Contact’s Emails"
+msgstr "联系人的电子邮件"
+
+#. js-lingui-id: GuRtLY
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Contact’s job title"
+msgstr "联系人的职位"
+
+#. js-lingui-id: QrCvRQ
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Contact’s Linkedin account"
+msgstr "联系人的 Linkedin 账户"
+
+#. js-lingui-id: 6xPSVt
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Contact’s name"
+msgstr "联系人姓名"
+
+#. js-lingui-id: Y37CZ4
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Contact’s phone number"
+msgstr "联系人的电话号码"
+
+#. js-lingui-id: zsW3gg
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Contact’s phone numbers"
+msgstr "联系人的电话号码"
+
+#. js-lingui-id: uuZ00G
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Contact’s X/Twitter account"
+msgstr "联系人的 X/Twitter 账户"
+
+#. js-lingui-id: gdbojg
+#: src/engine/metadata-modules/object-permission/field-permission/field-permission.service.ts
+msgid "Contradicting field permissions have been detected on a relation field ({fieldName})."
+msgstr "检测到关系字段 ({fieldName}) 上存在相互矛盾的字段权限。"
+
+#. js-lingui-id: LZf/L8
+#: src/engine/metadata-modules/flat-entity/utils/find-flat-entity-by-id-in-flat-entity-maps-or-throw.util.ts
+msgid "Could not find flat entity in maps"
+msgstr "未找到地图中的平面实体"
+
+#. js-lingui-id: jBrX/g
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "Could not find index field related field metadata"
+msgstr "找不到与索引字段相关的字段元数据"
+
+#. js-lingui-id: HVajHk
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "Could not find index related object metadata"
+msgstr "找不到与索引相关的对象元数据"
+
+#. js-lingui-id: NCIYDF
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+msgid "Created by"
+msgstr "创建者"
+
+#. js-lingui-id: 2ZhYYy
+#: src/engine/metadata-modules/flat-field-metadata/utils/from-create-field-input-to-flat-field-metadatas-to-create.util.ts
+msgid "Created field metadata, parent object metadata not found"
+msgstr "创建的字段元数据，未找到父对象元数据"
+
+#. js-lingui-id: wPvFAD
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+#: src/engine/twenty-orm/base.workspace-entity.ts
+#: src/engine/twenty-orm/base.workspace-entity.ts
+msgid "Creation date"
+msgstr "创建日期"
+
+#. js-lingui-id: CJXWmO
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+msgid "Creation DateTime"
+msgstr "创建日期时间"
+
+#. js-lingui-id: umhXiy
+#: src/modules/workflow/workflow-trigger/utils/compute-cron-pattern-from-schedule.ts
+msgid "Cron pattern '{pattern}' is invalid"
+msgstr "Cron 模式 “{pattern}” 无效"
+
+#. js-lingui-id: GuyjcQ
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-cron-trigger-validator.service.ts
+msgid "Cron trigger already exists"
+msgstr "定时任务触发器已存在"
+
+#. js-lingui-id: Ej90Yp
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-cron-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-cron-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-cron-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-cron-trigger-validator.service.ts
+msgid "Cron trigger not found"
+msgstr "找不到定时任务触发器"
+
+#. js-lingui-id: vz7B0E
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-cron-trigger-validator.service.ts
+msgid "Cron trigger with same id already exists"
+msgstr "具有相同 ID 的定时任务触发器已存在"
+
+#. js-lingui-id: Mikszu
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "Custom Connection Parameters"
+msgstr "自定义连接参数"
+
+#. js-lingui-id: 7p5kLi
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Dashboard"
+msgstr "仪表板"
+
+#. js-lingui-id: Lddz0a
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+msgid "Dashboard page layout"
+msgstr "仪表板页面布局"
+
+#. js-lingui-id: FrOkwR
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+msgid "Dashboard record Position"
+msgstr "仪表板记录位置"
+
+#. js-lingui-id: xGgnPh
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+msgid "Dashboard title"
+msgstr "仪表板标题"
+
+#. js-lingui-id: w6iIMm
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+msgid "Dashboards"
+msgstr "仪表板"
+
+#. js-lingui-id: K2CQHf
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-database-event-trigger-validator.service.ts
+msgid "Database event trigger already exists"
+msgstr "数据库事件触发器已存在"
+
+#. js-lingui-id: iS6kjG
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-database-event-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-database-event-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-database-event-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-database-event-trigger-validator.service.ts
+msgid "Database event trigger not found"
+msgstr "数据库事件触发器未找到"
+
+#. js-lingui-id: 0vtv+s
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-database-event-trigger-validator.service.ts
+msgid "Database event trigger with same id already exists"
+msgstr "具有相同 ID 的数据库事件触发器已存在"
+
+#. js-lingui-id: Lhd0oQ
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Date format"
+msgstr "日期格式"
+
+#. js-lingui-id: 1lL5Iu
+#: src/engine/twenty-orm/base.workspace-entity.ts
+msgid "Date when the record was deleted"
+msgstr "记录删除日期"
+
+#. js-lingui-id: r6zgGo
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "December"
+msgstr "十二月"
+
+#. js-lingui-id: GGNmm+
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "Default value \"{defaultValue}\" must be one of the option values"
+msgstr "默认值 \"{defaultValue}\" 必须是选项值之一"
+
+#. js-lingui-id: FdUbPo
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+msgid "Default value must be a string"
+msgstr "默认值必须为字符串"
+
+#. js-lingui-id: sv9P4Q
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "Default value should be as quoted string"
+msgstr "默认值应为带引号的字符串"
+
+#. js-lingui-id: 6pJV03
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "Default values must be unique"
+msgstr "默认值必须是唯一的"
+
+#. js-lingui-id: QN9ahV
+#: src/engine/twenty-orm/base.workspace-entity.ts
+msgid "Deleted at"
+msgstr "删除于"
+
+#. js-lingui-id: Nu4oKW
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+msgid "Description"
+msgstr "描述"
+
+#. js-lingui-id: MRB7nI
+#: src/modules/messaging/common/standard-objects/message-channel-message-association.workspace-entity.ts
+msgid "Direction"
+msgstr "方向"
+
+#. js-lingui-id: 0gS7M5
+#: src/modules/messaging/common/standard-objects/message-participant.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-participant.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+msgid "Display Name"
+msgstr "显示名称"
+
+#. js-lingui-id: IymH4t
+#: src/engine/core-modules/public-domain/public-domain.service.ts
+msgid "Domain already used for workspace custom domain"
+msgstr "域名已用于工作区自定义域。"
+
+#. js-lingui-id: 2sIVDj
+#: src/engine/core-modules/dns-manager/services/dns-manager.service.ts
+msgid "Domain is already registered"
+msgstr "域名已注册"
+
+#. js-lingui-id: PfJswy
+#: src/engine/core-modules/domain/custom-domain-manager/services/custom-domain-manager.service.ts
+msgid "Domain is already registered as public domain"
+msgstr "域名已注册为公共域。"
+
+#. js-lingui-id: wMncXq
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Domain Name"
+msgstr "域名"
+
+#. js-lingui-id: YOowcq
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+msgid "Due Date"
+msgstr "到期日"
+
+#. js-lingui-id: BXtAxc
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "Duplicated option {field}"
+msgstr "选项 {field} 重复"
+
+#. js-lingui-id: BBXuRb
+#: src/engine/core-modules/email-verification/email-verification-exception-filter.util.ts
+msgid "Email already verified."
+msgstr "电子邮件已验证。"
+
+#. js-lingui-id: xw6iqb
+#: src/engine/core-modules/auth/utils/auth-graphql-api-exception-handler.util.ts
+msgid "Email is not verified."
+msgstr "电子邮件未验证。"
+
+#. js-lingui-id: ZsZeV2
+#: src/engine/core-modules/auth/services/sign-in-up.service.ts
+#: src/engine/core-modules/auth/services/sign-in-up.service.ts
+#: src/engine/core-modules/auth/services/sign-in-up.service.ts
+msgid "Email is required"
+msgstr "需要电子邮件"
+
+#. js-lingui-id: y8LSMh
+#: src/engine/core-modules/email-verification/email-verification-exception-filter.util.ts
+msgid "Email verification not required."
+msgstr "不需要电子邮件验证。"
+
+#. js-lingui-id: BXEcos
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Emails"
+msgstr "电子邮件"
+
+#. js-lingui-id: gqv5ZL
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Employees"
+msgstr "员工"
+
+#. js-lingui-id: VFv2ZC
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+msgid "End Date"
+msgstr "结束日期"
+
+#. js-lingui-id: EzGlkq
+#: src/engine/core-modules/dns-manager/validator/dns-manager.validate.ts
+msgid "Environment variable CLOUDFLARE_API_KEY must be defined to use this feature."
+msgstr "环境变量 CLOUDFLARE_API_KEY 必须被定义才能使用此功能。"
+
+#. js-lingui-id: k//6Xs
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Event company"
+msgstr "事件公司"
+
+#. js-lingui-id: CPhvC+
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Event dashboard"
+msgstr "事件仪表板"
+
+#. js-lingui-id: kJDmsI
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Event details"
+msgstr "事件详情"
+
+#. js-lingui-id: 0JhmlM
+#: src/modules/calendar/common/standard-objects/calendar-channel-event-association.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel-event-association.workspace-entity.ts
+msgid "Event external ID"
+msgstr "事件外部 ID"
+
+#. js-lingui-id: aZJLAR
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel-event-association.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel-event-association.workspace-entity.ts
+msgid "Event ID"
+msgstr "事件 ID"
+
+#. js-lingui-id: PYs3rP
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Event name"
+msgstr "事件名称"
+
+#. js-lingui-id: vv99Wu
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Event note"
+msgstr "事件备注"
+
+#. js-lingui-id: eSt759
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Event opportunity"
+msgstr "事件机会"
+
+#. js-lingui-id: aicVfT
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+msgid "Event Participants"
+msgstr "事件参与者"
+
+#. js-lingui-id: 0mp45a
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Event person"
+msgstr "事件联系人"
+
+#. js-lingui-id: mMq0Wy
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Event task"
+msgstr "事件任务"
+
+#. js-lingui-id: dCV1dS
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Event workflow"
+msgstr "事件工作流程"
+
+#. js-lingui-id: W84pl6
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Event workflow run"
+msgstr "事件工作流程运行"
+
+#. js-lingui-id: vUpps9
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Event workflow version"
+msgstr "事件工作流程版本"
+
+#. js-lingui-id: LxOGsB
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Event workspace member"
+msgstr "事件工作区成员"
+
+#. js-lingui-id: tst44n
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Events"
+msgstr "事件"
+
+#. js-lingui-id: fHL+iH
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Events linked to the person"
+msgstr "与联系人关联的事件"
+
+#. js-lingui-id: 3/O8MM
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Events linked to the workspace member"
+msgstr "与工作区成员关联的事件"
+
+#. js-lingui-id: QQlMid
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+msgid "Exclude group emails"
+msgstr "排除群组电子邮件"
+
+#. js-lingui-id: kenYGr
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+msgid "Exclude non professional emails"
+msgstr "排除非专业电子邮件"
+
+#. js-lingui-id: Lo5U0b
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "Executed by"
+msgstr "执行者"
+
+#. js-lingui-id: AiFXmG
+#: src/engine/twenty-orm/utils/compute-relation-connect-query-configs.util.ts
+msgid "Expected the same constraint fields to be used consistently across all operations for {connectFieldName}."
+msgstr "预期在所有操作中一致地使用相同的约束字段用于{connectFieldName}。"
+
+#. js-lingui-id: 5KfWxA
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+msgid "External ID"
+msgstr "外部 ID"
+
+#. js-lingui-id: pUligB
+#: src/engine/core-modules/admin-panel/admin-panel-queue.service.ts
+msgid "Failed to delete jobs. Please try again later."
+msgstr "删除作业失败。请稍后再试。"
+
+#. js-lingui-id: HfhmrS
+#: src/engine/core-modules/admin-panel/admin-panel-queue.service.ts
+msgid "Failed to load queue jobs. Please try again later."
+msgstr "加载队列作业失败。请稍后再试。"
+
+#. js-lingui-id: SJEIIJ
+#: src/engine/core-modules/admin-panel/admin-panel-queue.service.ts
+msgid "Failed to retry jobs. Please try again later."
+msgstr "重试作业失败。请稍后再试。"
+
+#. js-lingui-id: 6Ki4Pv
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "Favorite"
+msgstr "收藏"
+
+#. js-lingui-id: aKUOPp
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "Favorite company"
+msgstr "收藏公司"
+
+#. js-lingui-id: Aj026i
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "Favorite dashboard"
+msgstr "收藏的仪表板"
+
+#. js-lingui-id: TDlZ/o
+#: src/modules/favorite-folder/standard-objects/favorite-folder.workspace-entity.ts
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "Favorite Folder"
+msgstr "收藏夹"
+
+#. js-lingui-id: WDVfUH
+#: src/modules/favorite-folder/standard-objects/favorite-folder.workspace-entity.ts
+msgid "Favorite folder position"
+msgstr "收藏夹位置"
+
+#. js-lingui-id: SStz54
+#: src/modules/favorite-folder/standard-objects/favorite-folder.workspace-entity.ts
+msgid "Favorite Folders"
+msgstr "收藏夹"
+
+#. js-lingui-id: dz/fFp
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "Favorite note"
+msgstr "收藏备注"
+
+#. js-lingui-id: RRr9Bp
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "Favorite opportunity"
+msgstr "收藏机会"
+
+#. js-lingui-id: RM6B6V
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "Favorite person"
+msgstr "收藏联系人"
+
+#. js-lingui-id: oVA9vM
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "Favorite position"
+msgstr "收藏位置"
+
+#. js-lingui-id: OaQVQH
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "Favorite task"
+msgstr "收藏任务"
+
+#. js-lingui-id: l+lx2f
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "Favorite workflow"
+msgstr "收藏工作流程"
+
+#. js-lingui-id: BPBnux
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "Favorite workflow run"
+msgstr "收藏工作流程运行"
+
+#. js-lingui-id: 5X6Vlz
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "Favorite workflow version"
+msgstr "收藏工作流程版本"
+
+#. js-lingui-id: FDpezg
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "Favorite workspace member"
+msgstr "收藏工作区成员"
+
+#. js-lingui-id: X9kySA
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+#: src/modules/favorite-folder/standard-objects/favorite-folder.workspace-entity.ts
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+msgid "Favorites"
+msgstr "收藏"
+
+#. js-lingui-id: 0CzeFL
+#: src/modules/favorite-folder/standard-objects/favorite-folder.workspace-entity.ts
+msgid "Favorites in this folder"
+msgstr "此文件夹中的收藏"
+
+#. js-lingui-id: zQponA
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Favorites linked to the company"
+msgstr "与公司相关的收藏"
+
+#. js-lingui-id: VaKLrB
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Favorites linked to the contact"
+msgstr "与联系人相关的收藏"
+
+#. js-lingui-id: 5zuBdE
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+msgid "Favorites linked to the dashboard"
+msgstr "与仪表板关联的收藏"
+
+#. js-lingui-id: GOfcBt
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+msgid "Favorites linked to the note"
+msgstr "与备注相关的收藏"
+
+#. js-lingui-id: 9zd8hg
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Favorites linked to the opportunity"
+msgstr "与机会相关的收藏"
+
+#. js-lingui-id: L5ccWD
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+msgid "Favorites linked to the task"
+msgstr "与任务相关的收藏"
+
+#. js-lingui-id: ee0tmj
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "Favorites linked to the workflow"
+msgstr "与工作流程相关的收藏"
+
+#. js-lingui-id: zar5jz
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "Favorites linked to the workflow run"
+msgstr "与工作流程运行相关的收藏"
+
+#. js-lingui-id: 499/sw
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "Favorites linked to the workflow version"
+msgstr "与工作流程版本相关的收藏"
+
+#. js-lingui-id: rgmtb4
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Favorites linked to the workspace member"
+msgstr "与工作区成员相关的收藏"
+
+#. js-lingui-id: GyXrE1
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+msgid "Favorites tied to the {label}"
+msgstr "与 {label} 相关的收藏"
+
+#. js-lingui-id: 4lgLew
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "February"
+msgstr "二月"
+
+#. js-lingui-id: vngnhF
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-field-metadata-validator.service.ts
+msgid "Field already exists"
+msgstr "字段已存在"
+
+#. js-lingui-id: ugu505
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "Field cannot be indexed as it belongs to a different object"
+msgstr "字段不能被索引，因为它属于不同的对象"
+
+#. js-lingui-id: Hg95ys
+#: src/engine/metadata-modules/flat-object-metadata/validators/utils/validate-flat-object-metadata-identifiers.util.ts
+msgid "Field cannot be used as label identifier"
+msgstr "字段不能用作标签标识符"
+
+#. js-lingui-id: F6OLoA
+#: src/engine/metadata-modules/flat-object-metadata/validators/utils/validate-flat-object-metadata-identifiers.util.ts
+msgid "Field declared as image identifier not found"
+msgstr "声明为图像标识符的字段未找到"
+
+#. js-lingui-id: 75hHpn
+#: src/engine/metadata-modules/flat-object-metadata/validators/utils/validate-flat-object-metadata-identifiers.util.ts
+msgid "Field declared as label identifier not found"
+msgstr "未找到声明为标签标识符的字段"
+
+#. js-lingui-id: qelyBB
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "Field does not belong to the indexed object"
+msgstr "字段不属于索引对象"
+
+#. js-lingui-id: DXxcTd
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "Field ID is already used in another index"
+msgstr "字段 ID 已在另一个索引中使用"
+
+#. js-lingui-id: AgbRjM
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-object-metadata-validator.service.ts
+msgid "Field label identifier is required"
+msgstr "字段标签标识符是必需的"
+
+#. js-lingui-id: MPt365
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-group-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-group-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-filter-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-filter-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-filter-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-filter-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+msgid "Field metadata not found"
+msgstr "未找到字段元数据"
+
+#. js-lingui-id: uTPwH1
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-field-metadata-validator.service.ts
+msgid "Field metadata to delete not found"
+msgstr "未找到要删除的字段元数据"
+
+#. js-lingui-id: Ljqo/T
+#: src/engine/metadata-modules/flat-field-metadata/utils/from-update-field-input-to-flat-field-metadata.util.ts
+msgid "Field metadata to update not found"
+msgstr "未找到要更新的字段元数据"
+
+#. js-lingui-id: prTOhK
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-field-metadata-validator.service.ts
+msgid "Field name is not synced with field label"
+msgstr "字段名称未与标签同步"
+
+#. js-lingui-id: QXuG8C
+#: src/engine/metadata-modules/object-permission/field-permission/field-permission.service.ts
+msgid "Field permissions can only be used to restrict access, not to grant additional permissions."
+msgstr "字段权限只能用于限制访问，不能授予额外权限。"
+
+#. js-lingui-id: S+y2Wg
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "Field referenced in index does not exist"
+msgstr "索引中引用的字段不存在"
+
+#. js-lingui-id: cK8ILP
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-field-metadata-validator.service.ts
+msgid "Field to create related object not found"
+msgstr "未找到要创建的相关对象字段"
+
+#. js-lingui-id: K6qzz4
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-field-metadata-validator.service.ts
+msgid "Field to update not found"
+msgstr "未找到要更新的字段"
+
+#. js-lingui-id: J4hC2m
+#: src/engine/metadata-modules/constants/search-vector-field.constants.ts
+msgid "Field used for full-text search"
+msgstr "用于全文搜索的字段"
+
+#. js-lingui-id: s3HtdT
+#: src/engine/metadata-modules/view-sort/exceptions/view-sort.exception.ts
+msgid "FieldMetadataId is required"
+msgstr "FieldMetadataId 是必需的"
+
+#. js-lingui-id: Sof2+k
+#: src/engine/metadata-modules/view-field/exceptions/view-field.exception.ts
+msgid "FieldMetadataId is required to create a view field."
+msgstr "需要FieldMetadataId才能创建视图字段。"
+
+#. js-lingui-id: NTyTR5
+#: src/engine/metadata-modules/view-filter-group/exceptions/view-filter-group.exception.ts
+msgid "FieldMetadataId is required to create a view filter group."
+msgstr "需要FieldMetadataId才能创建视图过滤组。"
+
+#. js-lingui-id: Ya6oU7
+#: src/engine/metadata-modules/view-filter/exceptions/view-filter.exception.ts
+msgid "FieldMetadataId is required to create a view filter."
+msgstr "需要FieldMetadataId才能创建视图过滤器。"
+
+#. js-lingui-id: DU4jcg
+#: src/engine/metadata-modules/view-group/exceptions/view-group.exception.ts
+msgid "FieldMetadataId is required to create a view group."
+msgstr "需要FieldMetadataId才能创建视图组。"
+
+#. js-lingui-id: snEXuU
+#: src/engine/metadata-modules/view-sort/exceptions/view-sort.exception.ts
+msgid "FieldMetadataId is required to create a view sort."
+msgstr "需要FieldMetadataId才能创建视图排序。"
+
+#. js-lingui-id: i+AQUz
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "File category"
+msgstr "文件类别"
+
+#. js-lingui-id: lEpDue
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+msgid "Folder for Message Channel"
+msgstr "消息通道文件夹"
+
+#. js-lingui-id: cqQyPB
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+msgid "Folder name"
+msgstr "文件夹名称"
+
+#. js-lingui-id: eWmJYU
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-field-metadata-validator.service.ts
+msgid "Forbidden updated properties for relation field metadata"
+msgstr "禁止更新关系字段元数据的属性"
+
+#. js-lingui-id: kuN9I4
+#: src/modules/workflow/workflow-trigger/utils/assert-form-step-is-valid.util.ts
+msgid "Form action fields must have a defined label and type"
+msgstr "表单操作字段必须具有已定义的标签和类型"
+
+#. js-lingui-id: QK3OvQ
+#: src/modules/workflow/workflow-trigger/utils/assert-form-step-is-valid.util.ts
+msgid "Form action fields must have unique names"
+msgstr "表单操作字段必须有唯一的名称"
+
+#. js-lingui-id: KYP1t5
+#: src/modules/workflow/workflow-trigger/utils/assert-form-step-is-valid.util.ts
+msgid "Form action must have at least one field"
+msgstr "表单操作必须至少包含一个字段"
+
+#. js-lingui-id: 39y5bn
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "Friday"
+msgstr "星期五"
+
+#. js-lingui-id: oQA+cA
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Full path"
+msgstr "完整路径"
+
+#. js-lingui-id: TkE8dW
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "handle"
+msgstr "处理"
+
+#. js-lingui-id: Nf7oXL
+#: src/modules/messaging/common/standard-objects/message-participant.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-participant.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+#: src/modules/blocklist/standard-objects/blocklist.workspace-entity.ts
+#: src/modules/blocklist/standard-objects/blocklist.workspace-entity.ts
+msgid "Handle"
+msgstr "句柄"
+
+#. js-lingui-id: GvgxWx
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "Handle Aliases"
+msgstr "句柄别名"
+
+#. js-lingui-id: VehAU2
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+msgid "Header message Id"
+msgstr "消息头 ID"
+
+#. js-lingui-id: NNJnBi
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+msgid "iCal UID"
+msgstr "iCal UID"
+
+#. js-lingui-id: CiyiKN
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "ICP"
+msgstr "ICP"
+
+#. js-lingui-id: dFb5Nt
+#: src/engine/twenty-orm/base.workspace-entity.ts
+#: src/engine/twenty-orm/base.workspace-entity.ts
+msgid "Id"
+msgstr "ID"
+
+#. js-lingui-id: Ebc83S
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Ideal Customer Profile:  Indicates whether the company is the most suitable and valuable customer for you"
+msgstr "理想客户简介：说明该公司是否是最适合和最有价值的客户"
+
+#. js-lingui-id: YcVn4w
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "If defined default value must contain at least one value"
+msgstr "如果定义了默认值，则必须包含至少一个值"
+
+#. js-lingui-id: Kfy/ML
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "Index already exists"
+msgstr "索引已存在"
+
+#. js-lingui-id: EwXumf
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "Index field has an invalid reference"
+msgstr "索引字段有无效引用"
+
+#. js-lingui-id: +hk7cY
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "Index field ID already exists in another index"
+msgstr "索引字段 ID 已在另一个索引中存在"
+
+#. js-lingui-id: ITue4V
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "Index field references incorrect index metadata"
+msgstr "索引字段引用了错误的索引元数据"
+
+#. js-lingui-id: K1hWwv
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "Index must have at least one field"
+msgstr "索引必须至少包含一个字段"
+
+#. js-lingui-id: Hl6cv2
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "Index related object not found"
+msgstr "索引相关对象未找到"
+
+#. js-lingui-id: fY2zUQ
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/builders/index/workspace-migration-v2-index-actions-builder.service.ts
+msgid "Index to delete not found"
+msgstr "未找到要删除的索引"
+
+#. js-lingui-id: qgBN4Y
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "Index with same id already exists"
+msgstr "具有相同 ID 的索引已存在"
+
+#. js-lingui-id: a+k+8J
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "Index with same name already exists"
+msgstr "具有相同名称的索引已存在"
+
+#. js-lingui-id: 71VJzG
+#: src/engine/metadata-modules/utils/validate-metadata-name-is-not-too-short.utils.ts
+msgid "Input is too short: \"{name}\""
+msgstr "输入过短：“{name}”"
+
+#. js-lingui-id: X7+bC6
+#: src/engine/core-modules/record-transformer/utils/transform-phones-value.util.ts
+msgid "Invalid calling code {callingCode}"
+msgstr "无效的呼叫代码 {callingCode}"
+
+#. js-lingui-id: tG/2Q/
+#: src/engine/core-modules/captcha/captcha.guard.ts
+msgid "Invalid Captcha, please try another device"
+msgstr "无效验证码，请尝试使用其他设备"
+
+#. js-lingui-id: 1PtrY0
+#: src/engine/core-modules/record-transformer/utils/transform-phones-value.util.ts
+msgid "Invalid country code {countryCode}"
+msgstr "无效的国家代码 {countryCode}"
+
+#. js-lingui-id: AMeEDO
+#: src/engine/core-modules/imap-smtp-caldav-connection/services/imap-smtp-caldav-connection.service.ts
+msgid "Invalid credentials. Please check your username and password."
+msgstr "凭证无效。请检查您的用户名和密码。"
+
+#. js-lingui-id: 4EtFrA
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+msgid "Invalid day value. Should be integer greater than 1"
+msgstr "无效的天值。应该是大于 1 的整数"
+
+#. js-lingui-id: MBpeQ6
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+msgid "Invalid hour value. Should be integer between 0 and 23"
+msgstr "无效的小时值。应该是 0 到 23 之间的整数"
+
+#. js-lingui-id: 9xsjn9
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+msgid "Invalid hour value. Should be integer greater than 1"
+msgstr "无效的小时值。应该是大于 1 的整数"
+
+#. js-lingui-id: FSunWx
+#: src/engine/metadata-modules/utils/compute-metadata-name-from-label.util.ts
+msgid "Invalid label: \"{label}\""
+msgstr "无效的标签：“{label}”"
+
+#. js-lingui-id: iBBCnf
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+msgid "Invalid minute value. Should be integer between 0 and 59"
+msgstr "无效的分钟值。应该是 0 到 59 之间的整数"
+
+#. js-lingui-id: hYcFSd
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+msgid "Invalid minute value. Should be integer greater than 1"
+msgstr "无效的分钟值。应该是大于 1 的整数"
+
+#. js-lingui-id: sDfyvM
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-morph-relation-creation-payload.util.ts
+msgid "Invalid morph relation input"
+msgstr "无效的形态关系输入"
+
+#. js-lingui-id: VvhAS2
+#: src/engine/metadata-modules/object-metadata/utils/validate-object-metadata-input.util.ts
+msgid "Invalid object metadata input"
+msgstr "对象元数据输入无效"
+
+#. js-lingui-id: AXZsy/
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-relation-creation-payload.util.ts
+msgid "Invalid relation creation payload"
+msgstr "无效的关系创建请求负载"
+
+#. js-lingui-id: ApP70c
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+msgid "Invalid setting type provided in cron trigger"
+msgstr "计时触发器中提供的设置类型无效"
+
+#. js-lingui-id: sHcAMD
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+msgid "Invalid trigger type for enabling workflow trigger"
+msgstr "启用工作流程触发器的触发类型无效"
+
+#. js-lingui-id: 1Iyic0
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-morph-or-relation-flat-field-metadata.util.ts
+msgid "Invalid uuid {id}"
+msgstr "无效的 uuid {id}"
+
+#. js-lingui-id: VEKoJx
+#: src/engine/core-modules/two-factor-authentication/two-factor-authentication-exception.filter.ts
+msgid "Invalid verification code. Please try again."
+msgstr "无效的验证码。请再试一次。"
+
+#. js-lingui-id: 8xkULN
+#: src/engine/metadata-modules/view-sort/exceptions/view-sort.exception.ts
+msgid "Invalid view sort data"
+msgstr "无效的视图排序数据"
+
+#. js-lingui-id: I0OzaR
+#: src/engine/metadata-modules/view-sort/exceptions/view-sort.exception.ts
+msgid "Invalid view sort data for view sort id: {id}"
+msgstr "视图排序数据无效，视图排序 ID：{id}"
+
+#. js-lingui-id: grHYXZ
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+msgid "Is canceled"
+msgstr "是否取消"
+
+#. js-lingui-id: k+g9Uh
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+msgid "Is Contact Auto Creation Enabled"
+msgstr "是否启用联系人自动创建"
+
+#. js-lingui-id: uBx1xd
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+msgid "Is Full Day"
+msgstr "是否全天"
+
+#. js-lingui-id: 3iAfL2
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+msgid "Is Organizer"
+msgstr "是否组织者"
+
+#. js-lingui-id: VrHWrH
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+msgid "Is Sent Folder"
+msgstr "是否发送文件夹"
+
+#. js-lingui-id: Mqzqb8
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+msgid "Is Sync Enabled"
+msgstr "是否启用同步"
+
+#. js-lingui-id: BHCUSr
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+msgid "Is Synced"
+msgstr "已同步"
+
+#. js-lingui-id: rjyWPb
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "January"
+msgstr "一月"
+
+#. js-lingui-id: 27z+FV
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Job Title"
+msgstr "职位"
+
+#. js-lingui-id: PviVyk
+#: src/engine/core-modules/workspace-invitation/services/workspace-invitation.service.ts
+msgid "Join your team on Twenty"
+msgstr "加入您的团队，使用 Twenty"
+
+#. js-lingui-id: WNfJ8M
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "JSON object containing custom connection parameters"
+msgstr "包含自定义连接参数的JSON对象"
+
+#. js-lingui-id: AQuLwi
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "Json object to provide steps"
+msgstr "提供步骤的 Json 对象"
+
+#. js-lingui-id: fOjmZ1
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "Json object to provide trigger"
+msgstr "提供触发器的 Json 对象"
+
+#. js-lingui-id: TVc0/Q
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Json value for event details"
+msgstr "事件详细信息的 Json 值"
+
+#. js-lingui-id: u4ex5r
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "July"
+msgstr "七月"
+
+#. js-lingui-id: zeEQd/
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "June"
+msgstr "六月"
+
+#. js-lingui-id: ljUvzm
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-field-metadata-validator.service.ts
+msgid "Label identifier field cannot be deactivated"
+msgstr "标签标识字段无法停用"
+
+#. js-lingui-id: ACUSmL
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/utils/validate-label-identifier-field-metadata-id-flat-view-field.util.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/utils/validate-label-identifier-field-metadata-id-flat-view-field.util.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+msgid "Label identifier view field cannot be deleted"
+msgstr "标签标识视图字段无法删除"
+
+#. js-lingui-id: rI+dAx
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/utils/validate-label-identifier-field-metadata-id-flat-view-field.util.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/utils/validate-label-identifier-field-metadata-id-flat-view-field.util.ts
+msgid "Label identifier view field has to be in the lowest position"
+msgstr "标签标识视图字段必须放在最低位置"
+
+#. js-lingui-id: PqTWJf
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/utils/validate-label-identifier-field-metadata-id-flat-view-field.util.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/utils/validate-label-identifier-field-metadata-id-flat-view-field.util.ts
+msgid "Label identifier view field has to be visible"
+msgstr "标签标识视图字段必须可见"
+
+#. js-lingui-id: w8Rv8T
+#: src/engine/metadata-modules/utils/compute-metadata-name-from-label.util.ts
+msgid "Label is required"
+msgstr "需要标签"
+
+#. js-lingui-id: 4EGmy6
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "Label must not be empty"
+msgstr "标签不能为空"
+
+#. js-lingui-id: k731jp
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "Label must not contain a comma"
+msgstr "标签中不得包含逗号"
+
+#. js-lingui-id: vXIe7J
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Language"
+msgstr "语言"
+
+#. js-lingui-id: WvYp6o
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "Last published Version Id"
+msgstr "最近发布的版本 ID"
+
+#. js-lingui-id: Y60/DC
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+msgid "Last sync cursor"
+msgstr "上次同步光标"
+
+#. js-lingui-id: Zdx9Qq
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+msgid "Last sync date"
+msgstr "上次同步日期"
+
+#. js-lingui-id: c7uqNg
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "Last sync history ID"
+msgstr "上次同步历史 ID"
+
+#. js-lingui-id: tGwswq
+#: src/engine/twenty-orm/base.workspace-entity.ts
+msgid "Last time the record was changed"
+msgstr "记录上次更改时间"
+
+#. js-lingui-id: o1zvNS
+#: src/engine/twenty-orm/base.workspace-entity.ts
+msgid "Last update"
+msgstr "最后更新"
+
+#. js-lingui-id: wR9USP
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Linked Object Metadata Id"
+msgstr "关联对象元数据 ID"
+
+#. js-lingui-id: 6YiMr4
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Linked Record cached name"
+msgstr "关联记录缓存名称"
+
+#. js-lingui-id: sgHAxx
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Linked Record id"
+msgstr "关联记录 ID"
+
+#. js-lingui-id: uCA6be
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#. js-lingui-id: LeFv/R
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "List of opportunities for which that person is the point of contact"
+msgstr "该联系人负责的机会列表"
+
+#. js-lingui-id: wJijgU
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+msgid "Location"
+msgstr "位置"
+
+#. js-lingui-id: hg6l4j
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "March"
+msgstr "三月"
+
+#. js-lingui-id: hw7Mwk
+#: src/engine/api/common/common-query-runners/common-create-many-query-runner/common-create-many-query-runner.service.ts
+msgid "Maximum number of records to upsert is {QUERY_MAX_RECORDS}."
+msgstr ""
+
+#. js-lingui-id: 3JzsDb
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "May"
+msgstr "五月"
+
+#. js-lingui-id: EnfPm2
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+msgid "Meet Link"
+msgstr "会议链接"
+
+#. js-lingui-id: xDAtGP
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-participant.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-participant.workspace-entity.ts
+msgid "Message"
+msgstr "消息"
+
+#. js-lingui-id: g+QGD6
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+msgid "Message Channel"
+msgstr "消息通道"
+
+#. js-lingui-id: DzU4a3
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+msgid "Message Channel Association"
+msgstr "消息通道关联"
+
+#. js-lingui-id: wd/R++
+#: src/modules/messaging/common/standard-objects/message-channel-message-association.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel-message-association.workspace-entity.ts
+msgid "Message Channel Id"
+msgstr "消息通道 ID"
+
+#. js-lingui-id: disipM
+#: src/modules/messaging/common/standard-objects/message-channel-message-association.workspace-entity.ts
+msgid "Message Channel Message Association"
+msgstr "消息通道消息关联"
+
+#. js-lingui-id: ijQY3P
+#: src/modules/messaging/common/standard-objects/message-channel-message-association.workspace-entity.ts
+msgid "Message Channel Message Associations"
+msgstr "消息通道消息关联"
+
+#. js-lingui-id: LOU3x5
+#: src/modules/messaging/message-channel-manager/query-hooks/message-channel-update-one.pre-query.hook.ts
+msgid "Message channel not found"
+msgstr ""
+
+#. js-lingui-id: k7LXPQ
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "Message Channels"
+msgstr "消息通道"
+
+#. js-lingui-id: /4uGJc
+#: src/modules/messaging/common/standard-objects/message-channel-message-association.workspace-entity.ts
+msgid "Message Direction"
+msgstr "消息方向"
+
+#. js-lingui-id: fBw8fQ
+#: src/modules/messaging/common/standard-objects/message-channel-message-association.workspace-entity.ts
+msgid "Message External Id"
+msgstr "消息外部 ID"
+
+#. js-lingui-id: CStLnc
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+msgid "Message Folder"
+msgstr "消息文件夹"
+
+#. js-lingui-id: XCJIdB
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+msgid "Message folder import policy"
+msgstr "信息文件夹导入策略"
+
+#. js-lingui-id: p4ANpY
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+msgid "Message Folders"
+msgstr "消息文件夹"
+
+#. js-lingui-id: 6icznk
+#: src/modules/messaging/common/standard-objects/message-channel-message-association.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel-message-association.workspace-entity.ts
+msgid "Message Id"
+msgstr "消息 ID"
+
+#. js-lingui-id: 9FJSpK
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+msgid "Message id from the message header"
+msgstr "消息头中的消息 ID"
+
+#. js-lingui-id: yaC1Aq
+#: src/modules/messaging/common/standard-objects/message-channel-message-association.workspace-entity.ts
+msgid "Message id from the messaging provider"
+msgstr "消息提供商的消息 ID"
+
+#. js-lingui-id: IUmVwu
+#: src/modules/messaging/common/standard-objects/message-participant.workspace-entity.ts
+msgid "Message Participant"
+msgstr "消息参与者"
+
+#. js-lingui-id: FhIFx7
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-participant.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-participant.workspace-entity.ts
+msgid "Message Participants"
+msgstr "消息参与者"
+
+#. js-lingui-id: IC5A8V
+#: src/modules/messaging/common/standard-objects/message-channel-message-association.workspace-entity.ts
+msgid "Message Synced with a Message Channel"
+msgstr "与消息通道同步的消息"
+
+#. js-lingui-id: de2nM/
+#: src/modules/messaging/common/standard-objects/message-thread.workspace-entity.ts
+msgid "Message Thread"
+msgstr "消息线程"
+
+#. js-lingui-id: km1jgD
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+msgid "Message Thread Id"
+msgstr "消息线程 ID"
+
+#. js-lingui-id: RD0ecC
+#: src/modules/messaging/common/standard-objects/message-thread.workspace-entity.ts
+msgid "Message Threads"
+msgstr "消息线程"
+
+#. js-lingui-id: t7TeQU
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-thread.workspace-entity.ts
+msgid "Messages"
+msgstr "消息"
+
+#. js-lingui-id: WoWdku
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+msgid "Messages from the channel."
+msgstr "来自通道的消息"
+
+#. js-lingui-id: rYPBO7
+#: src/modules/messaging/common/standard-objects/message-thread.workspace-entity.ts
+msgid "Messages from the thread."
+msgstr "来自线程的消息"
+
+#. js-lingui-id: XcKQrV
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "Messaging provider access token"
+msgstr "消息提供商访问令牌"
+
+#. js-lingui-id: 80EvIk
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "Messaging provider refresh token"
+msgstr "消息提供商刷新令牌"
+
+#. js-lingui-id: SzCMUQ
+#: src/engine/twenty-orm/utils/compute-relation-connect-query-configs.util.ts
+msgid "Missing required fields: at least one unique constraint have to be fully populated for '{connectFieldName}'."
+msgstr "缺少必需字段：至少一个唯一约束需要完全填充用于'{connectFieldName}'。"
+
+#. js-lingui-id: hty0d5
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "Monday"
+msgstr "星期一"
+
+#. js-lingui-id: FqzlX4
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-morph-relation-creation-payload.util.ts
+msgid "Morph relation creation payloads must have the same relation type"
+msgstr "形态关系创建的负载必须具有相同的关系类型"
+
+#. js-lingui-id: nU54nm
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-morph-relation-creation-payload.util.ts
+msgid "Morph relation creation payloads must only contain relation to other object metadata"
+msgstr "形态关系创建的负载只能包含与其他对象元数据的关系"
+
+#. js-lingui-id: Z/Awgf
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-morph-relation-creation-payload.util.ts
+msgid "Morph relation creation payloads must only contain relation to the same object metadata"
+msgstr "形态关系创建的负载只能包含与相同对象元数据的关系"
+
+#. js-lingui-id: DsdcRG
+#: src/engine/metadata-modules/flat-field-metadata/services/flat-field-metadata-type-validator.service.ts
+msgid "Morph relation fields are disabled for your workspace"
+msgstr "您的工作区不支持形变关系字段"
+
+#. js-lingui-id: Wu/pkS
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+msgid "Multi-select field default value must be an array"
+msgstr "多选字段的默认值必须是数组"
+
+#. js-lingui-id: 6rLmLu
+#: src/engine/api/common/common-query-runners/common-create-many-query-runner/utils/get-matching-record-id.util.ts
+msgid "Multiple records found with the same unique field values for {conflictingFieldsValues}. Cannot determine which record to update."
+msgstr "找到了多个记录，它们具有相同的唯一字段值 {conflictingFieldsValues}。无法确定要更新哪个记录。"
+
+#. js-lingui-id: 6YtxFj
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+#: src/modules/favorite-folder/standard-objects/favorite-folder.workspace-entity.ts
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+msgid "Name"
+msgstr "名称"
+
+#. js-lingui-id: aD053i
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-relation.service.ts
+msgid "Name \"{computedMetadataNameFromLabel}\" cannot be the same on both side of the relation"
+msgstr "名称 \"{computedMetadataNameFromLabel}\" 不能在关系的两边相同"
+
+#. js-lingui-id: Ge9TXE
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-flat-field-metadata-name-availability.util.ts
+msgid "Name \"{flatFieldMetadataName}\" is not available"
+msgstr "名称 \"{flatFieldMetadataName}\" 不可用"
+
+#. js-lingui-id: h8ic2G
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-flat-field-metadata-name-availability.util.ts
+msgid "Name \"{flatFieldMetadataName}\" is not available as it is already used by another field"
+msgstr "名称 \"{flatFieldMetadataName}\" 不可用，因为它已被另一个字段使用"
+
+#. js-lingui-id: Q2loDF
+#: src/engine/metadata-modules/object-metadata/services/object-metadata-field-relation.service.ts
+msgid "Name \"{name}\" is not available."
+msgstr "名称 \"{name}\" 不可用."
+
+#. js-lingui-id: RGz1nY
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-validation.service.ts
+msgid "Name is not available, it may be duplicating another field's name."
+msgstr "名称不可用，可能重复其他字段名称。"
+
+#. js-lingui-id: Ny5wFU
+#: src/engine/metadata-modules/utils/constants/metadata-name-flat-metadata-validators.constants.ts
+msgid "Name is not valid: it must start with lowercase letter and contain only alphanumeric letters"
+msgstr "名称无效：必须以小写字母开头且仅包含字母数字字符"
+
+#. js-lingui-id: zjh2SJ
+#: src/engine/metadata-modules/utils/constants/metadata-name-flat-metadata-validators.constants.ts
+msgid "Name is too long"
+msgstr "名称太长"
+
+#. js-lingui-id: 0MobB1
+#: src/engine/metadata-modules/utils/validate-metadata-name-is-not-too-long.utils.ts
+msgid "Name is too long: it exceeds the 63 characters limit."
+msgstr "名称太长：超过 63 个字符限制。"
+
+#. js-lingui-id: go/Vg1
+#: src/engine/metadata-modules/utils/constants/metadata-name-flat-metadata-validators.constants.ts
+msgid "Name is too short"
+msgstr "名称太短"
+
+#. js-lingui-id: EEVPOx
+#: src/modules/favorite-folder/standard-objects/favorite-folder.workspace-entity.ts
+msgid "Name of the favorite folder"
+msgstr "收藏夹名称"
+
+#. js-lingui-id: csMjko
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "Name of the workflow run"
+msgstr "工作流程运行名称"
+
+#. js-lingui-id: P+jdmX
+#: src/engine/metadata-modules/utils/constants/metadata-name-flat-metadata-validators.constants.ts
+msgid "Name should be in camelCase"
+msgstr "名称应为 camelCase 格式"
+
+#. js-lingui-id: Dr0xtb
+#: src/engine/metadata-modules/flat-object-metadata/validators/utils/validate-flat-object-metadata-name-and-labels.util.ts
+#: src/engine/metadata-modules/flat-object-metadata/validators/utils/validate-flat-object-metadata-name-and-labels.util.ts
+msgid "Names are not synced with labels"
+msgstr "名称未与标签同步"
+
+#. js-lingui-id: hQQZse
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+msgid "No event name provided in database event trigger"
+msgstr "数据库事件触发器中未提供事件名称"
+
+#. js-lingui-id: 9bu19u
+#: src/modules/workflow/workflow-trigger/utils/assert-form-step-is-valid.util.ts
+msgid "No input provided in form step"
+msgstr "表单步骤中未提供输入"
+
+#. js-lingui-id: MWAUHo
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+msgid "No pattern provided in CUSTOM cron trigger"
+msgstr "自定义计时触发器中未提供模式"
+
+#. js-lingui-id: 2iURlq
+#: src/engine/metadata-modules/object-permission/field-permission/field-permission.service.ts
+msgid "No permissions are set for this role on the selected object. Please set object permissions first."
+msgstr "未为此角色设置对象权限。请先设置对象权限。"
+
+#. js-lingui-id: pOu4u/
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+msgid "No schedule provided in cron trigger"
+msgstr "计时触发器中未提供计划"
+
+#. js-lingui-id: cLUBlS
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+msgid "No setting type provided in cron trigger"
+msgstr "计时触发器中未提供设置类型"
+
+#. js-lingui-id: QwbSxD
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+msgid "No steps provided in workflow version"
+msgstr "工作流程版本中未提供步骤"
+
+#. js-lingui-id: 6dP8sB
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+msgid "No trigger type provided"
+msgstr "未提供触发类型"
+
+#. js-lingui-id: /BipSk
+#: src/engine/metadata-modules/permissions/utils/permission-graphql-api-exception-handler.util.ts
+msgid "No valid authentication context found."
+msgstr "找不到有效的身份验证上下文。"
+
+#. js-lingui-id: KiJn9B
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+#: src/modules/note/standard-objects/note-target.workspace-entity.ts
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Note"
+msgstr "备注"
+
+#. js-lingui-id: GGlkb7
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+msgid "Note attachments"
+msgstr "备注附件"
+
+#. js-lingui-id: Q1Rz+6
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+msgid "Note body"
+msgstr "备注正文"
+
+#. js-lingui-id: Yp057F
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+msgid "Note record position"
+msgstr "备注记录位置"
+
+#. js-lingui-id: spaO7l
+#: src/modules/note/standard-objects/note-target.workspace-entity.ts
+msgid "Note Target"
+msgstr "备注目标"
+
+#. js-lingui-id: mkchvJ
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+msgid "Note targets"
+msgstr "备注目标"
+
+#. js-lingui-id: tD4BxK
+#: src/modules/note/standard-objects/note-target.workspace-entity.ts
+msgid "Note Targets"
+msgstr "备注目标"
+
+#. js-lingui-id: jDThel
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+msgid "Note title"
+msgstr "备注标题"
+
+#. js-lingui-id: 1DBGsz
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+msgid "Notes"
+msgstr "备注"
+
+#. js-lingui-id: Ne73P/
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+msgid "Notes tied to the {label}"
+msgstr "与 {label} 相关的备注"
+
+#. js-lingui-id: fXBE74
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Notes tied to the company"
+msgstr "与公司相关的备注"
+
+#. js-lingui-id: iQ5AH6
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Notes tied to the contact"
+msgstr "与联系人相关的备注"
+
+#. js-lingui-id: 0bi/Eh
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Notes tied to the opportunity"
+msgstr "与机会相关的备注"
+
+#. js-lingui-id: B2Y6QU
+#: src/modules/note/standard-objects/note-target.workspace-entity.ts
+msgid "NoteTarget company"
+msgstr "备注目标公司"
+
+#. js-lingui-id: /mH0jo
+#: src/modules/note/standard-objects/note-target.workspace-entity.ts
+msgid "NoteTarget note"
+msgstr "备注目标备注"
+
+#. js-lingui-id: DTs4tO
+#: src/modules/note/standard-objects/note-target.workspace-entity.ts
+msgid "NoteTarget opportunity"
+msgstr "备注目标机会"
+
+#. js-lingui-id: gBwbnk
+#: src/modules/note/standard-objects/note-target.workspace-entity.ts
+msgid "NoteTarget person"
+msgstr "备注目标联系人"
+
+#. js-lingui-id: t9QlBd
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "November"
+msgstr "十一月"
+
+#. js-lingui-id: bR2sEm
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Number format"
+msgstr "数字格式"
+
+#. js-lingui-id: ioJFzx
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Number of employees in the company"
+msgstr "公司员工人数"
+
+#. js-lingui-id: ECRKYR
+#: src/engine/metadata-modules/utils/validate-no-other-object-with-same-name-exists-or-throw.util.ts
+#: src/engine/metadata-modules/flat-object-metadata/validators/utils/validate-flat-object-metadata-name-and-labels.util.ts
+msgid "Object already exists"
+msgstr "对象已存在"
+
+#. js-lingui-id: wLX74t
+#: src/engine/metadata-modules/flat-object-metadata/validators/utils/validate-flat-object-metadata-label.util.ts
+msgid "Object label is too long"
+msgstr "对象标签太长"
+
+#. js-lingui-id: nmhjwk
+#: src/engine/metadata-modules/flat-object-metadata/validators/utils/validate-flat-object-metadata-label.util.ts
+msgid "Object label is too short"
+msgstr "对象标签太短"
+
+#. js-lingui-id: xrblgA
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-validator.service.ts
+msgid "Object metadata not found"
+msgstr "未找到对象元数据"
+
+#. js-lingui-id: E8vJ0A
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-field-metadata-validator.service.ts
+msgid "Object related to field to update not found"
+msgstr "未找到与要更新字段相关的对象"
+
+#. js-lingui-id: MnOwTp
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-field-metadata-validator.service.ts
+msgid "Object related to updated field does not have a label identifier"
+msgstr "与更新字段相关的对象没有标签标识符"
+
+#. js-lingui-id: 6unt40
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-relation-creation-payload.util.ts
+msgid "Object targeted by field to create not found"
+msgstr "未找到要创建的字段目标对象"
+
+#. js-lingui-id: KHK54G
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-morph-or-relation-flat-field-metadata.util.ts
+msgid "Object targeted by the relation not found"
+msgstr "未找到与关系相关的对象"
+
+#. js-lingui-id: bMeJkW
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-object-metadata-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-object-metadata-validator.service.ts
+msgid "Object to delete not found"
+msgstr "未找到要删除的对象"
+
+#. js-lingui-id: pQ5dZU
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-object-metadata-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-object-metadata-validator.service.ts
+msgid "Object to update not found"
+msgstr "未找到要更新的对象"
+
+#. js-lingui-id: cdjRFZ
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-object-metadata-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-object-metadata-validator.service.ts
+msgid "Object with same id already exists"
+msgstr "具有相同 ID 的对象已存在"
+
+#. js-lingui-id: 53pIyA
+#: src/engine/metadata-modules/view/exceptions/view.exception.ts
+msgid "ObjectMetadataId is required to create a view."
+msgstr "需要ObjectMetadataId才能创建视图。"
+
+#. js-lingui-id: dzQfDY
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "October"
+msgstr "十月"
+
+#. js-lingui-id: eWQQpx
+#: src/engine/metadata-modules/object-permission/object-permission.service.ts
+msgid "One or more objects you are trying to set permissions for could not be found. They may have been deleted."
+msgstr "您尝试设置权限的一个或多个对象未找到。它们可能已被删除。"
+
+#. js-lingui-id: 4MyDFl
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Opportunities"
+msgstr "机会"
+
+#. js-lingui-id: 5QgKbT
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Opportunities linked to the company."
+msgstr "与公司相关的机会"
+
+#. js-lingui-id: SV/iis
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+#: src/modules/task/standard-objects/task-target.workspace-entity.ts
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+#: src/modules/note/standard-objects/note-target.workspace-entity.ts
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Opportunity"
+msgstr "机会"
+
+#. js-lingui-id: WnMlKn
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Opportunity amount"
+msgstr "机会金额"
+
+#. js-lingui-id: aj3fnv
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Opportunity close date"
+msgstr "机会结束日期"
+
+#. js-lingui-id: 3NYczb
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Opportunity company"
+msgstr "机会公司"
+
+#. js-lingui-id: as45IN
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Opportunity point of contact"
+msgstr "机会联系人"
+
+#. js-lingui-id: 5Nu7Uw
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Opportunity probability"
+msgstr "机会概率"
+
+#. js-lingui-id: Q1dzBp
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Opportunity record position"
+msgstr "机会记录位置"
+
+#. js-lingui-id: 5ugYS3
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Opportunity stage"
+msgstr "机会阶段"
+
+#. js-lingui-id: 2mFkfl
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "Option id is invalid"
+msgstr "选项 ID 无效"
+
+#. js-lingui-id: MniXaX
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "Option id is required"
+msgstr "选项 ID 是必需的"
+
+#. js-lingui-id: //eyK1
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "Option label \"{sanitizedLabel}\" is beneath 1 character"
+msgstr "选项标签“{sanitizedLabel}\" 少于1个字符"
+
+#. js-lingui-id: mTFS0z
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "Option label exceeds 63 characters"
+msgstr "选项标签超过 63 个字符"
+
+#. js-lingui-id: h8lHqX
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+msgid "Option label format not supported"
+msgstr "选项标签格式不支持"
+
+#. js-lingui-id: +E9N4m
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "Option label is required"
+msgstr "需要选项标签"
+
+#. js-lingui-id: dFudyC
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+msgid "Option label must be a string of at least one character"
+msgstr "选项标签必须至少为一个字符的字符串"
+
+#. js-lingui-id: nQqNzE
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "Option value \"{sanitizedValue}\" is beneath 1 character"
+msgstr "选项值“{sanitizedValue}\" 少于1个字符"
+
+#. js-lingui-id: 5m/1Hh
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "Option value exceeds 63 characters"
+msgstr "选项值超过 63 个字符"
+
+#. js-lingui-id: zEGChV
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+msgid "Option value format not supported"
+msgstr "不支持的选项值格式"
+
+#. js-lingui-id: /wsRPd
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "Option value is required"
+msgstr "需要选项值"
+
+#. js-lingui-id: Kub9t0
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+msgid "Option value must be a string of at least one character"
+msgstr "选项值必须至少为一个字符的字符串"
+
+#. js-lingui-id: EabrTR
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+msgid "Options are required for enum fields"
+msgstr "枚举字段需要选项"
+
+#. js-lingui-id: AODALE
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+msgid "Page Layout ID"
+msgstr "页面布局 ID"
+
+#. js-lingui-id: wT0H4O
+#: src/engine/core-modules/auth/services/sign-in-up.service.ts
+msgid "Password too weak"
+msgstr "密码太弱"
+
+#. js-lingui-id: l6qKfi
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+msgid "Pending action for folder sync"
+msgstr ""
+
+#. js-lingui-id: ttZgHv
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+msgid "Pending action for group emails"
+msgstr ""
+
+#. js-lingui-id: 5aGQev
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+msgid "Pending group emails action"
+msgstr ""
+
+#. js-lingui-id: 6jM9pB
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+msgid "Pending Sync Action"
+msgstr ""
+
+#. js-lingui-id: 1wdjme
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "People"
+msgstr "人员"
+
+#. js-lingui-id: E1zc7W
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "People linked to the company."
+msgstr "与公司相关的人员"
+
+#. js-lingui-id: OZdaTZ
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+#: src/modules/task/standard-objects/task-target.workspace-entity.ts
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/note/standard-objects/note-target.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-participant.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-participant.workspace-entity.ts
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Person"
+msgstr "人员"
+
+#. js-lingui-id: c3Qq6o
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Person record Position"
+msgstr "人员记录位置"
+
+#. js-lingui-id: zmwvG2
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Phone"
+msgstr "电话"
+
+#. js-lingui-id: m2ivgq
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Phones"
+msgstr "电话"
+
+#. js-lingui-id: rxi3R2
+#: src/engine/core-modules/imap-smtp-caldav-connection/services/imap-smtp-caldav-connection-validator.service.ts
+msgid "Please check your connection settings. Make sure the server host, port, and password are correct."
+msgstr "请检查您的连接设置。确保服务器主机、端口和密码正确。"
+
+#. js-lingui-id: v0iiWr
+#: src/engine/core-modules/webhook/webhook.service.ts
+#: src/engine/core-modules/webhook/webhook.service.ts
+msgid "Please provide a valid HTTP or HTTPS URL."
+msgstr "请提供有效的 HTTP 或 HTTPS URL。"
+
+#. js-lingui-id: RDvKTq
+#: src/engine/core-modules/imap-smtp-caldav-connection/services/imap-smtp-caldav-connection-validator.service.ts
+msgid "Please provide connection details to configure your email account."
+msgstr "请提供连接详细信息以配置您的电子邮件帐户。"
+
+#. js-lingui-id: 0ldKS0
+#: src/engine/core-modules/imap-smtp-caldav-connection/services/imap-smtp-caldav-connection.service.ts
+msgid "Please select a valid connection type (IMAP, SMTP, or CalDAV) and try again."
+msgstr "请选择有效的连接类型（IMAP、SMTP 或 CalDAV），然后重试。"
+
+#. js-lingui-id: P04j61
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Point of Contact"
+msgstr "联系人"
+
+#. js-lingui-id: p/78dY
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+#: src/modules/favorite-folder/standard-objects/favorite-folder.workspace-entity.ts
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+msgid "Position"
+msgstr "职位"
+
+#. js-lingui-id: TTHIbk
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Preferred color scheme"
+msgstr "首选配色方案"
+
+#. js-lingui-id: 5v4qYi
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Preferred language"
+msgstr "首选语言"
+
+#. js-lingui-id: WJIL29
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Probability"
+msgstr "概率"
+
+#. js-lingui-id: dtGxRz
+#: src/engine/core-modules/record-transformer/utils/transform-phones-value.util.ts
+msgid "Provided and inferred calling code are conflicting"
+msgstr "提供的和推断的呼叫代码相冲突"
+
+#. js-lingui-id: Vq/afT
+#: src/engine/core-modules/record-transformer/utils/transform-phones-value.util.ts
+msgid "Provided and inferred country code are conflicting"
+msgstr "提供的和推断的国家代码相冲突"
+
+#. js-lingui-id: HZ45ox
+#: src/engine/core-modules/record-transformer/utils/transform-phones-value.util.ts
+msgid "Provided country code and calling code are conflicting"
+msgstr "提供的国家代码和呼叫代码相冲突"
+
+#. js-lingui-id: A4Ohxb
+#: src/engine/core-modules/record-transformer/utils/transform-phones-value.util.ts
+msgid "Provided phone number is invalid {number}"
+msgstr "提供的电话号码无效 \"{number}\""
+
+#. js-lingui-id: CrfRPa
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "provider"
+msgstr "提供者"
+
+#. js-lingui-id: OL88cI
+#: src/engine/core-modules/public-domain/public-domain.service.ts
+msgid "Public domain already registered"
+msgstr "公共域名已注册"
+
+#. js-lingui-id: Capzni
+#: src/engine/core-modules/dns-manager/services/dns-manager.service.ts
+msgid "Public domain URL is not defined. Please set the PUBLIC_DOMAIN_URL environment variable"
+msgstr "未定义公共域名 URL。请设置 PUBLIC_DOMAIN_URL 环境变量。"
+
+#. js-lingui-id: YfbwOB
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+msgid "Received At"
+msgstr "接收时间"
+
+#. js-lingui-id: x93onj
+#: src/engine/metadata-modules/view-field/services/view-field.service.ts
+#: src/engine/metadata-modules/view-field/services/view-field.service.ts
+msgid "Record text must be in first position of the view."
+msgstr "记录文本必须处于视图的首位置。"
+
+#. js-lingui-id: KGmwY/
+#: src/engine/metadata-modules/view-field/services/view-field.service.ts
+msgid "Record text must stay visible."
+msgstr "记录文本必须保持可见。"
+
+#. js-lingui-id: 9gXJw8
+#: src/modules/calendar/common/standard-objects/calendar-channel-event-association.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel-event-association.workspace-entity.ts
+msgid "Recurring Event ID"
+msgstr "重复事件 ID"
+
+#. js-lingui-id: 2rvMKg
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "Refresh Token"
+msgstr "刷新令牌"
+
+#. js-lingui-id: 2LpFdR
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Related user email address"
+msgstr "相关用户邮箱地址"
+
+#. js-lingui-id: +bFtT5
+#: src/engine/metadata-modules/flat-field-metadata/utils/from-relation-create-field-input-to-flat-field-metadatas.util.ts
+#: src/engine/metadata-modules/flat-field-metadata/utils/from-morph-relation-create-field-input-to-flat-field-metadatas.util.ts
+msgid "Relation creation payload is required"
+msgstr "关系创建请求负载是必需的"
+
+#. js-lingui-id: 5y41wK
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-morph-or-relation-flat-field-metadata.util.ts
+msgid "Relation field target metadata not found"
+msgstr "未找到关系字段的目标元数据"
+
+#. js-lingui-id: g87L9j
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+msgid "Relations"
+msgstr "关系"
+
+#. js-lingui-id: PWdFkY
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-field-metadata-validator.service.ts
+msgid "Remote objects are not production ready yet"
+msgstr "远程对象尚未准备好生产"
+
+#. js-lingui-id: yVxtzR
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-object-metadata-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-object-metadata-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-object-metadata-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-object-metadata-validator.service.ts
+msgid "Remote objects are not supported yet"
+msgstr "不支持远程对象"
+
+#. js-lingui-id: pCsIQQ
+#: src/engine/core-modules/email-verification/email-verification-exception-filter.util.ts
+msgid "Request has expired, please try again."
+msgstr "请求已过期，请重试。"
+
+#. js-lingui-id: rnCndp
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+msgid "Response Status"
+msgstr "响应状态"
+
+#. js-lingui-id: GDvlUT
+#: src/modules/messaging/common/standard-objects/message-participant.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-participant.workspace-entity.ts
+msgid "Role"
+msgstr "角色"
+
+#. js-lingui-id: MFW30/
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-route-trigger-validator.service.ts
+msgid "Route already exists"
+msgstr "路线已存在"
+
+#. js-lingui-id: ldQZkA
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-route-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-route-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-route-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-route-trigger-validator.service.ts
+msgid "Route not found"
+msgstr "未找到路线"
+
+#. js-lingui-id: NCQS+K
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-route-trigger-validator.service.ts
+msgid "Route path already exists"
+msgstr "路径已存在"
+
+#. js-lingui-id: v5H7VS
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-route-trigger-validator.service.ts
+msgid "Route with same id already exists"
+msgstr "具有相同 ID 的路径已存在"
+
+#. js-lingui-id: c10Yre
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-route-trigger-validator.service.ts
+msgid "Route with same path already exists"
+msgstr "具有相同路径的路径已存在"
+
+#. js-lingui-id: Tpm2G9
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "Runs"
+msgstr "运行"
+
+#. js-lingui-id: +5kO8P
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "Saturday"
+msgstr "星期六"
+
+#. js-lingui-id: N/rFzD
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "Scopes"
+msgstr "范围"
+
+#. js-lingui-id: PdVIJC
+#: src/engine/metadata-modules/constants/search-vector-field.constants.ts
+msgid "Search vector"
+msgstr "搜索向量"
+
+#. js-lingui-id: hgvbYY
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "September"
+msgstr "九月"
+
+#. js-lingui-id: F3+i2a
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-serverless-function-validator.service.ts
+msgid "Serverless function already exists"
+msgstr "无服务器功能已存在"
+
+#. js-lingui-id: MSgd2w
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-serverless-function-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-serverless-function-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-serverless-function-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-serverless-function-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-route-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-route-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-route-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-route-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-database-event-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-database-event-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-database-event-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-database-event-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-cron-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-cron-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-cron-trigger-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-cron-trigger-validator.service.ts
+msgid "Serverless function not found"
+msgstr "未找到无服务器功能"
+
+#. js-lingui-id: jNhvmj
+#: src/engine/metadata-modules/serverless-function/utils/from-update-serverless-function-input-to-flat-serverless-function-to-update-or-throw.util.ts
+msgid "Serverless function to update not found"
+msgstr "未找到要更新的无服务器功能"
+
+#. js-lingui-id: zoBkIJ
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-serverless-function-validator.service.ts
+msgid "Serverless function with same id already exists"
+msgstr "具有相同 ID 的无服务器功能已存在"
+
+#. js-lingui-id: Tz0i8g
+#: src/modules/workflow/common/standard-objects/workflow-automated-trigger.workspace-entity.ts
+msgid "Settings"
+msgstr "设置"
+
+#. js-lingui-id: RyE+Of
+#: src/engine/metadata-modules/role/role.service.ts
+msgid "Some of the information provided is invalid. Please check your input and try again."
+msgstr "提供的信息中有些无效。请检查您的输入并重试。"
+
+#. js-lingui-id: 01Sxb6
+#: src/engine/metadata-modules/permission-flag/permission-flag.service.ts
+msgid "Some of the permissions you selected are not valid. Please try again with valid permission settings."
+msgstr "您选择的某些权限无效。请尝试使用有效的权限设置。"
+
+#. js-lingui-id: 3PRxO3
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Stage"
+msgstr "阶段"
+
+#. js-lingui-id: dc5N0o
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-field-metadata-validator.service.ts
+msgid "Standard fields cannot be deleted"
+msgstr "标准字段无法删除"
+
+#. js-lingui-id: Ptv+nG
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-object-metadata-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-object-metadata-validator.service.ts
+msgid "Standard objects cannot be deleted"
+msgstr "标准对象无法删除"
+
+#. js-lingui-id: D3iCkb
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+msgid "Start Date"
+msgstr "开始日期"
+
+#. js-lingui-id: amGzX5
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Start of the week"
+msgstr "一周的开始"
+
+#. js-lingui-id: RS0o7b
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "State"
+msgstr "状态"
+
+#. js-lingui-id: nY8GL/
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "State of the workflow run"
+msgstr "工作流程运行的状态"
+
+#. js-lingui-id: uAQUqI
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+msgid "Status"
+msgstr "状态"
+
+#. js-lingui-id: Db4W3/
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "Statuses"
+msgstr "状态"
+
+#. js-lingui-id: S7DRR+
+#: src/modules/workflow/common/utils/assert-workflow-statuses-not-set.ts
+msgid "Statuses cannot be set manually."
+msgstr "状态无法手动设置。"
+
+#. js-lingui-id: u+rv4L
+#: src/modules/workflow/workflow-runner/workspace-services/workflow-runner.workspace-service.ts
+msgid "Step is not a form"
+msgstr "步骤不是表单"
+
+#. js-lingui-id: YFMPch
+#: src/engine/metadata-modules/utils/validate-metadata-name-start-with-lowercase-letter-and-contain-digits-nor-letters.utils.ts
+msgid "String \"{name}\" is not valid: must start with lowercase letter and contain only alphanumeric letters"
+msgstr "字符串 \"{name}\" 无效：必须以小写字母开头且仅包含字母数字字符"
+
+#. js-lingui-id: UJmAAK
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+msgid "Subject"
+msgstr "主题"
+
+#. js-lingui-id: DBC3t5
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "Sunday"
+msgstr "星期日"
+
+#. js-lingui-id: VuvnTL
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+msgid "Sync all folders"
+msgstr ""
+
+#. js-lingui-id: 9PsZjo
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+msgid "Sync all folders including new ones"
+msgstr ""
+
+#. js-lingui-id: oyJYg7
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-folder.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+msgid "Sync Cursor"
+msgstr "同步游标"
+
+#. js-lingui-id: awvBUx
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+msgid "Sync Cursor. Used for syncing events from the calendar provider"
+msgstr "同步游标。用于从日历提供程序同步事件"
+
+#. js-lingui-id: dNAbG6
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+msgid "Sync stage"
+msgstr "同步阶段"
+
+#. js-lingui-id: aqNjQE
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+msgid "Sync stage started at"
+msgstr "同步阶段开始于"
+
+#. js-lingui-id: bRUdLR
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+msgid "Sync status"
+msgstr "同步状态"
+
+#. js-lingui-id: 5y3Wbw
+#: src/engine/twenty-orm/utils/compute-relation-connect-query-configs.util.ts
+msgid "Target object metadata not found for {connectFieldName}"
+msgstr "未找到 {connectFieldName} 的目标对象元数据"
+
+#. js-lingui-id: Q3P/4s
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+#: src/modules/task/standard-objects/task-target.workspace-entity.ts
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Task"
+msgstr "任务"
+
+#. js-lingui-id: kS+Ym6
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+msgid "Task assignee"
+msgstr "任务负责人"
+
+#. js-lingui-id: 7fYQ6E
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+msgid "Task attachments"
+msgstr "任务附件"
+
+#. js-lingui-id: X8fs74
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+msgid "Task body"
+msgstr "任务内容"
+
+#. js-lingui-id: EPxYHS
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+msgid "Task due date"
+msgstr "任务截止日期"
+
+#. js-lingui-id: fUw1j+
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+msgid "Task record position"
+msgstr "任务记录位置"
+
+#. js-lingui-id: I6+0ph
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+msgid "Task status"
+msgstr "任务状态"
+
+#. js-lingui-id: WSiiWf
+#: src/modules/task/standard-objects/task-target.workspace-entity.ts
+msgid "Task Target"
+msgstr "任务目标"
+
+#. js-lingui-id: khGQLP
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+msgid "Task targets"
+msgstr "任务目标"
+
+#. js-lingui-id: 836FiO
+#: src/modules/task/standard-objects/task-target.workspace-entity.ts
+msgid "Task Targets"
+msgstr "任务目标"
+
+#. js-lingui-id: R+s8S+
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+msgid "Task title"
+msgstr "任务标题"
+
+#. js-lingui-id: GtycJ/
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+msgid "Tasks"
+msgstr "任务"
+
+#. js-lingui-id: HlDeG3
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Tasks assigned to the workspace member"
+msgstr "分配给工作区成员的任务"
+
+#. js-lingui-id: Ca/n4T
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+msgid "Tasks tied to the {label}"
+msgstr "与 {label} 相关的任务"
+
+#. js-lingui-id: M4rBti
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Tasks tied to the company"
+msgstr "与公司相关的任务"
+
+#. js-lingui-id: /VaiDW
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+msgid "Tasks tied to the contact"
+msgstr "与联系人相关的任务"
+
+#. js-lingui-id: 1TfX9U
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Tasks tied to the opportunity"
+msgstr "与机会相关的任务"
+
+#. js-lingui-id: pP0Dt9
+#: src/modules/task/standard-objects/task-target.workspace-entity.ts
+msgid "TaskTarget company"
+msgstr "任务目标公司"
+
+#. js-lingui-id: UJ2aPi
+#: src/modules/task/standard-objects/task-target.workspace-entity.ts
+msgid "TaskTarget opportunity"
+msgstr "任务目标机会"
+
+#. js-lingui-id: I1MiSs
+#: src/modules/task/standard-objects/task-target.workspace-entity.ts
+msgid "TaskTarget person"
+msgstr "任务目标人员"
+
+#. js-lingui-id: pciKLT
+#: src/modules/task/standard-objects/task-target.workspace-entity.ts
+msgid "TaskTarget task"
+msgstr "任务目标任务"
+
+#. js-lingui-id: xeiujy
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+msgid "Text"
+msgstr "文本"
+
+#. js-lingui-id: 6PJbR2
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "The account handle (email, username, phone number, etc.)"
+msgstr "账户名称（电子邮件、用户名、电话号码等）"
+
+#. js-lingui-id: zUXOAB
+#: src/modules/connected-account/standard-objects/connected-account.workspace-entity.ts
+msgid "The account provider"
+msgstr "账户提供商"
+
+#. js-lingui-id: eC8p5b
+#: src/engine/metadata-modules/permissions/permissions.service.ts
+msgid "The API key does not have a valid role assigned. Please check your API key configuration."
+msgstr "API 密钥没有分配有效角色。请检查您的 API 密钥配置。"
+
+#. js-lingui-id: qnNFrW
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "The company Linkedin account"
+msgstr "公司 Linkedin 账户"
+
+#. js-lingui-id: N31Pso
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "The company name"
+msgstr "公司名称"
+
+#. js-lingui-id: BHFCqB
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "The company Twitter/X account"
+msgstr "公司 Twitter/X 账户"
+
+#. js-lingui-id: OBmU0K
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "The company website URL. We use this url to fetch the company icon"
+msgstr "公司网站 URL。我们使用该网址获取公司图标"
+
+#. js-lingui-id: zGBDEH
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+msgid "The creator of the record"
+msgstr "记录创建者"
+
+#. js-lingui-id: bMyVOx
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "The current statuses of the workflow versions"
+msgstr "工作流版本的当前状态"
+
+#. js-lingui-id: 0bo4Q0
+#: src/modules/messaging/common/standard-objects/message.workspace-entity.ts
+msgid "The date the message was received"
+msgstr "消息接收日期"
+
+#. js-lingui-id: nCXfEw
+#: src/engine/metadata-modules/role/role.service.ts
+msgid "The default role cannot be deleted as it is required for the workspace to function properly."
+msgstr "默认角色不能删除，因为它是工作区正常运作所必需的。"
+
+#. js-lingui-id: 6BBrjb
+#: src/engine/metadata-modules/role/role.service.ts
+msgid "The default role for this workspace could not be found. Please contact support for assistance."
+msgstr "找不到此工作区的默认角色。请联系支持。"
+
+#. js-lingui-id: 8h4mhq
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "The executor of the workflow"
+msgstr "工作流执行者"
+
+#. js-lingui-id: LdhPiK
+#: src/engine/metadata-modules/object-permission/field-permission/field-permission.service.ts
+msgid "The field you are trying to set permissions for could not be found. It may have been deleted."
+msgstr "您尝试设置权限的字段未找到。它可能已被删除。"
+
+#. js-lingui-id: W3raza
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "The folder this favorite belongs to"
+msgstr "此收藏夹所属文件夹"
+
+#. js-lingui-id: EJUSll
+#: src/modules/workflow/common/workspace-services/workflow-version-validation.workspace-service.ts
+msgid "The initial version of a workflow can not be deleted"
+msgstr "工作流程的初始版本不能被删除"
+
+#. js-lingui-id: YTftFF
+#: src/engine/metadata-modules/utils/constants/metadata-name-flat-metadata-validators.constants.ts
+msgid "The name is not available"
+msgstr "名称不可用"
+
+#. js-lingui-id: hx2IZ4
+#: src/engine/metadata-modules/object-permission/object-permission.service.ts
+#: src/engine/metadata-modules/object-permission/field-permission/field-permission.service.ts
+msgid "The object you are trying to set permissions for could not be found. It may have been deleted."
+msgstr "您尝试设置权限的对象未找到。它可能已被删除。"
+
+#. js-lingui-id: DbWmKZ
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "The opportunity name"
+msgstr "机会名称"
+
+#. js-lingui-id: Zi9X+u
+#: src/engine/metadata-modules/role/role.service.ts
+msgid "The role you are looking for could not be found. It may have been deleted or you may not have access to it."
+msgstr "找不到您要查找的角色。它可能已被删除或者您没有访问权限。"
+
+#. js-lingui-id: 5h4Nxe
+#: src/engine/metadata-modules/user-role/user-role.service.ts
+msgid "The role you are trying to assign could not be found. It may have been deleted."
+msgstr "无法找到要分配的角色。它可能已被删除。"
+
+#. js-lingui-id: HRcugS
+#: src/engine/metadata-modules/permission-flag/permission-flag.service.ts
+#: src/engine/metadata-modules/object-permission/object-permission.service.ts
+#: src/engine/metadata-modules/object-permission/object-permission.service.ts
+#: src/engine/metadata-modules/object-permission/field-permission/field-permission.service.ts
+msgid "The role you are trying to modify could not be found. It may have been deleted or you may not have access to it."
+msgstr "找不到您要修改的角色。它可能已被删除或您没有访问权限。"
+
+#. js-lingui-id: H1tAJD
+#: src/engine/metadata-modules/flat-object-metadata/validators/utils/validate-flat-object-metadata-label.util.ts
+msgid "The singular and plural labels cannot be the same for an object"
+msgstr "对象的单数标签和复数标签不能相同"
+
+#. js-lingui-id: FOEWHl
+#: src/engine/metadata-modules/flat-object-metadata/validators/utils/validate-flat-object-metadata-name.util.ts
+msgid "The singular and plural names cannot be the same for an object"
+msgstr "对象的单数名称和复数名称不能相同"
+
+#. js-lingui-id: 5N6QtE
+#: src/modules/workflow/common/standard-objects/workflow-automated-trigger.workspace-entity.ts
+msgid "The workflow automated trigger settings"
+msgstr "工作流自动触发器设置"
+
+#. js-lingui-id: SpKbfT
+#: src/modules/workflow/common/standard-objects/workflow-automated-trigger.workspace-entity.ts
+msgid "The workflow automated trigger type"
+msgstr "工作流自动触发器类型"
+
+#. js-lingui-id: od0omS
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "The workflow last published version id"
+msgstr "工作流最后发布的版本 ID"
+
+#. js-lingui-id: /EdWx6
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "The workflow name"
+msgstr "工作流名称"
+
+#. js-lingui-id: EhAsND
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "The workflow version name"
+msgstr "工作流版本名称"
+
+#. js-lingui-id: dhx13p
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "The workflow version status"
+msgstr "工作流版本状态"
+
+#. js-lingui-id: Kfwq7n
+#: src/engine/core-modules/imap-smtp-caldav-connection/services/imap-smtp-caldav-connection-validator.service.ts
+msgid "There was an issue with your connection settings. Please try again."
+msgstr "您的连接设置存在问题。请再试一次。"
+
+#. js-lingui-id: Bm40Ow
+#: src/engine/api/graphql/workspace-query-runner/utils/handle-duplicate-key-error.util.ts
+msgid "This {fieldName} is already taken. Please choose a different value."
+msgstr "该 {fieldName} 已被占用。请选择其他值。"
+
+#. js-lingui-id: CYyoPc
+#: src/engine/api/graphql/workspace-query-runner/utils/handle-duplicate-key-error.util.ts
+msgid "This {fieldName} with value {duplicatedValues} is already taken. Please choose a different value."
+msgstr "具有值 {duplicatedValues} 的 {fieldName} 已被占用。请选择其他值。"
+
+#. js-lingui-id: Izdz+Y
+#: src/engine/core-modules/api-key/api-key.service.ts
+msgid "This API Key has been revoked and can no longer be used."
+msgstr "此 API 密钥已被撤销，无法再使用。"
+
+#. js-lingui-id: Jmzgho
+#: src/engine/core-modules/api-key/api-key.service.ts
+msgid "This API Key has expired. Please create a new one."
+msgstr "此 API 密钥已过期。请创建新密钥。"
+
+#. js-lingui-id: r/Z8XK
+#: src/engine/api/graphql/workspace-query-runner/utils/handle-duplicate-key-error.util.ts
+msgid "This combination of {fieldNames} already exists. Please use different values."
+msgstr "该 {fieldNames} 组合已存在。请使用其他值。"
+
+#. js-lingui-id: mAs70Y
+#: src/engine/metadata-modules/utils/validate-field-name-availability.utils.ts
+msgid "This name is not available as it is already used by another field."
+msgstr "该名称不可用，因为它已被另一个字段使用."
+
+#. js-lingui-id: yIUmAs
+#: src/engine/metadata-modules/utils/validate-metadata-name-is-not-reserved-keyword.ts
+#: src/engine/metadata-modules/utils/validate-field-name-availability.utils.ts
+msgid "This name is not available."
+msgstr "此名称不可用。"
+
+#. js-lingui-id: eitC3W
+#: src/engine/workspace-datasource/workspace-datasource.service.ts
+msgid "This operation is not allowed. Please try a different approach or contact support if you need assistance."
+msgstr "此操作不允许。请尝试其他方法或联系支持。"
+
+#. js-lingui-id: TjUnO1
+#: src/engine/api/graphql/workspace-query-runner/utils/handle-duplicate-key-error.util.ts
+msgid "This record already exists. Please check your data and try again."
+msgstr "该记录已存在。请检查您的数据并重试。"
+
+#. js-lingui-id: +L9yxk
+#: src/engine/metadata-modules/user-role/user-role.service.ts
+msgid "This role cannot be assigned to users. Please select a different role."
+msgstr "此角色不能分配给用户。请选择其他角色。"
+
+#. js-lingui-id: KoDdqN
+#: src/engine/metadata-modules/role/role.service.ts
+#: src/engine/metadata-modules/permission-flag/permission-flag.service.ts
+#: src/engine/metadata-modules/object-permission/object-permission.service.ts
+#: src/engine/metadata-modules/object-permission/field-permission/field-permission.service.ts
+msgid "This role cannot be modified because it is a system role. Only custom roles can be edited."
+msgstr "此角色无法修改，因为它是系统角色。只有自定义角色可以编辑。"
+
+#. js-lingui-id: Zl0BJl
+#: src/modules/messaging/common/standard-objects/message-channel-message-association.workspace-entity.ts
+msgid "Thread External Id"
+msgstr "线程外部 ID"
+
+#. js-lingui-id: RSSbWN
+#: src/modules/messaging/common/standard-objects/message-channel-message-association.workspace-entity.ts
+msgid "Thread id from the messaging provider"
+msgstr "消息提供商的线程 ID"
+
+#. js-lingui-id: sS8v5K
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+msgid "Throttle Failure Count"
+msgstr "节流失败计数"
+
+#. js-lingui-id: kkDQ8m
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "Thursday"
+msgstr "星期四"
+
+#. js-lingui-id: n9nSNJ
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Time format"
+msgstr "时间格式"
+
+#. js-lingui-id: Mz2JN2
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Time zone"
+msgstr "时区"
+
+#. js-lingui-id: az1boY
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+msgid "Timeline Activities"
+msgstr "时间线活动"
+
+#. js-lingui-id: fqKMpF
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Timeline Activities linked to the company"
+msgstr "与公司相关的时间线活动"
+
+#. js-lingui-id: CNev+0
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+msgid "Timeline activities linked to the dashboard"
+msgstr "与仪表板关联的时间线活动"
+
+#. js-lingui-id: 4/UzU5
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+msgid "Timeline Activities linked to the note."
+msgstr "与笔记相关的时间线活动。"
+
+#. js-lingui-id: p6feIz
+#: src/modules/opportunity/standard-objects/opportunity.workspace-entity.ts
+msgid "Timeline Activities linked to the opportunity."
+msgstr "与机会相关的时间线活动。"
+
+#. js-lingui-id: yvPwuF
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "Timeline activities linked to the run"
+msgstr "与运行相关的时间线活动"
+
+#. js-lingui-id: q96UvB
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+msgid "Timeline Activities linked to the task."
+msgstr "与任务相关的时间线活动。"
+
+#. js-lingui-id: N9HMa/
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "Timeline activities linked to the version"
+msgstr "与版本相关的时间线活动"
+
+#. js-lingui-id: B1CYKX
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "Timeline activities linked to the workflow"
+msgstr "与工作流相关的时间线活动"
+
+#. js-lingui-id: G0UmtQ
+#: src/engine/twenty-orm/custom.workspace-entity.ts
+msgid "Timeline Activities tied to the {label}"
+msgstr "与 {label} 相关的时间线活动"
+
+#. js-lingui-id: K/kU4E
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Timeline Activity"
+msgstr "时间线活动"
+
+#. js-lingui-id: MHrjPM
+#: src/modules/task/standard-objects/task.workspace-entity.ts
+#: src/modules/note/standard-objects/note.workspace-entity.ts
+#: src/modules/dashboard/standard-objects/dashboard.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+msgid "Title"
+msgstr "标题"
+
+#. js-lingui-id: G3myU+
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "Tuesday"
+msgstr "星期二"
+
+#. js-lingui-id: +zy2Nq
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+msgid "Type"
+msgstr "类型"
+
+#. js-lingui-id: UhRoLN
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Type (deprecated)"
+msgstr "类型（已弃用）"
+
+#. js-lingui-id: RBJNRI
+#: src/engine/metadata-modules/field-metadata/services/field-metadata.service.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata.service.ts
+msgid "Unique field cannot have a default value"
+msgstr "唯一字段不能设定默认值"
+
+#. js-lingui-id: WWSSTx
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-index-metadata-validator.service.ts
+msgid "Unique index cannot be created for field {fieldName} of type {fieldType}"
+msgstr "无法为类型为 {fieldType} 的字段 {fieldName} 创建唯一索引"
+
+#. js-lingui-id: rtir7c
+#: src/engine/metadata-modules/view-group/exceptions/view-group.exception.ts
+msgid "unknown"
+msgstr ""
+
+#. js-lingui-id: EBZdX5
+#: src/modules/workflow/workflow-trigger/utils/compute-cron-pattern-from-schedule.ts
+msgid "Unsupported cron schedule type"
+msgstr "不支持的 Cron 安排类型"
+
+#. js-lingui-id: crxihq
+#: src/engine/metadata-modules/flat-field-metadata/services/flat-field-metadata-type-validator.service.ts
+msgid "Unsupported field metadata type {fieldType}"
+msgstr "不支持的字段元数据类型 {fieldType}"
+
+#. js-lingui-id: 0gY5lO
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event.workspace-entity.ts
+msgid "Update DateTime"
+msgstr "更新时间"
+
+#. js-lingui-id: r5C2wB
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-field-metadata-validator.service.ts
+msgid "Updated field name is not synced with label"
+msgstr "更新的字段名称未与标签同步"
+
+#. js-lingui-id: GkcfmO
+#: src/engine/core-modules/auth/services/sign-in-up.service.ts
+msgid "User already exists"
+msgstr "用户已存在"
+
+#. js-lingui-id: l9dlVi
+#: src/engine/core-modules/auth/strategies/jwt.auth.strategy.ts
+#: src/engine/core-modules/auth/services/auth.service.ts
+msgid "User does not have access to this workspace"
+msgstr "用户未在工作空间中"
+
+#. js-lingui-id: Sl1ElS
+#: src/engine/metadata-modules/permissions/utils/permission-graphql-api-exception-handler.util.ts
+msgid "User does not have permission."
+msgstr "用户没有权限。"
+
+#. js-lingui-id: YFciqL
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "User Email"
+msgstr "用户邮箱"
+
+#. js-lingui-id: d1BTW8
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "User Id"
+msgstr "用户 ID"
+
+#. js-lingui-id: B43Kks
+#: src/engine/core-modules/auth/services/sign-in-up.service.ts
+msgid "User is not part of the workspace"
+msgstr "用户未在工作空间中"
+
+#. js-lingui-id: g5Z6no
+#: src/engine/core-modules/admin-panel/admin-panel.service.ts
+msgid "User not found. Please check the email or ID."
+msgstr "找不到用户。请检查电子邮件或 ID。"
+
+#. js-lingui-id: 4juE7s
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "User time zone"
+msgstr "用户时区"
+
+#. js-lingui-id: VkcC68
+#: src/engine/core-modules/auth/services/auth.service.ts
+msgid "User was not created with email/password"
+msgstr "用户未使用电子邮件/密码创建"
+
+#. js-lingui-id: 43zCwQ
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "User's preferred date format"
+msgstr "用户首选日期格式"
+
+#. js-lingui-id: PLfanm
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "User's preferred number format"
+msgstr "用户首选数字格式"
+
+#. js-lingui-id: Uce+A8
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "User's preferred start day of the week"
+msgstr "用户首选的一周开始日"
+
+#. js-lingui-id: kJuoKm
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "User's preferred time format"
+msgstr "用户首选时间格式"
+
+#. js-lingui-id: xInMK/
+#: src/engine/workspace-manager/workspace-migration-v2/interceptors/workspace-migration-builder-exception-v2-formatter.ts
+msgid "Validation failed for 0 object(s) and 0 field(s)"
+msgstr "验证失败，涉及 0 个对象和 0 个字段"
+
+#. js-lingui-id: UBPzFQ
+#: src/engine/metadata-modules/flat-field-metadata/validators/utils/validate-enum-flat-field-metadata.util.ts
+#: src/engine/metadata-modules/field-metadata/services/field-metadata-enum-validation.service.ts
+msgid "Value must be in UPPER_CASE and follow snake_case \"{sanitizedValue}\""
+msgstr "值必须是 UPPER_CASE 并遵循 snake_case \"{sanitizedValue}\""
+
+#. js-lingui-id: 7aatUy
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "Version status"
+msgstr "版本状态"
+
+#. js-lingui-id: CdQeU7
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "Version steps"
+msgstr "版本步骤"
+
+#. js-lingui-id: PGMPIi
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "Version trigger"
+msgstr "版本触发器"
+
+#. js-lingui-id: IYNSdp
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "Versions"
+msgstr "版本"
+
+#. js-lingui-id: HhN1Bv
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-validator.service.ts
+msgid "View already exists"
+msgstr "视图已存在"
+
+#. js-lingui-id: pTvQqf
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+msgid "View field already exists"
+msgstr "查看字段已存在"
+
+#. js-lingui-id: Xm6R6B
+#: src/engine/metadata-modules/view-field/exceptions/view-field.exception.ts
+msgid "View field already exists."
+msgstr "查看字段已存在。"
+
+#. js-lingui-id: 7jUWQ+
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+msgid "View field metadata already exists"
+msgstr "视图字段元数据已存在"
+
+#. js-lingui-id: Yvf7WL
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+msgid "View field metadata with id {flatViewFieldId} already exists"
+msgstr "ID为{flatViewFieldId}的视图字段元数据已存在"
+
+#. js-lingui-id: 7LMaUn
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+msgid "View field position cannot be lower than label identifier view field position"
+msgstr "视图字段位置不能低于标签标识视图字段位置"
+
+#. js-lingui-id: WZzm3R
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+msgid "View field related view object metadata not found"
+msgstr "未找到视图字段相关的视图对象元数据"
+
+#. js-lingui-id: XJlyZS
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+#: src/engine/metadata-modules/flat-view-field/utils/from-delete-view-field-input-to-flat-view-field-or-throw.util.ts
+msgid "View field to delete not found"
+msgstr "未找到要删除的视图字段"
+
+#. js-lingui-id: DXyYuh
+#: src/engine/metadata-modules/flat-view-field/utils/from-destroy-view-field-input-to-flat-view-field-or-throw.util.ts
+msgid "View field to destroy not found"
+msgstr "未找到要摧毁的视图字段"
+
+#. js-lingui-id: Fpy/K1
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+#: src/engine/metadata-modules/flat-view-field/utils/from-update-view-field-input-to-flat-view-field-to-update-or-throw.util.ts
+msgid "View field to update not found"
+msgstr "未找到要更新的视图字段"
+
+#. js-lingui-id: AprfQL
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+msgid "View field to update parent view not found"
+msgstr "未找到用于更新父视图的视图字段"
+
+#. js-lingui-id: sqzMKR
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+msgid "View field to update parent view object not found"
+msgstr "未找到用于更新父视图对象的视图字段"
+
+#. js-lingui-id: 89Wiy+
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+msgid "View field with same fieldmetadataId and viewId already exists"
+msgstr "具有相同字段元数据ID和视图ID的视图字段已存在"
+
+#. js-lingui-id: 1KSqGE
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-filter-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-filter-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-filter-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-filter-validator.service.ts
+msgid "View filter not found"
+msgstr "未找到视图过滤器"
+
+#. js-lingui-id: 3l1ppY
+#: src/engine/metadata-modules/flat-view-filter/utils/from-delete-view-filter-input-to-flat-view-filter-or-throw.util.ts
+msgid "View filter to delete not found"
+msgstr "未找到要删除的视图过滤器"
+
+#. js-lingui-id: 9gedIx
+#: src/engine/metadata-modules/flat-view-filter/utils/from-destroy-view-filter-input-to-flat-view-filter-or-throw.util.ts
+msgid "View filter to destroy not found"
+msgstr "未找到要销毁的视图筛选器"
+
+#. js-lingui-id: GzthLy
+#: src/engine/metadata-modules/flat-view-filter/utils/from-update-view-filter-input-to-flat-view-filter-to-update-or-throw.util.ts
+msgid "View filter to update not found"
+msgstr "未找到要更新的视图筛选器"
+
+#. js-lingui-id: LnNgrI
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-filter-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-filter-validator.service.ts
+msgid "View filter with this id already exists"
+msgstr "具有此 ID 的视图筛选器已存在"
+
+#. js-lingui-id: MGbEFN
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-group-validator.service.ts
+msgid "View group metadata already exists"
+msgstr "视图组元数据已存在"
+
+#. js-lingui-id: lbyQO4
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-group-validator.service.ts
+msgid "View group metadata with id {flatViewGroupId} already exists"
+msgstr "ID为{flatViewGroupId}的视图组元数据已存在"
+
+#. js-lingui-id: JdAvYa
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-group-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-group-validator.service.ts
+#: src/engine/metadata-modules/flat-view-group/utils/from-delete-view-group-input-to-flat-view-group-or-throw.util.ts
+msgid "View group to delete not found"
+msgstr "未找到要删除的视图组"
+
+#. js-lingui-id: 34hWb7
+#: src/engine/metadata-modules/flat-view-group/utils/from-destroy-view-group-input-to-flat-view-group-or-throw.util.ts
+msgid "View group to destroy not found"
+msgstr "未找到要销毁的视图组"
+
+#. js-lingui-id: UP/TXo
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-group-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-group-validator.service.ts
+#: src/engine/metadata-modules/flat-view-group/utils/from-update-view-group-input-to-flat-view-group-to-update-or-throw.util.ts
+msgid "View group to update not found"
+msgstr "未找到要更新的视图组"
+
+#. js-lingui-id: XbOhpY
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-group-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-group-validator.service.ts
+msgid "View group to update parent field not found"
+msgstr "未找到用于更新父字段的视图组"
+
+#. js-lingui-id: P0grPG
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-group-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-group-validator.service.ts
+msgid "View group to update parent view not found"
+msgstr "未找到用于更新父视图的视图组"
+
+#. js-lingui-id: M7KWZV
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-validator.service.ts
+msgid "View kanban aggregate field metadata not found"
+msgstr "未找到看板聚合字段的元数据"
+
+#. js-lingui-id: F4A9mL
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-group-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-group-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-filter-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-filter-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-field-validator.service.ts
+msgid "View not found"
+msgstr "未找到视图"
+
+#. js-lingui-id: znNExx
+#: src/engine/metadata-modules/view-sort/exceptions/view-sort.exception.ts
+msgid "View sort (id: {id}) not found"
+msgstr "未找到视图排序（ID：{id}）"
+
+#. js-lingui-id: 3zMs+f
+#: src/engine/metadata-modules/view-sort/exceptions/view-sort.exception.ts
+msgid "View sort not found"
+msgstr "未找到视图排序"
+
+#. js-lingui-id: toB/08
+#: src/engine/metadata-modules/flat-view/utils/from-delete-view-input-to-flat-view-or-throw.util.ts
+msgid "View to delete not found"
+msgstr "未找到要删除的视图"
+
+#. js-lingui-id: NnD3Ti
+#: src/engine/metadata-modules/flat-view/utils/from-destroy-view-input-to-flat-view-or-throw.util.ts
+msgid "View to destroy not found"
+msgstr "未找到要销毁的视图"
+
+#. js-lingui-id: 3+GbNY
+#: src/engine/metadata-modules/flat-view/utils/from-update-view-input-to-flat-view-to-update-or-throw.util.ts
+msgid "View to update not found"
+msgstr "未找到要更新的视图"
+
+#. js-lingui-id: ZgRtC4
+#: src/engine/workspace-manager/workspace-migration-v2/workspace-migration-builder-v2/validators/services/flat-view-validator.service.ts
+msgid "View with same id is already exists"
+msgstr "具有相同 ID 的视图已存在"
+
+#. js-lingui-id: aeqysn
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+msgid "ViewId"
+msgstr "查看ID"
+
+#. js-lingui-id: kpQRY2
+#: src/engine/metadata-modules/view-sort/exceptions/view-sort.exception.ts
+msgid "ViewId is required"
+msgstr "必须提供 ViewId"
+
+#. js-lingui-id: l88nXn
+#: src/engine/metadata-modules/view-field/exceptions/view-field.exception.ts
+msgid "ViewId is required to create a view field."
+msgstr "需要ViewId才能创建视图字段。"
+
+#. js-lingui-id: 9XMTpT
+#: src/engine/metadata-modules/view-filter-group/exceptions/view-filter-group.exception.ts
+msgid "ViewId is required to create a view filter group."
+msgstr "需要ViewId才能创建视图过滤组。"
+
+#. js-lingui-id: pCCxli
+#: src/engine/metadata-modules/view-filter/exceptions/view-filter.exception.ts
+msgid "ViewId is required to create a view filter."
+msgstr "需要ViewId才能创建视图过滤器。"
+
+#. js-lingui-id: 1X1RW5
+#: src/engine/metadata-modules/view-group/exceptions/view-group.exception.ts
+msgid "ViewId is required to create a view group."
+msgstr "需要ViewId才能创建视图组。"
+
+#. js-lingui-id: uGUFcy
+#: src/engine/metadata-modules/view-sort/exceptions/view-sort.exception.ts
+msgid "ViewId is required to create a view sort."
+msgstr "需要ViewId才能创建视图排序。"
+
+#. js-lingui-id: 2q/Q7x
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-channel.workspace-entity.ts
+msgid "Visibility"
+msgstr "可见性"
+
+#. js-lingui-id: xvV2NJ
+#: src/engine/twenty-orm/error-handling/compute-twenty-orm-exception.ts
+msgid "We are experiencing a temporary issue with our database. Please try again later."
+msgstr "我们遇到数据库临时问题，请稍后再试。"
+
+#. js-lingui-id: B3CG/U
+#: src/engine/core-modules/imap-smtp-caldav-connection/services/imap-smtp-caldav-connection.service.ts
+msgid "We couldn't connect to your CalDAV server. Please check your server settings and try again."
+msgstr "我们无法连接到您的 CalDAV 服务器。请检查您的服务器设置并重试。"
+
+#. js-lingui-id: ax8unE
+#: src/engine/core-modules/imap-smtp-caldav-connection/services/imap-smtp-caldav-connection.service.ts
+msgid "We couldn't connect to your email server. Please check your server settings and try again."
+msgstr "我们无法连接到您的电子邮件服务器。请检查您的服务器设置并重试。"
+
+#. js-lingui-id: g4rOV3
+#: src/engine/core-modules/imap-smtp-caldav-connection/services/imap-smtp-caldav-connection.service.ts
+msgid "We couldn't connect to your outgoing email server. Please check your SMTP settings and try again."
+msgstr "我们无法连接到您的外发电子邮件服务器。请检查您的 SMTP 设置并重试。"
+
+#. js-lingui-id: v8UNEA
+#: src/engine/core-modules/imap-smtp-caldav-connection/services/imap-smtp-caldav-connection.service.ts
+msgid "We couldn't log in to your email account. Please check your email address and password, then try again."
+msgstr "我们无法登录到您的电子邮件帐户。请检查您的电子邮件地址和密码，然后重试。"
+
+#. js-lingui-id: YxBvFz
+#: src/engine/core-modules/imap-smtp-caldav-connection/services/imap-smtp-caldav-connection.service.ts
+msgid "We encountered an issue connecting to your email account. Please check your settings and try again."
+msgstr "连接您的电子邮件帐户时遇到问题。请检查您的设置并重试。"
+
+#. js-lingui-id: VAcXNz
+#: src/engine/api/graphql/graphql-query-runner/group-by/resolvers/utils/format-result-with-group-by-dimension-values.util.ts
+msgid "Wednesday"
+msgstr "星期三"
+
+#. js-lingui-id: TVkCrJ
+#: src/engine/core-modules/email-verification/services/email-verification.service.ts
+msgid "Welcome to Twenty: Please Confirm Your Email"
+msgstr "欢迎来到Twenty: 请确认您的邮箱"
+
+#. js-lingui-id: bLt/0J
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-automated-trigger.workspace-entity.ts
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+#: src/modules/attachment/standard-objects/attachment.workspace-entity.ts
+msgid "Workflow"
+msgstr "工作流"
+
+#. js-lingui-id: hdtWQn
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "Workflow automated triggers linked to the workflow."
+msgstr "与工作流相关的工作流自动触发器。"
+
+#. js-lingui-id: vwSkSW
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "Workflow linked to the run."
+msgstr "与运行相关的工作流。"
+
+#. js-lingui-id: y9tnFx
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "Workflow record position"
+msgstr "工作流记录位置"
+
+#. js-lingui-id: 5vIcqC
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "Workflow Run"
+msgstr "工作流运行"
+
+#. js-lingui-id: 3Iz+qz
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "Workflow run ended at"
+msgstr "工作流运行结束于"
+
+#. js-lingui-id: NKQlas
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "Workflow run enqueued at"
+msgstr "工作流运行排队于"
+
+#. js-lingui-id: C5dusT
+#: src/modules/workflow/workflow-runner/workspace-services/workflow-runner.workspace-service.ts
+msgid "Workflow run is not running"
+msgstr "工作流运行未启动"
+
+#. js-lingui-id: IUaK6s
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "Workflow run position"
+msgstr "工作流运行位置"
+
+#. js-lingui-id: zaN7tH
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "Workflow run started at"
+msgstr "工作流运行开始于"
+
+#. js-lingui-id: 1TU2A8
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "Workflow run status"
+msgstr "工作流运行状态"
+
+#. js-lingui-id: u6DF/V
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "Workflow Runs"
+msgstr "工作流运行"
+
+#. js-lingui-id: 9nOy7k
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "Workflow runs linked to the version."
+msgstr "与版本相关的工作流运行。"
+
+#. js-lingui-id: c37F3j
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "Workflow runs linked to the workflow."
+msgstr "与工作流相关的工作流运行。"
+
+#. js-lingui-id: lTXctu
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "Workflow version"
+msgstr "工作流版本"
+
+#. js-lingui-id: +wYPET
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "Workflow Version"
+msgstr "工作流版本"
+
+#. js-lingui-id: n4/IOE
+#: src/modules/workflow/common/utils/assert-workflow-version-has-steps.ts
+msgid "Workflow version does not contain at least one step"
+msgstr "工作流程版本不包含至少一个步骤"
+
+#. js-lingui-id: k4DPlQ
+#: src/modules/workflow/workflow-trigger/utils/assert-version-can-be-activated.util.ts
+#: src/modules/workflow/common/utils/assert-workflow-version-trigger-is-defined.util.ts
+msgid "Workflow version does not contain trigger"
+msgstr "工作流程版本不包含触发器"
+
+#. js-lingui-id: bqFL4g
+#: src/modules/workflow/common/utils/assert-workflow-version-is-draft.util.ts
+msgid "Workflow version is not in draft status"
+msgstr "工作流程版本不处于草稿状态"
+
+#. js-lingui-id: CocTJJ
+#: src/modules/workflow/common/standard-objects/workflow-run.workspace-entity.ts
+msgid "Workflow version linked to the run."
+msgstr "与运行相关的工作流版本。"
+
+#. js-lingui-id: 9l+pJT
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "Workflow version position"
+msgstr "工作流版本位置"
+
+#. js-lingui-id: OCyhkn
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "Workflow Versions"
+msgstr "工作流版本"
+
+#. js-lingui-id: 018fP9
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "Workflow versions linked to the workflow."
+msgstr "与工作流相关的工作流版本。"
+
+#. js-lingui-id: s7p+TL
+#: src/modules/workflow/common/standard-objects/workflow-automated-trigger.workspace-entity.ts
+msgid "WorkflowAutomatedTrigger"
+msgstr "工作流自动触发器"
+
+#. js-lingui-id: 96bCgZ
+#: src/modules/workflow/common/standard-objects/workflow-automated-trigger.workspace-entity.ts
+msgid "WorkflowAutomatedTrigger workflow"
+msgstr "工作流自动触发器工作流"
+
+#. js-lingui-id: 5z92T9
+#: src/modules/workflow/common/standard-objects/workflow-automated-trigger.workspace-entity.ts
+msgid "WorkflowAutomatedTriggers"
+msgstr "工作流自动触发器"
+
+#. js-lingui-id: woYYQq
+#: src/modules/workflow/common/standard-objects/workflow.workspace-entity.ts
+msgid "Workflows"
+msgstr "工作流"
+
+#. js-lingui-id: urCUgs
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+msgid "WorkflowVersion"
+msgstr "工作流版本"
+
+#. js-lingui-id: b4kire
+#: src/modules/workflow/common/standard-objects/workflow-version.workspace-entity.ts
+msgid "WorkflowVersion workflow"
+msgstr "工作流版本工作流"
+
+#. js-lingui-id: XsSVrR
+#: src/engine/core-modules/auth/services/sign-in-up.service.ts
+msgid "Workspace creation is restricted to admins"
+msgstr "工作区创建仅限管理员"
+
+#. js-lingui-id: rklt6M
+#: src/engine/core-modules/auth/services/sign-in-up.service.ts
+msgid "Workspace is not ready to welcome new members"
+msgstr "工作空间尚未准备好迎接新成员"
+
+#. js-lingui-id: CbGxon
+#: src/modules/messaging/common/standard-objects/message-participant.workspace-entity.ts
+msgid "Workspace member"
+msgstr "工作区成员"
+
+#. js-lingui-id: qc38qR
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+#: src/modules/timeline/standard-objects/timeline-activity.workspace-entity.ts
+#: src/modules/messaging/common/standard-objects/message-participant.workspace-entity.ts
+#: src/modules/favorite/standard-objects/favorite.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+#: src/modules/calendar/common/standard-objects/calendar-event-participant.workspace-entity.ts
+msgid "Workspace Member"
+msgstr "工作区成员"
+
+#. js-lingui-id: R1S9pO
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Workspace member avatar"
+msgstr "工作区成员头像"
+
+#. js-lingui-id: 5VCX7o
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Workspace member name"
+msgstr "工作区成员名称"
+
+#. js-lingui-id: NiUpuN
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Workspace member position"
+msgstr "工作区成员职位"
+
+#. js-lingui-id: YCAEr+
+#: src/modules/workspace-member/standard-objects/workspace-member.workspace-entity.ts
+msgid "Workspace Members"
+msgstr "工作区成员"
+
+#. js-lingui-id: bBr+RW
+#: src/engine/metadata-modules/view-sort/exceptions/view-sort.exception.ts
+msgid "WorkspaceId is required"
+msgstr "必须提供 WorkspaceId"
+
+#. js-lingui-id: kjLpTn
+#: src/engine/metadata-modules/view-field/exceptions/view-field.exception.ts
+msgid "WorkspaceId is required to create a view field."
+msgstr "需要WorkspaceId才能创建视图字段。"
+
+#. js-lingui-id: zWj6VZ
+#: src/engine/metadata-modules/view-filter-group/exceptions/view-filter-group.exception.ts
+msgid "WorkspaceId is required to create a view filter group."
+msgstr "需要WorkspaceId才能创建视图过滤组。"
+
+#. js-lingui-id: jQMXtD
+#: src/engine/metadata-modules/view-filter/exceptions/view-filter.exception.ts
+msgid "WorkspaceId is required to create a view filter."
+msgstr "需要WorkspaceId才能创建视图过滤器。"
+
+#. js-lingui-id: NAoJAX
+#: src/engine/metadata-modules/view-group/exceptions/view-group.exception.ts
+msgid "WorkspaceId is required to create a view group."
+msgstr "需要WorkspaceId才能创建视图组。"
+
+#. js-lingui-id: hU1QaN
+#: src/engine/metadata-modules/view-sort/exceptions/view-sort.exception.ts
+msgid "WorkspaceId is required to create a view sort."
+msgstr "需要WorkspaceId才能创建视图排序。"
+
+#. js-lingui-id: jtb/lI
+#: src/engine/metadata-modules/view/exceptions/view.exception.ts
+msgid "WorkspaceId is required to create a view."
+msgstr "需要WorkspaceId才能创建视图。"
+
+#. js-lingui-id: EtzFC0
+#: src/modules/blocklist/standard-objects/blocklist.workspace-entity.ts
+#: src/modules/blocklist/standard-objects/blocklist.workspace-entity.ts
+msgid "WorkspaceMember"
+msgstr "工作区成员"
+
+#. js-lingui-id: fV2Bu6
+#: src/engine/core-modules/auth/services/sign-in-up.service.ts
+#: src/engine/core-modules/auth/services/auth.service.ts
+msgid "Wrong password"
+msgstr "密码错误"
+
+#. js-lingui-id: 0gv+T2
+#: src/modules/person/standard-objects/person.workspace-entity.ts
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "X"
+msgstr "X"
+
+#. js-lingui-id: 1SQnFB
+#: src/engine/metadata-modules/role/role.resolver.ts
+msgid "You cannot change your own role. Please ask another administrator to update your role."
+msgstr "您无法更改自己的角色。请要求另一位管理员更新您的角色。"
+
+#. js-lingui-id: y5haJ4
+#: src/engine/metadata-modules/role/role.service.ts
+#: src/engine/metadata-modules/object-permission/object-permission.service.ts
+msgid "You cannot grant edit permissions without also granting read permissions. Please enable read access first."
+msgstr "在授予编辑权限之前，您无法授予编辑权限的同时授予读取权限。请先启用读取访问权限。"
+
+#. js-lingui-id: 8wovNr
+#: src/engine/metadata-modules/user-role/user-role.service.ts
+msgid "You cannot remove the admin role from the last administrator. Please assign another administrator first."
+msgstr "您无法从最后一位管理员那里移除管理员角色。请先分配另一位管理员。"
+
+#. js-lingui-id: WUcQVb
+#: src/engine/metadata-modules/object-permission/field-permission/field-permission.service.ts
+msgid "You cannot set field permissions on system objects as they are managed by the platform."
+msgstr "您无法在系统对象上设置字段权限，因为它们由平台管理。"
+
+#. js-lingui-id: SI6USg
+#: src/engine/metadata-modules/object-permission/object-permission.service.ts
+msgid "You cannot set permissions on system objects as they are managed by the platform."
+msgstr "您无法在系统对象上设置权限，因为它们由平台管理。"
+
+#. js-lingui-id: EFQeXU
+#: src/engine/guards/settings-permissions.guard.ts
+msgid "You do not have permission to access this feature. Please contact your workspace administrator for access."
+msgstr "您无权访问此功能。请联系您的工作区管理员获取权限。"
+
+#. js-lingui-id: +2vVRB
+#: src/engine/guards/impersonate-permission.guard.ts
+msgid "You do not have permission to impersonate users. Please contact your workspace administrator for access."
+msgstr "您无权模拟用户。请联系您的工作区管理员获取权限。"
+
+#. js-lingui-id: k7P8yU
+#: src/engine/core-modules/workspace/services/workspace.service.ts
+msgid "You do not have permission to manage security settings. Please contact your workspace administrator."
+msgstr "您无权管理安全设置。请联系您的工作区管理员。"
+
+#. js-lingui-id: svchJc
+#: src/engine/core-modules/workspace/services/workspace.service.ts
+msgid "You do not have permission to manage workspace settings. Please contact your workspace administrator."
+msgstr "您无权管理工作区设置。请联系您的工作区管理员。"
+
+#. js-lingui-id: z+7x/s
+#: src/engine/core-modules/auth/utils/auth-graphql-api-exception-handler.util.ts
+msgid "You must be authenticated to perform this action."
+msgstr "您必须通过身份验证才能执行此操作。"
+
+#. js-lingui-id: 8pqpv/
+#: src/engine/core-modules/graphql/hooks/use-graphql-error-handler.hook.ts
+msgid "Your app version is out of date. Please refresh the page to continue."
+msgstr "您的应用程序版本已过期。请刷新页面以继续。"
+
+#. js-lingui-id: J5Vm4Q
+#: src/engine/core-modules/billing/billing.validate.ts
+msgid "Your billing subscription is corrupted. Please contact support."
+msgstr "您的账单订阅已损坏。请联系支持。"
+
+#. js-lingui-id: bTyBrW
+#: src/engine/core-modules/auth/services/auth.service.ts
+msgid "Your Password Has Been Successfully Changed"
+msgstr "您的密码已成功更改"
+
+#. js-lingui-id: XxkUFT
+#: src/engine/metadata-modules/user-role/user-role.service.ts
+#: src/engine/metadata-modules/permissions/permissions.service.ts
+#: src/engine/metadata-modules/permissions/permissions.service.ts
+msgid "Your role in this workspace could not be found. Please contact your workspace administrator."
+msgstr "无法找到您在此工作区中的角色。请联系您的工作区管理员。"
+
+#. js-lingui-id: vPccnr
+#: src/modules/company/standard-objects/company.workspace-entity.ts
+msgid "Your team member responsible for managing the company account"
+msgstr "负责管理公司账户的团队成员"
+
+#. js-lingui-id: ej/tZF
+#: src/engine/core-modules/graphql/hooks/use-graphql-error-handler.hook.ts
+msgid "Your workspace has been updated with a new data model. Please refresh the page."
+msgstr "您的工作空间已更新为新的数据模型。请刷新页面。"
+
+#. js-lingui-id: ZukXiD
+#: src/engine/metadata-modules/user-role/user-role.service.ts
+msgid "Your workspace membership could not be found. You may no longer have access to this workspace."
+msgstr "找不到您的工作区成员资格。您可能无法再访问此工作区。"

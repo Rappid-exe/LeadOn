@@ -1,0 +1,115 @@
+import { UseGuards } from '@nestjs/common';
+import { Args, ArgsType, Field, Int, Query, Resolver } from '@nestjs/graphql';
+
+import { Max } from 'class-validator';
+
+import { UUIDScalarType } from 'src/engine/api/graphql/workspace-schema-builder/graphql-types/scalars';
+import { TIMELINE_CALENDAR_EVENTS_MAX_PAGE_SIZE } from 'src/engine/core-modules/calendar/constants/calendar.constants';
+import { TimelineCalendarEventsWithTotalDTO } from 'src/engine/core-modules/calendar/dtos/timeline-calendar-events-with-total.dto';
+import { TimelineCalendarEventService } from 'src/engine/core-modules/calendar/timeline-calendar-event.service';
+import { AuthWorkspaceMemberId } from 'src/engine/decorators/auth/auth-workspace-member-id.decorator';
+import { WorkspaceAuthGuard } from 'src/engine/guards/workspace-auth.guard';
+
+@ArgsType()
+class GetTimelineCalendarEventsFromPersonIdArgs {
+  @Field(() => UUIDScalarType)
+  personId: string;
+
+  @Field(() => Int)
+  page: number;
+
+  @Field(() => Int)
+  @Max(TIMELINE_CALENDAR_EVENTS_MAX_PAGE_SIZE)
+  pageSize: number;
+}
+
+@ArgsType()
+class GetTimelineCalendarEventsFromCompanyIdArgs {
+  @Field(() => UUIDScalarType)
+  companyId: string;
+
+  @Field(() => Int)
+  page: number;
+
+  @Field(() => Int)
+  @Max(TIMELINE_CALENDAR_EVENTS_MAX_PAGE_SIZE)
+  pageSize: number;
+}
+
+@ArgsType()
+class GetTimelineCalendarEventsFromOpportunityIdArgs {
+  @Field(() => UUIDScalarType)
+  opportunityId: string;
+
+  @Field(() => Int)
+  page: number;
+
+  @Field(() => Int)
+  @Max(TIMELINE_CALENDAR_EVENTS_MAX_PAGE_SIZE)
+  pageSize: number;
+}
+
+@UseGuards(WorkspaceAuthGuard)
+@Resolver(() => TimelineCalendarEventsWithTotalDTO)
+export class TimelineCalendarEventResolver {
+  constructor(
+    private readonly timelineCalendarEventService: TimelineCalendarEventService,
+  ) {}
+
+  @Query(() => TimelineCalendarEventsWithTotalDTO)
+  async getTimelineCalendarEventsFromPersonId(
+    @Args()
+    { personId, page, pageSize }: GetTimelineCalendarEventsFromPersonIdArgs,
+    @AuthWorkspaceMemberId() workspaceMemberId: string,
+  ) {
+    const timelineCalendarEvents =
+      await this.timelineCalendarEventService.getCalendarEventsFromPersonIds({
+        currentWorkspaceMemberId: workspaceMemberId,
+        personIds: [personId],
+        page,
+        pageSize,
+      });
+
+    return timelineCalendarEvents;
+  }
+
+  @Query(() => TimelineCalendarEventsWithTotalDTO)
+  async getTimelineCalendarEventsFromCompanyId(
+    @Args()
+    { companyId, page, pageSize }: GetTimelineCalendarEventsFromCompanyIdArgs,
+    @AuthWorkspaceMemberId() workspaceMemberId: string,
+  ) {
+    const timelineCalendarEvents =
+      await this.timelineCalendarEventService.getCalendarEventsFromCompanyId({
+        currentWorkspaceMemberId: workspaceMemberId,
+        companyId,
+        page,
+        pageSize,
+      });
+
+    return timelineCalendarEvents;
+  }
+
+  @Query(() => TimelineCalendarEventsWithTotalDTO)
+  async getTimelineCalendarEventsFromOpportunityId(
+    @Args()
+    {
+      opportunityId,
+      page,
+      pageSize,
+    }: GetTimelineCalendarEventsFromOpportunityIdArgs,
+    @AuthWorkspaceMemberId() workspaceMemberId: string,
+  ) {
+    const timelineCalendarEvents =
+      await this.timelineCalendarEventService.getCalendarEventsFromOpportunityId(
+        {
+          currentWorkspaceMemberId: workspaceMemberId,
+          opportunityId,
+          page,
+          pageSize,
+        },
+      );
+
+    return timelineCalendarEvents;
+  }
+}
